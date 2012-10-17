@@ -16,6 +16,7 @@
 
 package com.example.android.softkeyboard;
 
+import edu.njucs.realime.R;
 import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.XmlResourceParser;
