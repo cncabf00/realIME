@@ -14,9 +14,11 @@
  * the License.
  */
 
-package com.example.android.softkeyboard;
+package edu.njucs.realime.keyboard;
 
 import edu.njucs.realime.R;
+import edu.njucs.realime.R.drawable;
+import edu.njucs.realime.R.string;
 import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.XmlResourceParser;

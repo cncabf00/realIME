@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.example.android.softkeyboard;
+package edu.njucs.realime.keyboard;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -30,6 +30,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import edu.njucs.realime.R;
+import edu.njucs.realime.R.color;
+import edu.njucs.realime.R.dimen;
 
 public class CandidateView extends View {
 

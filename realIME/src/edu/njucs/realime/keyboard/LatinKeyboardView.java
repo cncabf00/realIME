@@ -14,8 +14,9 @@
  * the License.
  */
 
-package com.example.android.softkeyboard;
+package edu.njucs.realime.keyboard;
 
+import edu.njucs.realime.R;
 import android.content.Context;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
@@ -28,6 +29,7 @@ public class LatinKeyboardView extends KeyboardView {
 
     public LatinKeyboardView(Context context, AttributeSet attrs) {
         super(context, attrs);
+        
     }
 
     public LatinKeyboardView(Context context, AttributeSet attrs, int defStyle) {

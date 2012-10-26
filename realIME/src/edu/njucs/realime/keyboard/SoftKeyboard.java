@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.example.android.softkeyboard;
+package edu.njucs.realime.keyboard;
 
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
@@ -33,6 +33,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import edu.njucs.realime.R;
+import edu.njucs.realime.R.layout;
+import edu.njucs.realime.R.string;
+import edu.njucs.realime.R.xml;
 
 /**
  * Example of writing an input method for a soft keyboard.  This code is
