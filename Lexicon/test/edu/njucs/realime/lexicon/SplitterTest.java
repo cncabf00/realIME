@@ -50,6 +50,11 @@ public class SplitterTest {
 			assertEquals("mi", results.get(2));
 			assertEquals("de", results.get(3));
 			
+			results=splitter.split("xi'an");
+			assertEquals(2, results.size());
+			assertEquals("xi", results.get(0));
+			assertEquals("an", results.get(1));
+			
 		}
 		catch (FileNotFoundException e1) {
 			// TODO Auto-generated catch block
