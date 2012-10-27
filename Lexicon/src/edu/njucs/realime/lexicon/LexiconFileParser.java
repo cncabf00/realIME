@@ -2,26 +2,26 @@ package edu.njucs.realime.lexicon;
 
 import java.util.List;
 
-import edu.njucs.model.Tree;
-import edu.njucs.model.TreeNode;
+import edu.njucs.model.HashTree;
+import edu.njucs.model.HashTreeNode;
 
 public class LexiconFileParser {
 	
-	public Tree<LexiconInfo> parse(List<String> pinyins)
+	public HashTree<LexiconInfo> parse(List<String> pinyins)
 	{
-		TreeNode<LexiconInfo> root=new TreeNode<LexiconInfo>();
+		HashTreeNode<LexiconInfo> root=new HashTreeNode<LexiconInfo>();
 		root.setNodeInfo(new LexiconInfo('\'', ""));
-		TreeNode<LexiconInfo> currentNode=root;
+		HashTreeNode<LexiconInfo> currentNode=root;
 		for (String pinyin:pinyins)
 		{
 			currentNode=insertFromNode(currentNode, pinyin,0);
 		}
 		
-		Tree<LexiconInfo> tree=new Tree<LexiconInfo>(root);
+		HashTree<LexiconInfo> tree=new HashTree<LexiconInfo>(root);
 		return tree;
 	}
 	
-	TreeNode<LexiconInfo> insertFromNode(TreeNode<LexiconInfo> node,String keyPath,int from)
+	HashTreeNode<LexiconInfo> insertFromNode(HashTreeNode<LexiconInfo> node,String keyPath,int from)
 	{
 		if (keyPath==null || keyPath.equals("") || from>=keyPath.length())
 			return node;
@@ -41,12 +41,13 @@ public class LexiconFileParser {
 		}
 		if (samePrefix) {
 			char c = keyPath.charAt(from);
-			TreeNode<LexiconInfo> child=node.findChildWithKey(new LexiconInfo(c, ""));
+			HashTreeNode<LexiconInfo> child=node.childWithKey(""+c);
 			if (child==null)
 			{
-				TreeNode<LexiconInfo> newNode = new TreeNode<LexiconInfo>();
+				HashTreeNode<LexiconInfo> newNode = new HashTreeNode<LexiconInfo>();
 				newNode.setNodeInfo(new LexiconInfo(c, node.getNodeInfo().charPath
 						+ c));
+				newNode.setKey(""+c);
 				node.addChild(newNode);
 				return insertFromNode(newNode, keyPath, from + 1);
 			}

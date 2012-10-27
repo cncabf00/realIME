@@ -3,13 +3,13 @@ package edu.njucs.realime.lexicon;
 import java.util.ArrayList;
 import java.util.List;
 
-import edu.njucs.model.Tree;
-import edu.njucs.model.TreeNode;
+import edu.njucs.model.HashTree;
+import edu.njucs.model.HashTreeNode;
 
 public class PinyinSplitter {
-	Tree<LexiconInfo> lexiconTree;
+	HashTree<LexiconInfo> lexiconTree;
 	
-	public PinyinSplitter(Tree<LexiconInfo> tree)
+	public PinyinSplitter(HashTree<LexiconInfo> tree)
 	{
 		this.lexiconTree=tree;
 	}
@@ -17,7 +17,7 @@ public class PinyinSplitter {
 	public List<String> split(String input)
 	{
 		List<String> results=new ArrayList<String>();
-		TreeNode<LexiconInfo> node=lexiconTree.getRoot();
+		HashTreeNode<LexiconInfo> node=lexiconTree.getRoot();
 		for (int i=0;i<input.length();i++)
 		{
 			char c=input.charAt(i);
@@ -27,11 +27,11 @@ public class PinyinSplitter {
 				node=lexiconTree.getRoot();
 				continue;
 			}
-			TreeNode<LexiconInfo> child=node.findChildWithKey(new LexiconInfo(c, ""));
+			HashTreeNode<LexiconInfo> child=node.childWithKey(""+c);
 			if (child==null)
 			{
 				results.add(node.getNodeInfo().charPath);
-				node=lexiconTree.getRoot().findChildWithKey(new LexiconInfo(c, ""));
+				node=lexiconTree.getRoot().childWithKey(""+c);
 			}
 			else
 			{
