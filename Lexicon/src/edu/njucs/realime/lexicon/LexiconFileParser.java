@@ -1,66 +1,30 @@
 package edu.njucs.realime.lexicon;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.List;
 
-import edu.njucs.model.HashTree;
-import edu.njucs.model.HashTreeNode;
-
 public class LexiconFileParser {
-	
-	public HashTree<LexiconInfo> parse(List<String> pinyins)
+	public List<String> parse(InputStream input)
 	{
-		HashTreeNode<LexiconInfo> root=new HashTreeNode<LexiconInfo>();
-		root.setNodeInfo(new LexiconInfo('\'', ""));
-		HashTreeNode<LexiconInfo> currentNode=root;
-		for (String pinyin:pinyins)
-		{
-			currentNode=insertFromNode(currentNode, pinyin,0);
+		BufferedReader reader=new BufferedReader(new InputStreamReader(input));
+		List<String> list=new ArrayList<String>();
+		try {
+			String line;
+			line = reader.readLine();
+			while (line!=null)
+			{
+				list.add(line);
+				line=reader.readLine();
+			}
+			reader.close();
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
-		
-		HashTree<LexiconInfo> tree=new HashTree<LexiconInfo>(root);
-		return tree;
-	}
-	
-	HashTreeNode<LexiconInfo> insertFromNode(HashTreeNode<LexiconInfo> node,String keyPath,int from)
-	{
-		if (keyPath==null || keyPath.equals("") || from>=keyPath.length())
-			return node;
 
-		String charPath = node.getNodeInfo().charPath;
-		boolean samePrefix = true;
-		for (; from < charPath.length(); from++) {
-			if (from >= keyPath.length())
-				break;
-			if (charPath.charAt(from) != keyPath.charAt(from)) {
-				samePrefix = false;
-				break;
-			}
-		}
-		if (from >= keyPath.length()) {
-			return node;
-		}
-		if (samePrefix) {
-			char c = keyPath.charAt(from);
-			HashTreeNode<LexiconInfo> child=node.childWithKey(""+c);
-			if (child==null)
-			{
-				HashTreeNode<LexiconInfo> newNode = new HashTreeNode<LexiconInfo>();
-				newNode.setNodeInfo(new LexiconInfo(c, node.getNodeInfo().charPath
-						+ c));
-				newNode.setKey(""+c);
-				node.addChild(newNode);
-				return insertFromNode(newNode, keyPath, from + 1);
-			}
-			else
-			{
-				return insertFromNode(child, keyPath, from+1);
-			}
-		}
-		else
-		{
-			return insertFromNode(node.getParent(), keyPath, from);
-		}
+		return list;
 	}
-	
-	
 }

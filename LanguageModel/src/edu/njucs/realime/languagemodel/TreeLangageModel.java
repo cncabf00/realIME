@@ -1,5 +1,6 @@
 package edu.njucs.realime.languagemodel;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import edu.njucs.model.HashTree;
@@ -105,10 +106,38 @@ public class TreeLangageModel implements StaticLanguageModel {
 			}
 		}
 		result.wordCandidates.addAll(node.getNodeInfo().candidates);
-		if (i>input.size())
-			result.restInput=input.subList(i, input.size()-1);
+		if (i<=input.size())
+			result.restInput=input.subList(i, input.size());
 		
 		return result;
+	}
+
+	@Override
+	public void append(List<Word> dict) {
+		HashTreeNode<LanguageNode> currentNode=tree.getRoot();
+		for (Word word:dict)
+		{
+			currentNode=insertFromNode(currentNode, word,0);
+		}
+	}
+
+	@Override
+	public List<Candidate> getAllCandidates(List<String> input) {
+		List<Candidate> candidates=new ArrayList<Candidate>();
+		for (int i=input.size();i>=0;i--)
+		{
+			PinyinResult result=this.parse(input.subList(0, i));
+			for (int j=0;j<result.wordCandidates.size();j++)
+			{
+				List<String> restInput=new ArrayList<String>();
+				restInput.addAll(result.restInput);
+				restInput.addAll(input.subList(i, input.size()));
+				Candidate candidate=new Candidate(result.wordCandidates.get(j), restInput);
+				if (!candidates.contains(candidate))
+					candidates.add(candidate);
+			}
+		}
+		return candidates;
 	}
 
 }
