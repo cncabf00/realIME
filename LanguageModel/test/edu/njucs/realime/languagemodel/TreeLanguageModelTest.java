@@ -92,34 +92,34 @@ public class TreeLanguageModelTest {
 //		}
 //	}
 	
-	@Test
-	public void test2()
-	{
-		try {
-			TreeLangageModel model=TreeLanguageModelReader.readObject(new FileInputStream(new File("dict1.ser")));
-			
-			LexiconFileParser parser1=new LexiconFileParser();
-			LexiconTree tree=new LexiconTree();
-			tree.build(parser1.parse(new FileInputStream(new File("pinyin.txt"))));
-			
-			String inputString="mingtiantian";
-			List<String> input=tree.split(inputString);
-			
-			List<Candidate> candidates=model.getAllCandidates(input);
-			
-			for (int i=0;i<candidates.size();i++)
-			{
-				System.out.print(candidates.get(i).text);
-				for (int j=0;j<candidates.get(i).restInput.size();j++)
-				{
-					System.out.print(candidates.get(i).restInput.get(j));
-				}
-				System.out.println();
-			}
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
+//	@Test
+//	public void test2()
+//	{
+//		try {
+//			TreeLangageModel model=TreeLanguageModelReader.readObject(new FileInputStream(new File("dict1.ser")));
+//			
+//			LexiconFileParser parser1=new LexiconFileParser();
+//			LexiconTree tree=new LexiconTree();
+//			tree.build(parser1.parse(new FileInputStream(new File("pinyin.txt"))));
+//			
+//			String inputString="mingtiantian";
+//			List<String> input=tree.split(inputString);
+//			
+//			List<Candidate> candidates=model.getAllCandidates(input);
+//			
+//			for (int i=0;i<candidates.size();i++)
+//			{
+//				System.out.print(candidates.get(i).text);
+//				for (int j=0;j<candidates.get(i).restInput.size();j++)
+//				{
+//					System.out.print(candidates.get(i).restInput.get(j));
+//				}
+//				System.out.println();
+//			}
+//		} catch (FileNotFoundException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//	}
 
 }

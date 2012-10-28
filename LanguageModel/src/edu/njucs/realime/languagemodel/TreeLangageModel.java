@@ -21,31 +21,11 @@ public class TreeLangageModel implements StaticLanguageModel, java.io.Serializab
 	{
 		HashTreeNode<LanguageNode> root=new HashTreeNode<LanguageNode>();
 		root.setNodeInfo(new LanguageNode(""));
-		HashTreeNode<LanguageNode> currentNode=root;
-		
-		
-		try
-		{
-			byte[] readBytes = new byte[input.available()];
-			input.read(readBytes);
-			String string4file = new String(readBytes,"utf-8");
-			String[] lines=string4file.split("\n");
-			for (int k=0;k<lines.length;k++)
-			{
-				String[] strs=lines[k].split("\\s");
-				String[] pinyins=strs[0].split("'");
-				Word word=new Word();
-				word.pinyins=pinyins;
-				word.characters=strs[1];
-				currentNode=insertFromNode(currentNode, word,0);
-			}
-			
-		}
-		catch (IOException e) {
-			e.printStackTrace();
-		}
-		
 		tree=new HashTree<LanguageNode>(root);
+		
+		append(input);
+		
+		
 	}
 	
 	public void build(Word[] dict)
@@ -63,6 +43,8 @@ public class TreeLangageModel implements StaticLanguageModel, java.io.Serializab
 	
 	HashTreeNode<LanguageNode> insertFromNode(HashTreeNode<LanguageNode> node,Word word,int from)
 	{
+		if (word.characters.length()!=word.pinyins.length)
+			return node;
 		List<String> keyPath = getKeyPath(node);
 		if (from>=word.characters.length())
 		{
@@ -139,8 +121,10 @@ public class TreeLangageModel implements StaticLanguageModel, java.io.Serializab
 		return result;
 	}
 	
+	
+	
 	public void append(InputStream input) {
-		HashTreeNode<LanguageNode> currentNode=tree.getRoot();
+		HashTreeNode<LanguageNode> root=tree.getRoot();
 		
 		try
 		{
@@ -150,12 +134,7 @@ public class TreeLangageModel implements StaticLanguageModel, java.io.Serializab
 			String[] lines=string4file.split("\n");
 			for (int k=0;k<lines.length;k++)
 			{
-				String[] strs=lines[k].split("\\s");
-				String[] pinyins=strs[0].split("'");
-				Word word=new Word();
-				word.pinyins=pinyins;
-				word.characters=strs[1];
-				currentNode=insertFromNode(currentNode, word,0);
+				insertFromNode(root, DictFileParser.parseLine(lines[k]), 0);
 			}
 		}
 		catch (IOException e) {

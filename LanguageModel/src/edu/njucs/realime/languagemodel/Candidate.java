@@ -3,10 +3,6 @@ package edu.njucs.realime.languagemodel;
 import java.util.List;
 
 public class Candidate{
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1472340313806828656L;
 	String text;
 	List<String> restInput;
 	

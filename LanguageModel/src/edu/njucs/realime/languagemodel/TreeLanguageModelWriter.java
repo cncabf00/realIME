@@ -12,7 +12,7 @@ import edu.njucs.realime.lexicon.LexiconTree;
 
 public class TreeLanguageModelWriter {
 	public static void main(String[] args) {
-		File file = new File("word.txt");
+		File file = new File("word_new.txt");
 		try {
 
 			DictFileParser parser = new DictFileParser();
