@@ -1,5 +1,6 @@
 package edu.njucs.realime.languagemodel;
 
+import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -21,7 +22,7 @@ public class LanguageNode implements java.io.Serializable{
 	public void addCandidate(String string)
 	{
 		if (candidates==null)
-			candidates=new TreeSet<String>();
+			candidates=new HashSet<String>();
 		candidates.add(string);
 	}
 }

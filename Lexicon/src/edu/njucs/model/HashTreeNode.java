@@ -2,7 +2,6 @@ package edu.njucs.model;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.TreeMap;
 
 public class HashTreeNode<T> implements java.io.Serializable{
 
@@ -10,17 +9,17 @@ public class HashTreeNode<T> implements java.io.Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = -4578330507921666833L;
-	Map<CharSequence,HashTreeNode<T>> children=null;
+	Map<String,HashTreeNode<T>> children=null;
 	HashTreeNode<T> parent=null;
 	T nodeInfo=null;
-	CharSequence key;
+	String key;
 	
 	public void addChild(HashTreeNode<T> node)
 	{
 		if (children==null)
-			children=new TreeMap<CharSequence, HashTreeNode<T>>();
+			children=new HashMap<String, HashTreeNode<T>>();
 		node.parent=this;
-		children.put(node.key, node);
+		children.put(node.key,node);
 	}
 	
 	public int childCount()
@@ -57,7 +56,7 @@ public class HashTreeNode<T> implements java.io.Serializable{
 		return children!=null;
 	}
 	
-	public void setKey(CharSequence key)
+	public void setKey(String key)
 	{
 		this.key=key;
 	}
