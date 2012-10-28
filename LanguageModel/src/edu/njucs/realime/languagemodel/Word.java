@@ -1,8 +1,12 @@
 package edu.njucs.realime.languagemodel;
 
-import java.util.ArrayList;
-import java.util.List;
 
-public class Word {
-	List<ChineseCharacter> characters=new ArrayList<ChineseCharacter>();
+public class Word implements java.io.Serializable{
+/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3186362425166217866L;
+	//	ChineseCharacter[] characters;
+	String[] pinyins;
+	String characters;
 }

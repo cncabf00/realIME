@@ -2,7 +2,11 @@ package edu.njucs.realime.languagemodel;
 
 import java.util.List;
 
-public class Candidate {
+public class Candidate{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1472340313806828656L;
 	String text;
 	List<String> restInput;
 	
@@ -11,6 +15,18 @@ public class Candidate {
 		this.text = text;
 		this.restInput = restInput;
 	}
+
+	public String getText() {
+		return text;
+	}
+
+
+
+	public List<String> getRestInput() {
+		return restInput;
+	}
+
+
 
 	@Override
 	public int hashCode() {

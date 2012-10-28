@@ -2,27 +2,38 @@ package edu.njucs.model;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
-public class HashTreeNode<T>{
+public class HashTreeNode<T> implements java.io.Serializable{
 
-	Map<String,HashTreeNode<T>> children=new HashMap<String,HashTreeNode<T>>();
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4578330507921666833L;
+	Map<String,HashTreeNode<T>> children=null;
 	HashTreeNode<T> parent=null;
 	T nodeInfo=null;
 	String key;
 	
 	public void addChild(HashTreeNode<T> node)
 	{
+		if (children==null)
+			children=new TreeMap<String, HashTreeNode<T>>();
 		node.parent=this;
 		children.put(node.key, node);
 	}
 	
 	public int childCount()
 	{
+		if (children==null)
+			return 0;
 		return children.size();
 	}
 	
 	public HashTreeNode<T> childWithKey(Object key)
 	{
+		if (children==null)
+			return null;
 		return children.get(key);
 	}
 	
@@ -43,7 +54,7 @@ public class HashTreeNode<T>{
 	
 	public boolean hasChild()
 	{
-		return children.size()>0;
+		return children!=null;
 	}
 	
 	public void setKey(String key)

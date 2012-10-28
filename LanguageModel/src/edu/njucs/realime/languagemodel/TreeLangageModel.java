@@ -1,20 +1,57 @@
 package edu.njucs.realime.languagemodel;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
 import edu.njucs.model.HashTree;
 import edu.njucs.model.HashTreeNode;
+//import android.util.Log;
 
-public class TreeLangageModel implements StaticLanguageModel {
+public class TreeLangageModel implements StaticLanguageModel, java.io.Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8860822566604451844L;
 	HashTree<LanguageNode> tree;
 	
-	@Override
-	public void build(List<Word> dict)
+	public void build(InputStream input)
 	{
 		HashTreeNode<LanguageNode> root=new HashTreeNode<LanguageNode>();
-		root.setNodeInfo(new LanguageNode("", null));
+		root.setNodeInfo(new LanguageNode(""));
+		HashTreeNode<LanguageNode> currentNode=root;
+		
+		
+		try
+		{
+			byte[] readBytes = new byte[input.available()];
+			input.read(readBytes);
+			String string4file = new String(readBytes,"utf-8");
+			String[] lines=string4file.split("\n");
+			for (int k=0;k<lines.length;k++)
+			{
+				String[] strs=lines[k].split("\\s");
+				String[] pinyins=strs[0].split("'");
+				Word word=new Word();
+				word.pinyins=pinyins;
+				word.characters=strs[1];
+				currentNode=insertFromNode(currentNode, word,0);
+			}
+			
+		}
+		catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		tree=new HashTree<LanguageNode>(root);
+	}
+	
+	public void build(Word[] dict)
+	{
+		HashTreeNode<LanguageNode> root=new HashTreeNode<LanguageNode>();
+		root.setNodeInfo(new LanguageNode(""));
 		HashTreeNode<LanguageNode> currentNode=root;
 		for (Word word:dict)
 		{
@@ -26,17 +63,12 @@ public class TreeLangageModel implements StaticLanguageModel {
 	
 	HashTreeNode<LanguageNode> insertFromNode(HashTreeNode<LanguageNode> node,Word word,int from)
 	{
-		List<String> keyPath = node.getNodeInfo().keyPath;
-		if (from>=word.characters.size())
+		List<String> keyPath = getKeyPath(node);
+		if (from>=word.characters.length())
 		{
 			if (from==keyPath.size())
 			{
-				String str="";
-				for (int i=0;i<word.characters.size();i++)
-				{
-					str+=word.characters.get(i).text;
-				}
-				node.getNodeInfo().candidates.add(str);
+				node.getNodeInfo().addCandidate(word.characters);
 				return node;
 			}
 			else
@@ -46,33 +78,28 @@ public class TreeLangageModel implements StaticLanguageModel {
 		}
 		boolean samePrefix = true;
 		for (; from < keyPath.size(); from++) {
-			if (from >= word.characters.size())
+			if (from >= word.characters.length())
 				break;
-			if (!word.characters.get(from).key.equals(keyPath.get(from))) {
+			if (!word.pinyins[from].equals(keyPath.get(from))) {
 				samePrefix = false;
 				break;
 			}
 		}
-		if (from == word.characters.size() && from == keyPath.size()) {
-			String str="";
-			for (int i=0;i<word.characters.size();i++)
-			{
-				str+=word.characters.get(i).text;
-			}
-			node.getNodeInfo().candidates.add(str);
+		if (from == word.characters.length() && from == keyPath.size()) {
+			node.getNodeInfo().addCandidate(word.characters);
 			return node;
 		}
-		else if (from >= word.characters.size()) {
+		else if (from >= word.characters.length()) {
 			return insertFromNode(node.getParent(), word, from);
 		}
 		
 		if (samePrefix) {
-			String str = word.characters.get(from).key;
+			String str = word.pinyins[from];
 			HashTreeNode<LanguageNode> child=node.childWithKey(str);
 			if (child==null)
 			{
 				HashTreeNode<LanguageNode> newNode = new HashTreeNode<LanguageNode>();
-				newNode.setNodeInfo(new LanguageNode(str,keyPath));
+				newNode.setNodeInfo(new LanguageNode(str));
 				newNode.setKey(str);
 				node.addChild(newNode);
 				return insertFromNode(newNode, word, from + 1);
@@ -88,7 +115,6 @@ public class TreeLangageModel implements StaticLanguageModel {
 		}
 	}
 
-	@Override
 	public PinyinResult parse(List<String> input) {
 		PinyinResult result=new PinyinResult();
 		HashTreeNode<LanguageNode> node=tree.getRoot();
@@ -105,15 +131,39 @@ public class TreeLangageModel implements StaticLanguageModel {
 				node=child;
 			}
 		}
-		result.wordCandidates.addAll(node.getNodeInfo().candidates);
+		if (node.getNodeInfo().candidates!=null)
+			result.wordCandidates.addAll(node.getNodeInfo().candidates);
 		if (i<=input.size())
 			result.restInput=input.subList(i, input.size());
 		
 		return result;
 	}
+	
+	public void append(InputStream input) {
+		HashTreeNode<LanguageNode> currentNode=tree.getRoot();
+		
+		try
+		{
+			byte[] readBytes = new byte[input.available()];
+			input.read(readBytes);
+			String string4file = new String(readBytes,"utf-8");
+			String[] lines=string4file.split("\n");
+			for (int k=0;k<lines.length;k++)
+			{
+				String[] strs=lines[k].split("\\s");
+				String[] pinyins=strs[0].split("'");
+				Word word=new Word();
+				word.pinyins=pinyins;
+				word.characters=strs[1];
+				currentNode=insertFromNode(currentNode, word,0);
+			}
+		}
+		catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 
-	@Override
-	public void append(List<Word> dict) {
+	public void append(Word[] dict) {
 		HashTreeNode<LanguageNode> currentNode=tree.getRoot();
 		for (Word word:dict)
 		{
@@ -121,7 +171,6 @@ public class TreeLangageModel implements StaticLanguageModel {
 		}
 	}
 
-	@Override
 	public List<Candidate> getAllCandidates(List<String> input) {
 		List<Candidate> candidates=new ArrayList<Candidate>();
 		for (int i=input.size();i>=0;i--)
@@ -138,6 +187,17 @@ public class TreeLangageModel implements StaticLanguageModel {
 			}
 		}
 		return candidates;
+	}
+	
+	public List<String> getKeyPath(HashTreeNode<LanguageNode> node)
+	{
+		List<String> keyPath=new ArrayList<String>();
+		while (node.getParent()!=null)
+		{
+			keyPath.add(0, node.getNodeInfo().key);
+			node=node.getParent();
+		}
+		return keyPath;
 	}
 
 }

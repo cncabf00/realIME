@@ -1,21 +1,30 @@
 package edu.njucs.realime.languagemodel;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 
-public class LanguageNode {
+public class LanguageNode implements java.io.Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5298815415899901356L;
 	String key;
-	List<String> keyPath=new ArrayList<String>();
-	List<String> candidates=new ArrayList<String>();
+//	List<String> keyPath=new ArrayList<String>();
+	Set<String> candidates=null;
 	
-	public LanguageNode(String key,List<String> oldKeyPath)
+	public LanguageNode(String key)
 	{
 		this.key=key;
-		if (oldKeyPath!=null)
-		{
-			this.keyPath.addAll(oldKeyPath);
-			this.keyPath.add(key);
-		}
+	}
+	
+	public void addCandidate(String string)
+	{
+		if (candidates==null)
+			candidates=new TreeSet<String>();
+		candidates.add(string);
 	}
 }

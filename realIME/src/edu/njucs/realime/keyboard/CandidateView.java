@@ -16,6 +16,9 @@
 
 package edu.njucs.realime.keyboard;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Canvas;
@@ -25,20 +28,15 @@ import android.graphics.drawable.Drawable;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
-
-import java.util.ArrayList;
-import java.util.List;
-
 import edu.njucs.realime.R;
-import edu.njucs.realime.R.color;
-import edu.njucs.realime.R.dimen;
+import edu.njucs.realime.languagemodel.Candidate;
 
 public class CandidateView extends View {
 
     private static final int OUT_OF_BOUNDS = -1;
 
     private SoftKeyboard mService;
-    private List<String> mSuggestions;
+    private List<Candidate> mSuggestions;
     private int mSelectedIndex;
     private int mTouchX = OUT_OF_BOUNDS;
     private Drawable mSelectionHighlight;
@@ -46,15 +44,15 @@ public class CandidateView extends View {
     
     private Rect mBgPadding;
 
-    private static final int MAX_SUGGESTIONS = 32;
+    private static final int MAX_SUGGESTIONS = 128;
     private static final int SCROLL_PIXELS = 20;
     
-    private int[] mWordWidth = new int[MAX_SUGGESTIONS];
-    private int[] mWordX = new int[MAX_SUGGESTIONS];
+    private List<Integer> mWordWidth = new ArrayList<Integer>();
+    private List<Integer> mWordX = new ArrayList<Integer>();
 
     private static final int X_GAP = 10;
     
-    private static final List<String> EMPTY_LIST = new ArrayList<String>();
+    private static final List<Candidate> EMPTY_LIST = new ArrayList<Candidate>();
 
     private int mColorNormal;
     private int mColorRecommended;
@@ -183,12 +181,12 @@ public class CandidateView extends View {
         final int y = (int) (((height - mPaint.getTextSize()) / 2) - mPaint.ascent());
 
         for (int i = 0; i < count; i++) {
-            String suggestion = mSuggestions.get(i);
+            String suggestion = mSuggestions.get(i).getText();
             float textWidth = paint.measureText(suggestion);
             final int wordWidth = (int) textWidth + X_GAP * 2;
 
-            mWordX[i] = x;
-            mWordWidth[i] = wordWidth;
+            mWordX.add(x);
+            mWordWidth.add(wordWidth);
             paint.setColor(mColorNormal);
             if (touchX + scrollX >= x && touchX + scrollX < x + wordWidth && !scrolled) {
                 if (canvas != null) {
@@ -240,11 +238,11 @@ public class CandidateView extends View {
         invalidate();
     }
     
-    public void setSuggestions(List<String> suggestions, boolean completions,
+    public void setSuggestions(List<Candidate> suggestions, boolean completions,
             boolean typedWordValid) {
         clear();
         if (suggestions != null) {
-            mSuggestions = new ArrayList<String>(suggestions);
+            mSuggestions = new ArrayList<Candidate>(suggestions);
         }
         mTypedWordValid = typedWordValid;
         scrollTo(0, 0);

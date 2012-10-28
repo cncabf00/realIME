@@ -16,6 +16,10 @@
 
 package edu.njucs.realime.keyboard;
 
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
+
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
@@ -27,15 +31,14 @@ import android.view.View;
 import android.view.inputmethod.CompletionInfo;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
-import android.view.inputmethod.InputMethodManager;
-
-import java.util.ArrayList;
-import java.util.List;
-
 import edu.njucs.realime.R;
-import edu.njucs.realime.R.layout;
-import edu.njucs.realime.R.string;
-import edu.njucs.realime.R.xml;
+import edu.njucs.realime.languagemodel.Candidate;
+import edu.njucs.realime.languagemodel.DictFileParser;
+import edu.njucs.realime.languagemodel.TreeLangageModel;
+import edu.njucs.realime.languagemodel.TreeLanguageModelReader;
+import edu.njucs.realime.lexicon.LexiconFileParser;
+import edu.njucs.realime.lexicon.LexiconTree;
+import edu.njucs.realime.manager.InputManager;
 
 /**
  * Example of writing an input method for a soft keyboard.  This code is
@@ -76,7 +79,14 @@ public class SoftKeyboard extends InputMethodService
     
     private LatinKeyboard mCurKeyboard;
     
+    private String mSentenceSeparators;
     private String mWordSeparators;
+    
+    private List<Candidate> candidates;
+    
+    private String selectedText="";
+    
+    
     
     /**
      * Main initialization of the input method component.  Be sure to call
@@ -84,7 +94,27 @@ public class SoftKeyboard extends InputMethodService
      */
     @Override public void onCreate() {
         super.onCreate();
-        mWordSeparators = getResources().getString(R.string.word_separators);
+        mSentenceSeparators = getResources().getString(R.string.sentence_separators);
+        mWordSeparators = getResources().getString(R.string.word_separator);
+        
+        LexiconTree lexicon=new LexiconTree();
+        InputStream in=getResources().openRawResource(R.raw.pinyin);
+        lexicon.build(new LexiconFileParser().parse(in));
+        InputManager.getInstance().setLexicon(lexicon);
+        
+        Log.d("realime","read from dict");
+        TreeLangageModel languageModel=TreeLanguageModelReader.readObject(getResources().openRawResource(R.raw.dict));
+//        TreeLangageModel languageModel=new TreeLangageModel();
+//        DictFileParser dictParser=new DictFileParser();
+//        in=getResources().openRawResource(R.raw.word);
+//        Log.d("realime","build use words");
+//        languageModel.append(in);
+//        Log.d("realime","build use characters");
+//        in=getResources().openRawResource(R.raw.characters);
+//        languageModel.append(in);
+        Log.d("realime","build finished");
+        
+        InputManager.getInstance().setLanguageModel(languageModel);
     }
     
     /**
@@ -148,8 +178,8 @@ public class SoftKeyboard extends InputMethodService
             mMetaState = 0;
         }
         
-        mPredictionOn = false;
-        mCompletionOn = false;
+        mPredictionOn = true;
+        mCompletionOn = true;
         mCompletions = null;
         
         // We are now going to initialize our state based on the type of
@@ -200,7 +230,7 @@ public class SoftKeyboard extends InputMethodService
                     // to supply their own.  We only show the editor's
                     // candidates when in fullscreen mode, otherwise relying
                     // own it displaying its own UI.
-                    mPredictionOn = false;
+                    mPredictionOn = true;
                     mCompletionOn = isFullscreenMode();
                 }
                 
@@ -288,10 +318,10 @@ public class SoftKeyboard extends InputMethodService
                 return;
             }
             
-            List<String> stringList = new ArrayList<String>();
+            List<Candidate> stringList = new ArrayList<Candidate>();
             for (int i=0; i<(completions != null ? completions.length : 0); i++) {
                 CompletionInfo ci = completions[i];
-                if (ci != null) stringList.add(ci.getText().toString());
+                if (ci != null) stringList.add(new Candidate(ci.getText().toString(), new ArrayList<String>()));
             }
             setSuggestions(stringList, true, true);
         }
@@ -424,13 +454,34 @@ public class SoftKeyboard extends InputMethodService
      * Helper function to commit any text being composed in to the editor.
      */
     private void commitTyped(InputConnection inputConnection) {
-        if (mComposing.length() > 0) {
-            inputConnection.commitText(mComposing, mComposing.length());
+        if (selectedText.length() > 0) {
+            inputConnection.commitText(selectedText, selectedText.length());
+            selectedText="";
             mComposing.setLength(0);
             updateCandidates();
         }
     }
 
+    private void commitPart(Candidate selected) {
+        if (mComposing.length() > 0) {
+        	int length=0;
+        	for (int i=0;i<selected.getRestInput().size();i++)
+        	{
+        		length+=selected.getRestInput().get(i).length();
+        	}
+        	int delete=mComposing.length()-length;
+        	for (int i=0;i<delete;i++)
+        		mComposing=mComposing.deleteCharAt(0);
+        	selectedText+=selected.getText();
+        	getCurrentInputConnection().setComposingText(selectedText+mComposing.toString(), 1);
+        	if (mComposing.length()==0)
+        		commitTyped(getCurrentInputConnection());
+        	else
+        	{
+        		updateCandidates();
+        	}
+        }
+    }
     /**
      * Helper to update the shift state of our keyboard based on the initial
      * editor state.
@@ -542,8 +593,11 @@ public class SoftKeyboard extends InputMethodService
     private void updateCandidates() {
         if (!mCompletionOn) {
             if (mComposing.length() > 0) {
-                ArrayList<String> list = new ArrayList<String>();
-                list.add(mComposing.toString());
+                ArrayList<Candidate> list = new ArrayList<Candidate>();
+                List<String> splittedInput=InputManager.getInstance().split(mComposing.toString());
+                candidates=InputManager.getInstance().getAllCandidates(splittedInput);
+                list.addAll(candidates);
+//                list.add(mComposing.toString());
                 setSuggestions(list, true, true);
             } else {
                 setSuggestions(null, false, false);
@@ -551,7 +605,7 @@ public class SoftKeyboard extends InputMethodService
         }
     }
     
-    public void setSuggestions(List<String> suggestions, boolean completions,
+    public void setSuggestions(List<Candidate> suggestions, boolean completions,
             boolean typedWordValid) {
         if (suggestions != null && suggestions.size() > 0) {
             setCandidatesViewShown(true);
@@ -567,7 +621,15 @@ public class SoftKeyboard extends InputMethodService
         final int length = mComposing.length();
         if (length > 1) {
             mComposing.delete(length - 1, length);
-            getCurrentInputConnection().setComposingText(mComposing, 1);
+            List<String> words=InputManager.getInstance().split(mComposing.toString());
+            String str="";
+            for (int i=0;i<words.size();i++)
+            {
+            	str+=words.get(i);
+            	if(i!=words.size()-1)
+            		str+="'";
+            }
+            getCurrentInputConnection().setComposingText(str, 1);
             updateCandidates();
         } else if (length > 0) {
             mComposing.setLength(0);
@@ -608,7 +670,15 @@ public class SoftKeyboard extends InputMethodService
         }
         if (isAlphabet(primaryCode) && mPredictionOn) {
             mComposing.append((char) primaryCode);
-            getCurrentInputConnection().setComposingText(mComposing, 1);
+            List<String> words=InputManager.getInstance().split(mComposing.toString());
+            String str="";
+            for (int i=0;i<words.size();i++)
+            {
+            	str+=words.get(i);
+            	if(i!=words.size()-1)
+            		str+="'";
+            }
+            getCurrentInputConnection().setComposingText(str, 1);
             updateShiftKeyState(getCurrentInputEditorInfo());
             updateCandidates();
         } else {
@@ -633,12 +703,12 @@ public class SoftKeyboard extends InputMethodService
         }
     }
     
-    private String getWordSeparators() {
-        return mWordSeparators;
+    private String getSentenceSeparators() {
+        return mSentenceSeparators;
     }
     
     public boolean isWordSeparator(int code) {
-        String separators = getWordSeparators();
+        String separators = getSentenceSeparators();
         return separators.contains(String.valueOf((char)code));
     }
 
@@ -659,7 +729,7 @@ public class SoftKeyboard extends InputMethodService
             // If we were generating candidate suggestions for the current
             // text, we would commit one of them here.  But for this sample,
             // we will just commit the current text.
-            commitTyped(getCurrentInputConnection());
+            commitPart(candidates.get(index));
         }
     }
     
