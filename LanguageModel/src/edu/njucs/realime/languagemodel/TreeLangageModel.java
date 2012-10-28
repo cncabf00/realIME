@@ -43,7 +43,8 @@ public class TreeLangageModel implements StaticLanguageModel, java.io.Serializab
 	{
 		HashTreeNode<LanguageNode> node=tree.getRoot();
 		int i=0;
-		for (;i<word.pinyins.length;i++)
+		int length=word.pinyins.length;
+		for (;i<length;i++)
 		{
 			HashTreeNode<LanguageNode> child=node.childWithKey(word.pinyins[i]);
 			if (child==null)
@@ -55,7 +56,7 @@ public class TreeLangageModel implements StaticLanguageModel, java.io.Serializab
 				node=child;
 			}
 		}
-		for (;i<word.pinyins.length;i++)
+		for (;i<length;i++)
 		{
 			HashTreeNode<LanguageNode> newNode = new HashTreeNode<LanguageNode>();
 			newNode.setNodeInfo(new LanguageNode(word.pinyins[i]));
@@ -152,13 +153,34 @@ public class TreeLangageModel implements StaticLanguageModel, java.io.Serializab
 		
 		try
 		{
-			BufferedReader reader=new BufferedReader(new InputStreamReader(input,"utf-8"));
-			String line=reader.readLine();
-			while (line!=null)
+//			BufferedReader reader=new BufferedReader(new InputStreamReader(input,"utf-8"));
+//			String line=reader.readLine();
+//			while (line!=null)
+//			{
+//				insertToTree(DictFileParser.parseLine(line));
+//				line=reader.readLine();
+//			}
+			byte[] readBytes = new byte[input.available()];
+			input.read(readBytes);
+			String string4file = new String(readBytes,"utf-8");
+//			String[] lines=string4file.split("\n");
+			int last=0;
+			int length=string4file.length();
+			for (int i=0;i<length;i++)
 			{
-				insertToTree(DictFileParser.parseLine(line));
-				line=reader.readLine();
+				if (string4file.charAt(i)=='\n')
+				{
+					insertToTree(DictFileParser.parseLine(string4file.substring(last, i)));
+					last=i+1;
+				}
 			}
+//			if (last!=string4file.length())
+//				insertToTree(DictFileParser.parseLine(string4file.substring(last, string4file.length())));
+			
+//			for (int k=0;k<lines.length;k++)
+//			{
+//				insertToTree(DictFileParser.parseLine(lines[k]));
+//			}
 		}
 		catch (IOException e) {
 			e.printStackTrace();
@@ -167,10 +189,10 @@ public class TreeLangageModel implements StaticLanguageModel, java.io.Serializab
 
 	public void append(Word[] dict) {
 //		HashTreeNode<LanguageNode> currentNode=tree.getRoot();
-		for (Word word:dict)
+		for (int i=0,n=dict.length;i<n;i++)
 		{
 //			currentNode=insertFromNode(currentNode, word,0);
-			insertToTree(word);
+			insertToTree(dict[i]);
 		}
 	}
 

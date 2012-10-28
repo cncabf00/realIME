@@ -20,6 +20,8 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+import dalvik.system.VMRuntime;
+
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
@@ -86,6 +88,8 @@ public class SoftKeyboard extends InputMethodService
     
     private String selectedText="";
     
+    private final static float TARGET_HEAP_UTILIZATION = 0.75f;  
+    private final static int CWJ_HEAP_SIZE = 30* 1024* 1024 ; 
     
     /**
      * Main initialization of the input method component.  Be sure to call
@@ -93,6 +97,8 @@ public class SoftKeyboard extends InputMethodService
      */
     @Override public void onCreate() {
         super.onCreate();
+        VMRuntime.getRuntime().setTargetHeapUtilization(TARGET_HEAP_UTILIZATION); 
+        VMRuntime.getRuntime().setMinimumHeapSize(CWJ_HEAP_SIZE); 
         mSentenceSeparators = getResources().getString(R.string.sentence_separators);
         mWordSeparators = getResources().getString(R.string.word_separator);
         
