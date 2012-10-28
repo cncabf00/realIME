@@ -1,7 +1,9 @@
 package edu.njucs.realime.languagemodel;
 
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,70 +34,93 @@ public class TreeLangageModel implements StaticLanguageModel, java.io.Serializab
 	{
 		HashTreeNode<LanguageNode> root=new HashTreeNode<LanguageNode>();
 		root.setNodeInfo(new LanguageNode(""));
-		HashTreeNode<LanguageNode> currentNode=root;
-		for (Word word:dict)
-		{
-			currentNode=insertFromNode(currentNode, word,0);
-		}
-		
 		tree=new HashTree<LanguageNode>(root);
+		
+		append(dict);
 	}
 	
-	HashTreeNode<LanguageNode> insertFromNode(HashTreeNode<LanguageNode> node,Word word,int from)
+	void insertToTree(Word word)
 	{
-		if (word.characters.length()!=word.pinyins.length)
-			return node;
-		List<String> keyPath = getKeyPath(node);
-		if (from>=word.characters.length())
+		HashTreeNode<LanguageNode> node=tree.getRoot();
+		int i=0;
+		for (;i<word.pinyins.length;i++)
 		{
-			if (from==keyPath.size())
-			{
-				node.getNodeInfo().addCandidate(word.characters);
-				return node;
-			}
-			else
-			{
-				return insertFromNode(node.getParent(), word, from);
-			}
-		}
-		boolean samePrefix = true;
-		for (; from < keyPath.size(); from++) {
-			if (from >= word.characters.length())
-				break;
-			if (!word.pinyins[from].equals(keyPath.get(from))) {
-				samePrefix = false;
-				break;
-			}
-		}
-		if (from == word.characters.length() && from == keyPath.size()) {
-			node.getNodeInfo().addCandidate(word.characters);
-			return node;
-		}
-		else if (from >= word.characters.length()) {
-			return insertFromNode(node.getParent(), word, from);
-		}
-		
-		if (samePrefix) {
-			String str = word.pinyins[from];
-			HashTreeNode<LanguageNode> child=node.childWithKey(str);
+			HashTreeNode<LanguageNode> child=node.childWithKey(word.pinyins[i]);
 			if (child==null)
 			{
-				HashTreeNode<LanguageNode> newNode = new HashTreeNode<LanguageNode>();
-				newNode.setNodeInfo(new LanguageNode(str));
-				newNode.setKey(str);
-				node.addChild(newNode);
-				return insertFromNode(newNode, word, from + 1);
+				break;
 			}
 			else
 			{
-				return insertFromNode(child, word, from+1);
+				node=child;
 			}
 		}
-		else
+		for (;i<word.pinyins.length;i++)
 		{
-			return insertFromNode(node.getParent(), word, from);
+			HashTreeNode<LanguageNode> newNode = new HashTreeNode<LanguageNode>();
+			newNode.setNodeInfo(new LanguageNode(word.pinyins[i]));
+			newNode.setKey(word.pinyins[i]);
+			node.addChild(newNode);
+			node=newNode;
 		}
+		node.getNodeInfo().addCandidate(word.characters);
 	}
+	
+//	HashTreeNode<LanguageNode> insertFromNode(HashTreeNode<LanguageNode> node,Word word,int from)
+//	{
+//		if (word.characters.length()!=word.pinyins.length)
+//			return node;
+//		List<String> keyPath = getKeyPath(node);
+//		if (from>=word.characters.length())
+//		{
+//			if (from==keyPath.size())
+//			{
+//				node.getNodeInfo().addCandidate(word.characters);
+//				return node;
+//			}
+//			else
+//			{
+//				return insertFromNode(node.getParent(), word, from);
+//			}
+//		}
+//		boolean samePrefix = true;
+//		for (; from < keyPath.size(); from++) {
+//			if (from >= word.characters.length())
+//				break;
+//			if (!word.pinyins[from].equals(keyPath.get(from))) {
+//				samePrefix = false;
+//				break;
+//			}
+//		}
+//		if (from == word.characters.length() && from == keyPath.size()) {
+//			node.getNodeInfo().addCandidate(word.characters);
+//			return node;
+//		}
+//		else if (from >= word.characters.length()) {
+//			return insertFromNode(node.getParent(), word, from);
+//		}
+//		
+//		if (samePrefix) {
+//			String str = word.pinyins[from];
+//			HashTreeNode<LanguageNode> child=node.childWithKey(str);
+//			if (child==null)
+//			{
+//				HashTreeNode<LanguageNode> newNode = new HashTreeNode<LanguageNode>();
+//				newNode.setNodeInfo(new LanguageNode(str));
+//				newNode.setKey(str);
+//				node.addChild(newNode);
+//				return insertFromNode(newNode, word, from + 1);
+//			}
+//			else
+//			{
+//				return insertFromNode(child, word, from+1);
+//			}
+//		}
+//		else
+//		{
+//			return insertFromNode(node.getParent(), word, from);
+//		}
+//	}
 
 	public PinyinResult parse(List<String> input) {
 		PinyinResult result=new PinyinResult();
@@ -124,17 +149,15 @@ public class TreeLangageModel implements StaticLanguageModel, java.io.Serializab
 	
 	
 	public void append(InputStream input) {
-		HashTreeNode<LanguageNode> root=tree.getRoot();
 		
 		try
 		{
-			byte[] readBytes = new byte[input.available()];
-			input.read(readBytes);
-			String string4file = new String(readBytes,"utf-8");
-			String[] lines=string4file.split("\n");
-			for (int k=0;k<lines.length;k++)
+			BufferedReader reader=new BufferedReader(new InputStreamReader(input,"utf-8"));
+			String line=reader.readLine();
+			while (line!=null)
 			{
-				insertFromNode(root, DictFileParser.parseLine(lines[k]), 0);
+				insertToTree(DictFileParser.parseLine(line));
+				line=reader.readLine();
 			}
 		}
 		catch (IOException e) {
@@ -143,10 +166,11 @@ public class TreeLangageModel implements StaticLanguageModel, java.io.Serializab
 	}
 
 	public void append(Word[] dict) {
-		HashTreeNode<LanguageNode> currentNode=tree.getRoot();
+//		HashTreeNode<LanguageNode> currentNode=tree.getRoot();
 		for (Word word:dict)
 		{
-			currentNode=insertFromNode(currentNode, word,0);
+//			currentNode=insertFromNode(currentNode, word,0);
+			insertToTree(word);
 		}
 	}
 

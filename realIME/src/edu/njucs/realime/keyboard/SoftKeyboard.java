@@ -87,7 +87,6 @@ public class SoftKeyboard extends InputMethodService
     private String selectedText="";
     
     
-    
     /**
      * Main initialization of the input method component.  Be sure to call
      * to super class.
@@ -103,11 +102,14 @@ public class SoftKeyboard extends InputMethodService
         InputManager.getInstance().setLexicon(lexicon);
         
         Log.d("realime","read from dict");
-        TreeLangageModel languageModel=TreeLanguageModelReader.readObject(getResources().openRawResource(R.raw.dict));
-//        TreeLangageModel languageModel=new TreeLangageModel();
+//        TreeLangageModel languageModel=TreeLanguageModelReader.readObject(getResources().openRawResource(R.raw.dict));
+        TreeLangageModel languageModel=new TreeLangageModel();
 //        DictFileParser dictParser=new DictFileParser();
         in=getResources().openRawResource(R.raw.word_new_all);
-        Log.d("realime","build use words 0");
+        Log.d("realime","build use words");
+        languageModel.build(in);
+        in=getResources().openRawResource(R.raw.characters);
+        Log.d("realime","build use characters");
         languageModel.append(in);
 //        in=getResources().openRawResource(R.raw.word_new_1);
 //        Log.d("realime","build use words 1");

@@ -181,7 +181,7 @@ public class CandidateView extends View {
         final int y = (int) (((height - mPaint.getTextSize()) / 2) - mPaint.ascent());
 
         for (int i = 0; i < count; i++) {
-            String suggestion = mSuggestions.get(i).getText();
+            String suggestion = mSuggestions.get(i).getText().toString();
             float textWidth = paint.measureText(suggestion);
             final int wordWidth = (int) textWidth + X_GAP * 2;
 

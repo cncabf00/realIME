@@ -30,7 +30,7 @@ public class DictFileParser {
 				num++;
 			}
 		}
-		word.characters=line.substring(sep1+1, sep2);
+		word.characters=new String(line.substring(sep1+1, sep2));
 		word.pinyins=new String[num+1];
 		cur=0;
 		int count=0;
@@ -38,12 +38,12 @@ public class DictFileParser {
 		{
 			if (line.charAt(i)=='\'')
 			{
-				word.pinyins[count++]=line.substring(cur, i);
+				word.pinyins[count++]=new String(line.substring(cur, i));
 				cur=i+1;
 			}
 		}
 		if (cur!=sep1)
-			word.pinyins[count++]=line.substring(cur, sep1);
+			word.pinyins[count++]=new String(line.substring(cur, sep1));
 		return word;
 	}
 	

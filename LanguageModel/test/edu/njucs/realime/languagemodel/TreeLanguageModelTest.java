@@ -18,7 +18,7 @@ public class TreeLanguageModelTest {
 	public void test() {
 		System.out.println("TEST0");
 		
-		File file=new File("common_words.txt");
+		File file=new File("word_new_all.txt");
 		try
 		{
 			DictFileParser parser=new DictFileParser();

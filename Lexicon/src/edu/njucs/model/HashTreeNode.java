@@ -10,15 +10,15 @@ public class HashTreeNode<T> implements java.io.Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = -4578330507921666833L;
-	Map<String,HashTreeNode<T>> children=null;
+	Map<CharSequence,HashTreeNode<T>> children=null;
 	HashTreeNode<T> parent=null;
 	T nodeInfo=null;
-	String key;
+	CharSequence key;
 	
 	public void addChild(HashTreeNode<T> node)
 	{
 		if (children==null)
-			children=new TreeMap<String, HashTreeNode<T>>();
+			children=new TreeMap<CharSequence, HashTreeNode<T>>();
 		node.parent=this;
 		children.put(node.key, node);
 	}
@@ -57,7 +57,7 @@ public class HashTreeNode<T> implements java.io.Serializable{
 		return children!=null;
 	}
 	
-	public void setKey(String key)
+	public void setKey(CharSequence key)
 	{
 		this.key=key;
 	}
