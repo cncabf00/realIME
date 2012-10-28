@@ -106,9 +106,9 @@ public class SoftKeyboard extends InputMethodService
         TreeLangageModel languageModel=TreeLanguageModelReader.readObject(getResources().openRawResource(R.raw.dict));
 //        TreeLangageModel languageModel=new TreeLangageModel();
 //        DictFileParser dictParser=new DictFileParser();
-//        in=getResources().openRawResource(R.raw.word);
-//        Log.d("realime","build use words");
-//        languageModel.append(in);
+        in=getResources().openRawResource(R.raw.common_words);
+        Log.d("realime","build use words");
+        languageModel.append(in);
 //        Log.d("realime","build use characters");
 //        in=getResources().openRawResource(R.raw.characters);
 //        languageModel.append(in);
