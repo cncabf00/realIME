@@ -17,7 +17,7 @@ public:
 		delete root;
 	}
 
-	void build(string input)
+	void build(char* input)
 	{
 		int last=0;
 		int length=input.size();

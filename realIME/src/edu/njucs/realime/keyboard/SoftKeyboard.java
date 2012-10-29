@@ -16,12 +16,12 @@
 
 package edu.njucs.realime.keyboard;
 
+import java.io.FileDescriptor;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import dalvik.system.VMRuntime;
-
+import android.content.res.AssetFileDescriptor;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
@@ -33,11 +33,10 @@ import android.view.View;
 import android.view.inputmethod.CompletionInfo;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
+import dalvik.system.VMRuntime;
 import edu.njucs.realime.R;
 import edu.njucs.realime.languagemodel.Candidate;
-import edu.njucs.realime.languagemodel.DictFileParser;
 import edu.njucs.realime.languagemodel.TreeLangageModel;
-import edu.njucs.realime.languagemodel.TreeLanguageModelReader;
 import edu.njucs.realime.lexicon.LexiconFileParser;
 import edu.njucs.realime.lexicon.LexiconTree;
 import edu.njucs.realime.manager.InputManager;
@@ -97,6 +96,17 @@ public class SoftKeyboard extends InputMethodService
      */
     @Override public void onCreate() {
         super.onCreate();
+        
+        AssetFileDescriptor afd = getResources().openRawResourceFd(R.raw.word_new_all); 
+        		                int res = 0; 
+        		                if (afd != null) 
+        		                { 
+        		                        FileDescriptor fd = afd.getFileDescriptor(); 
+        		                        int off = (int) afd.getStartOffset(); 
+        		                        int len = (int) afd.getLength(); 
+        		                        res = InputManager.getInstance().testJni(fd, off, len); 
+        		                } 
+        
         VMRuntime.getRuntime().setTargetHeapUtilization(TARGET_HEAP_UTILIZATION); 
         VMRuntime.getRuntime().setMinimumHeapSize(CWJ_HEAP_SIZE); 
         mSentenceSeparators = getResources().getString(R.string.sentence_separators);

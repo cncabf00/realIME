@@ -9,7 +9,7 @@ class TreeLanguageModel
 public:
 	TreeLanguageModel();
 	~TreeLanguageModel();
-	void build(string input);
+	void build(char* input);
 	Vector<Candidate> getAllCandidates(Vector<String> input);
 private:
 	void insertIntoTree(Word word);
