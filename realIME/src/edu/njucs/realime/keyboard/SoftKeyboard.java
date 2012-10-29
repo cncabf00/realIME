@@ -529,12 +529,13 @@ public class SoftKeyboard extends InputMethodService
     private void updateShiftKeyState(EditorInfo attr) {
         if (attr != null 
                 && mInputView != null && mQwertyKeyboard == mInputView.getKeyboard()) {
-            int caps = 0;
-            EditorInfo ei = getCurrentInputEditorInfo();
-            if (ei != null && ei.inputType != EditorInfo.TYPE_NULL) {
-                caps = getCurrentInputConnection().getCursorCapsMode(attr.inputType);
-            }
-            mInputView.setShifted(mCapsLock || caps != 0);
+//            int caps = 0;
+//            EditorInfo ei = getCurrentInputEditorInfo();
+//            if (ei != null && ei.inputType != EditorInfo.TYPE_NULL) {
+//                caps = getCurrentInputConnection().getCursorCapsMode(attr.inputType);
+//            }
+        	mCapsLock=false;
+            mInputView.setShifted(mCapsLock);
         }
     }
     
