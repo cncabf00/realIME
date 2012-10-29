@@ -10,7 +10,6 @@ public:
 
 	/* data */
 	map<string,HashTreeNode<T>*>* children;
-	HashTreeNode<T>* parent;
 	T* nodeInfo;
 	string* key;
 
@@ -18,7 +17,6 @@ public:
 	HashTreeNode()
 	{
 		children=NULL;
-		parent=NULL;
 		nodeInfo=NULL;
 	}
 
@@ -34,8 +32,7 @@ public:
 		{
 			children=new map<string,HashTreeNode<T>*>();
 		}
-		node->parent=this;
-			(*children)[*node->key]=node;
+		(*children)[*node->key]=node;
 	}
 
 	int childCount()
@@ -52,11 +49,6 @@ public:
 			return NULL;
 		else
 			return (*children)[*key];
-	}
-
-	HashTreeNode<T>* getParent()
-	{
-		return parent;
 	}
 
 	T* getNodeInfo()

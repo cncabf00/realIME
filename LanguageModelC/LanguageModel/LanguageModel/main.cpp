@@ -22,9 +22,10 @@ int main()
 			string* str=new string(buf);
 			if (str->size()!=0)
 			{
-				Word* word=parseLine(*str);
+				new vector<string>();
+	/*			Word* word=parseLine(*str);
 				model.insertToTree(word);
-				delete word;
+				delete word;*/
 			}
 			delete str;
 		}

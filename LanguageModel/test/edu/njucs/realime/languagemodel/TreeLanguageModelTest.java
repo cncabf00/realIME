@@ -10,6 +10,7 @@ import org.junit.Test;
 
 import edu.njucs.realime.lexicon.LexiconFileParser;
 import edu.njucs.realime.lexicon.LexiconTree;
+import edu.njucs.realime.manager.Candidate;
 
 
 public class TreeLanguageModelTest {
@@ -22,9 +23,11 @@ public class TreeLanguageModelTest {
 		try
 		{
 			DictFileParser parser=new DictFileParser();
-			StaticLanguageModel model=new TreeLangageModel();
+			TreeLangageModel model=new TreeLangageModel();
 			model.build(new FileInputStream(file));
 			model.append(new FileInputStream(new File("characters.txt")));
+			
+			System.out.println("node count= "+model.nodeCount);
 
 			List<String> input=new ArrayList<String>();
 			input.add("ming");

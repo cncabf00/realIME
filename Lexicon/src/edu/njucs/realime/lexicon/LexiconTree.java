@@ -13,55 +13,88 @@ public class LexiconTree {
 	{
 		HashTreeNode<LexiconInfo> root=new HashTreeNode<LexiconInfo>();
 		root.setNodeInfo(new LexiconInfo('\'', ""));
-		HashTreeNode<LexiconInfo> currentNode=root;
+		lexiconTree=new HashTree<LexiconInfo>(root);
+//		HashTreeNode<LexiconInfo> currentNode=root;
 		for (String pinyin:pinyins)
 		{
-			currentNode=insertFromNode(currentNode, pinyin,0);
+			insertToTree(pinyin);
 		}
 		
-		lexiconTree=new HashTree<LexiconInfo>(root);
+		
 	}
 	
-	HashTreeNode<LexiconInfo> insertFromNode(HashTreeNode<LexiconInfo> node,String keyPath,int from)
+	void insertToTree(String keyPath)
 	{
-		if (keyPath==null || keyPath.equals("") || from>=keyPath.length())
-			return node;
-
-		String charPath = node.getNodeInfo().charPath;
-		boolean samePrefix = true;
-		for (; from < charPath.length(); from++) {
-			if (from >= keyPath.length())
-				break;
-			if (charPath.charAt(from) != keyPath.charAt(from)) {
-				samePrefix = false;
-				break;
-			}
-		}
-		if (from >= keyPath.length()) {
-			return node;
-		}
-		if (samePrefix) {
-			char c = keyPath.charAt(from);
-			HashTreeNode<LexiconInfo> child=node.childWithKey(""+c);
+		HashTreeNode<LexiconInfo> node=lexiconTree.getRoot();
+		int i=0;
+		int length=keyPath.length();
+		for (;i<length;i++)
+		{
+			HashTreeNode<LexiconInfo> child=node.childWithKey(""+keyPath.charAt(i));
 			if (child==null)
 			{
-				HashTreeNode<LexiconInfo> newNode = new HashTreeNode<LexiconInfo>();
-				newNode.setNodeInfo(new LexiconInfo(c, node.getNodeInfo().charPath
-						+ c));
-				newNode.setKey(""+c);
-				node.addChild(newNode);
-				return insertFromNode(newNode, keyPath, from + 1);
+				break;
 			}
 			else
 			{
-				return insertFromNode(child, keyPath, from+1);
+				node=child;
 			}
 		}
-		else
+		for (;i<length;i++)
 		{
-			return insertFromNode(node.getParent(), keyPath, from);
+			HashTreeNode<LexiconInfo> child=node.childWithKey(""+keyPath.charAt(i));
+			if (child==null)
+			{
+				HashTreeNode<LexiconInfo> newNode = new HashTreeNode<LexiconInfo>();
+				newNode.setKey(""+keyPath.charAt(i));
+				newNode.setNodeInfo(new LexiconInfo(keyPath.charAt(i), node.getNodeInfo().charPath+keyPath.charAt(i)));
+				node=node.addChild(newNode);
+			}
+			else
+				node=child;
 		}
 	}
+	
+//	HashTreeNode<LexiconInfo> insertFromNode(HashTreeNode<LexiconInfo> node,String keyPath,int from)
+//	{
+//		if (keyPath==null || keyPath.equals("") || from>=keyPath.length())
+//			return node;
+//
+//		String charPath = node.getNodeInfo().charPath;
+//		boolean samePrefix = true;
+//		for (; from < charPath.length(); from++) {
+//			if (from >= keyPath.length())
+//				break;
+//			if (charPath.charAt(from) != keyPath.charAt(from)) {
+//				samePrefix = false;
+//				break;
+//			}
+//		}
+//		if (from >= keyPath.length()) {
+//			return node;
+//		}
+//		if (samePrefix) {
+//			char c = keyPath.charAt(from);
+//			HashTreeNode<LexiconInfo> child=node.childWithKey(""+c);
+//			if (child==null)
+//			{
+//				HashTreeNode<LexiconInfo> newNode = new HashTreeNode<LexiconInfo>();
+//				newNode.setNodeInfo(new LexiconInfo(c, node.getNodeInfo().charPath
+//						+ c));
+//				newNode.setKey(""+c);
+//				node.addChild(newNode);
+//				return insertFromNode(newNode, keyPath, from + 1);
+//			}
+//			else
+//			{
+//				return insertFromNode(child, keyPath, from+1);
+//			}
+//		}
+//		else
+//		{
+//			return insertFromNode(node.getParent(), keyPath, from);
+//		}
+//	}
 	
 	public List<String> split(String input)
 	{
