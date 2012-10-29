@@ -16,31 +16,29 @@
 
 package edu.njucs.realime.keyboard;
 
+import java.io.FileDescriptor;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import dalvik.system.VMRuntime;
-
+import android.content.res.AssetFileDescriptor;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
 import android.text.method.MetaKeyKeyListener;
-import android.util.Log;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.CompletionInfo;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
+import dalvik.system.VMRuntime;
 import edu.njucs.realime.R;
-import edu.njucs.realime.languagemodel.Candidate;
-import edu.njucs.realime.languagemodel.DictFileParser;
-import edu.njucs.realime.languagemodel.TreeLangageModel;
-import edu.njucs.realime.languagemodel.TreeLanguageModelReader;
 import edu.njucs.realime.lexicon.LexiconFileParser;
 import edu.njucs.realime.lexicon.LexiconTree;
+import edu.njucs.realime.manager.Candidate;
 import edu.njucs.realime.manager.InputManager;
+import edu.njucs.realime.manager.Word;
 
 /**
  * Example of writing an input method for a soft keyboard.  This code is
@@ -97,6 +95,27 @@ public class SoftKeyboard extends InputMethodService
      */
     @Override public void onCreate() {
         super.onCreate();
+        
+		AssetFileDescriptor afd = getResources().openRawResourceFd(
+				R.raw.word_new_all);
+		if (afd != null) {
+			FileDescriptor fd = afd.getFileDescriptor();
+			int off = (int) afd.getStartOffset();
+			long len = afd.getLength();
+			InputManager.getInstance().readDict(fd, off, len);
+		}
+		
+		afd = getResources().openRawResourceFd(
+				R.raw.characters);
+		if (afd != null) {
+			FileDescriptor fd = afd.getFileDescriptor();
+			int off = (int) afd.getStartOffset();
+			long len = afd.getLength();
+			InputManager.getInstance().readDict(fd, off, len);
+		}
+        
+//        Log.d("realime", InputManager.getInstance().testJni2());
+        
         VMRuntime.getRuntime().setTargetHeapUtilization(TARGET_HEAP_UTILIZATION); 
         VMRuntime.getRuntime().setMinimumHeapSize(CWJ_HEAP_SIZE); 
         mSentenceSeparators = getResources().getString(R.string.sentence_separators);
@@ -107,16 +126,16 @@ public class SoftKeyboard extends InputMethodService
         lexicon.build(new LexiconFileParser().parse(in));
         InputManager.getInstance().setLexicon(lexicon);
         
-        Log.d("realime","read from dict");
+//        Log.d("realime","read from dict");
 //        TreeLangageModel languageModel=TreeLanguageModelReader.readObject(getResources().openRawResource(R.raw.dict));
-        TreeLangageModel languageModel=new TreeLangageModel();
+//        TreeLangageModel languageModel=new TreeLangageModel();
 //        DictFileParser dictParser=new DictFileParser();
-        in=getResources().openRawResource(R.raw.word_new_all);
-        Log.d("realime","build use words");
-        languageModel.build(in);
-        in=getResources().openRawResource(R.raw.characters);
-        Log.d("realime","build use characters");
-        languageModel.append(in);
+//        in=getResources().openRawResource(R.raw.word_new_all);
+//        Log.d("realime","build use words");
+////        languageModel.build(in);
+//        in=getResources().openRawResource(R.raw.characters);
+//        Log.d("realime","build use characters");
+//        languageModel.build(in);
 //        in=getResources().openRawResource(R.raw.word_new_1);
 //        Log.d("realime","build use words 1");
 //        languageModel.append(in);
@@ -135,9 +154,9 @@ public class SoftKeyboard extends InputMethodService
 //        Log.d("realime","build use characters");
 //        in=getResources().openRawResource(R.raw.characters);
 //        languageModel.append(in);
-        Log.d("realime","build finished");
+//        Log.d("realime","build finished");
         
-        InputManager.getInstance().setLanguageModel(languageModel);
+//        InputManager.getInstance().setLanguageModel(languageModel);
     }
     
     /**
@@ -344,7 +363,8 @@ public class SoftKeyboard extends InputMethodService
             List<Candidate> stringList = new ArrayList<Candidate>();
             for (int i=0; i<(completions != null ? completions.length : 0); i++) {
                 CompletionInfo ci = completions[i];
-                if (ci != null) stringList.add(new Candidate(ci.getText().toString(), new ArrayList<String>()));
+                if (ci != null) 
+                	stringList.add(new Candidate(new Word(ci.getText().toString(),1), new ArrayList<String>()));
             }
             setSuggestions(stringList, true, true);
         }
@@ -495,7 +515,7 @@ public class SoftKeyboard extends InputMethodService
         	int delete=mComposing.length()-length;
         	for (int i=0;i<delete;i++)
         		mComposing=mComposing.deleteCharAt(0);
-        	selectedText+=selected.getText();
+        	selectedText+=selected.getWord().getText();
         	getCurrentInputConnection().setComposingText(selectedText+mComposing.toString(), 1);
         	if (mComposing.length()==0)
         		commitTyped(getCurrentInputConnection());

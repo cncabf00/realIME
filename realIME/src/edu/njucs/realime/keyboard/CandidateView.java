@@ -29,7 +29,7 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 import edu.njucs.realime.R;
-import edu.njucs.realime.languagemodel.Candidate;
+import edu.njucs.realime.manager.Candidate;
 
 public class CandidateView extends View {
 
@@ -181,7 +181,7 @@ public class CandidateView extends View {
         final int y = (int) (((height - mPaint.getTextSize()) / 2) - mPaint.ascent());
 
         for (int i = 0; i < count; i++) {
-            String suggestion = mSuggestions.get(i).getText().toString();
+            String suggestion = mSuggestions.get(i).getWord().getText().toString();
             float textWidth = paint.measureText(suggestion);
             final int wordWidth = (int) textWidth + X_GAP * 2;
 

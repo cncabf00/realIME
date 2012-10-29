@@ -7,6 +7,7 @@ public class TreeNode<T> {
 	List<TreeNode<T>> children=new ArrayList<TreeNode<T>>();
 	TreeNode<T> parent=null;
 	T nodeInfo=null;
+	String key;
 	
 	public void addChild(TreeNode<T> node)
 	{
@@ -63,13 +64,18 @@ public class TreeNode<T> {
 		return children.size()>0;
 	}
 	
-	public TreeNode<T> findChildWithKey(T key)
+	public TreeNode<T> childWithKey(Object key)
 	{
 		for (int i=0;i<this.childCount();i++)
 		{
-			if (this.childAt(i).getNodeInfo().equals(key))
+			if (this.childAt(i).key.equals(key))
 				return this.childAt(i);
 		}
 		return null;
+	}
+	
+	public void setKey(String key)
+	{
+		this.key=key;
 	}
 }
