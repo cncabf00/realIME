@@ -32,11 +32,6 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>src_languagemodel</name>
-			<type>2</type>
-			<locationURI>ALL_PROJ/LanguageModel/src</locationURI>
-		</link>
-		<link>
 			<name>src_lexicon</name>
 			<type>2</type>
 			<locationURI>ALL_PROJ/Lexicon/src</locationURI>
