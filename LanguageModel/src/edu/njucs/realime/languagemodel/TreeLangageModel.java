@@ -1,9 +1,7 @@
 package edu.njucs.realime.languagemodel;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,7 +20,7 @@ public class TreeLangageModel implements StaticLanguageModel, java.io.Serializab
 	public void build(InputStream input)
 	{
 		HashTreeNode<LanguageNode> root=new HashTreeNode<LanguageNode>();
-		root.setNodeInfo(new LanguageNode(""));
+		root.setNodeInfo(new LanguageNode());
 		tree=new HashTree<LanguageNode>(root);
 		
 		append(input);
@@ -33,10 +31,57 @@ public class TreeLangageModel implements StaticLanguageModel, java.io.Serializab
 	public void build(Word[] dict)
 	{
 		HashTreeNode<LanguageNode> root=new HashTreeNode<LanguageNode>();
-		root.setNodeInfo(new LanguageNode(""));
+		root.setNodeInfo(new LanguageNode());
 		tree=new HashTree<LanguageNode>(root);
 		
 		append(dict);
+	}
+	
+	public void append(InputStream input) {
+		
+		try
+		{
+//			BufferedReader reader=new BufferedReader(new InputStreamReader(input,"utf-8"));
+//			String line=reader.readLine();
+//			while (line!=null)
+//			{
+//				insertToTree(DictFileParser.parseLine(line));
+//				line=reader.readLine();
+//			}
+			byte[] readBytes = new byte[input.available()];
+			input.read(readBytes);
+			String string4file = new String(readBytes,"utf-8");
+//			String[] lines=string4file.split("\n");
+			int last=0;
+			int length=string4file.length();
+			for (int i=0;i<length;i++)
+			{
+				if (string4file.charAt(i)=='\n')
+				{
+					insertToTree(DictFileParser.parseLine(string4file.substring(last, i)));
+					last=i+1;
+				}
+			}
+//			if (last!=string4file.length())
+//				insertToTree(DictFileParser.parseLine(string4file.substring(last, string4file.length())));
+			
+//			for (int k=0;k<lines.length;k++)
+//			{
+//				insertToTree(DictFileParser.parseLine(lines[k]));
+//			}
+		}
+		catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void append(Word[] dict) {
+//		HashTreeNode<LanguageNode> currentNode=tree.getRoot();
+		for (int i=0,n=dict.length;i<n;i++)
+		{
+//			currentNode=insertFromNode(currentNode, word,0);
+			insertToTree(dict[i]);
+		}
 	}
 	
 	void insertToTree(Word word)
@@ -58,12 +103,18 @@ public class TreeLangageModel implements StaticLanguageModel, java.io.Serializab
 		}
 		for (;i<length;i++)
 		{
-			HashTreeNode<LanguageNode> newNode = new HashTreeNode<LanguageNode>();
-			newNode.setNodeInfo(new LanguageNode(word.pinyins[i]));
-			newNode.setKey(word.pinyins[i]);
-			node.addChild(newNode);
-			node=newNode;
+			HashTreeNode<LanguageNode> child=node.childWithKey(word.pinyins[i]);
+			if (child==null)
+			{
+				HashTreeNode<LanguageNode> newNode = new HashTreeNode<LanguageNode>();
+				newNode.setKey(word.pinyins[i]);
+				node=node.addChild(newNode);
+			}
+			else
+				node=child;
 		}
+		if (node.getNodeInfo()==null)
+			node.setNodeInfo(new LanguageNode());
 		node.getNodeInfo().addCandidate(word.characters);
 	}
 	
@@ -149,52 +200,7 @@ public class TreeLangageModel implements StaticLanguageModel, java.io.Serializab
 	
 	
 	
-	public void append(InputStream input) {
-		
-		try
-		{
-//			BufferedReader reader=new BufferedReader(new InputStreamReader(input,"utf-8"));
-//			String line=reader.readLine();
-//			while (line!=null)
-//			{
-//				insertToTree(DictFileParser.parseLine(line));
-//				line=reader.readLine();
-//			}
-			byte[] readBytes = new byte[input.available()];
-			input.read(readBytes);
-			String string4file = new String(readBytes,"utf-8");
-//			String[] lines=string4file.split("\n");
-			int last=0;
-			int length=string4file.length();
-			for (int i=0;i<length;i++)
-			{
-				if (string4file.charAt(i)=='\n')
-				{
-					insertToTree(DictFileParser.parseLine(string4file.substring(last, i)));
-					last=i+1;
-				}
-			}
-//			if (last!=string4file.length())
-//				insertToTree(DictFileParser.parseLine(string4file.substring(last, string4file.length())));
-			
-//			for (int k=0;k<lines.length;k++)
-//			{
-//				insertToTree(DictFileParser.parseLine(lines[k]));
-//			}
-		}
-		catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
 
-	public void append(Word[] dict) {
-//		HashTreeNode<LanguageNode> currentNode=tree.getRoot();
-		for (int i=0,n=dict.length;i<n;i++)
-		{
-//			currentNode=insertFromNode(currentNode, word,0);
-			insertToTree(dict[i]);
-		}
-	}
 
 	public List<Candidate> getAllCandidates(List<String> input) {
 		List<Candidate> candidates=new ArrayList<Candidate>();
@@ -214,15 +220,15 @@ public class TreeLangageModel implements StaticLanguageModel, java.io.Serializab
 		return candidates;
 	}
 	
-	public List<String> getKeyPath(HashTreeNode<LanguageNode> node)
-	{
-		List<String> keyPath=new ArrayList<String>();
-		while (node.getParent()!=null)
-		{
-			keyPath.add(0, node.getNodeInfo().key);
-			node=node.getParent();
-		}
-		return keyPath;
-	}
+//	public List<String> getKeyPath(HashTreeNode<LanguageNode> node)
+//	{
+//		List<String> keyPath=new ArrayList<String>();
+//		while (node.getParent()!=null)
+//		{
+//			keyPath.add(0, node.key);
+//			node=node.getParent();
+//		}
+//		return keyPath;
+//	}
 
 }

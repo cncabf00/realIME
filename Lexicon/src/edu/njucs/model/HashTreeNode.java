@@ -14,12 +14,20 @@ public class HashTreeNode<T> implements java.io.Serializable{
 	T nodeInfo=null;
 	String key;
 	
-	public void addChild(HashTreeNode<T> node)
+	public HashTreeNode<T> addChild(HashTreeNode<T> node)
 	{
 		if (children==null)
 			children=new HashMap<String, HashTreeNode<T>>();
-		node.parent=this;
-		children.put(node.key,node);
+		if (children.containsKey(node.key))
+		{
+			node=children.get(node.key);
+		}
+		else
+		{
+			node.parent=this;
+			children.put(node.key,node);
+		}
+		return node;
 	}
 	
 	public int childCount()

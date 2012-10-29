@@ -21,12 +21,17 @@ int main()
 			in.getline(buf,256);
 			string* str=new string(buf);
 			if (str->size()!=0)
-				model.insertToTree(parseLine(*str));
+			{
+				Word* word=parseLine(*str);
+				model.insertToTree(word);
+				delete word;
+			}
 			delete str;
 		}
 	}
-
-/*	vector<string> input;
+	in.close();
+/*
+	vector<string> input;
 	input.push_back("ming");
 	input.push_back("tian");
 	input.push_back("tian");
@@ -36,7 +41,9 @@ int main()
 	for (int i=0;i<candidates.size();i++)
 	{
 		cout<<candidates[i].text<<endl;
-	}*/
+	}
+	*/
 	system("pause");
+	
 	return 0;
 }

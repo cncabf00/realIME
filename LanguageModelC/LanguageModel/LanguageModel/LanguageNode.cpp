@@ -2,9 +2,8 @@
 #include "LanguageNode.h"
 
 
-LanguageNode::LanguageNode(string* key)
+LanguageNode::LanguageNode()
 {
-	this->key=key;
 }
 
 

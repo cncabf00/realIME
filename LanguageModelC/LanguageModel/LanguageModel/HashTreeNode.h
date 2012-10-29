@@ -49,9 +49,9 @@ public:
 	HashTreeNode<T>* childWithKey(string* key)
 	{
 		if (children==NULL)
-		return NULL;
-	else
-		return (*children)[*key];
+			return NULL;
+		else
+			return (*children)[*key];
 	}
 
 	HashTreeNode<T>* getParent()

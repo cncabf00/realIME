@@ -42,3 +42,4 @@ Word* parseLine(string& line)
 			word->pinyins->push_back(new string(line,cur, sep1-cur));
 		return word;
 }
+

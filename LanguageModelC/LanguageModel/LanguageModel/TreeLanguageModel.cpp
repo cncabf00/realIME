@@ -5,7 +5,6 @@
 TreeLanguageModel::TreeLanguageModel()
 {
 	root=new HashTreeNode<LanguageNode>();
-	root->setNodeInfo(new LanguageNode(NULL));
 }
 
 
@@ -46,13 +45,21 @@ void TreeLanguageModel::insertToTree(Word* word)
 	}
 	for (;i<length;i++)
 	{
-		HashTreeNode<LanguageNode>* newNode = new HashTreeNode<LanguageNode>();
-		newNode->setNodeInfo(new LanguageNode((*word->pinyins)[i]));
-		newNode->setKey((*word->pinyins)[i]);
-		node->addChild(newNode);
-		node=newNode;
+		HashTreeNode<LanguageNode>* child=node->childWithKey((*word->pinyins)[i]);
+		if (child==NULL)
+		{
+			HashTreeNode<LanguageNode>* newNode = new HashTreeNode<LanguageNode>();
+			newNode->setKey(new string(*(*word->pinyins)[i]));
+			node->addChild(newNode);
+			node=newNode;
+		}
+		else
+			node=child;
+		
 	}
-	node->getNodeInfo()->addCandidate(word->characters);
+	if (node->nodeInfo==NULL)
+		node->setNodeInfo(new LanguageNode());
+	node->getNodeInfo()->addCandidate(new string(*(word->characters)));
 }
 
 vector<Candidate> TreeLanguageModel::getAllCandidates(vector<string> input)
@@ -113,12 +120,12 @@ PinyinResult TreeLanguageModel::parse(vector<string> input)
 				node=child;
 			}
 		}
-		if (node->nodeInfo->candidates!=NULL)
+		if (node->nodeInfo!=NULL)
 		{
 			set<string*>::iterator it;
 			for (it = node->nodeInfo->candidates->begin();it != node->nodeInfo->candidates->end();it++)
 			{
-				result.wordCandidates.push_back(**it);
+ 				result.wordCandidates.push_back(**it);
 			}	
 		}
 		if (i<=input.size())
