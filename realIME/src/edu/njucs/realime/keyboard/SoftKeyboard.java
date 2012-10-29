@@ -494,12 +494,12 @@ public class SoftKeyboard extends InputMethodService
      * Helper function to commit any text being composed in to the editor.
      */
     private void commitTyped(InputConnection inputConnection) {
-        if (selectedText.length() > 0) {
-            inputConnection.commitText(selectedText, selectedText.length());
+//        if (selectedText.length() > 0) {
+            inputConnection.commitText(selectedText+mComposing, selectedText.length()+mComposing.length());
             selectedText="";
             mComposing.setLength(0);
             updateCandidates();
-        }
+//        }
     }
 
     private void commitPart(Candidate selected) {
@@ -527,22 +527,22 @@ public class SoftKeyboard extends InputMethodService
      * editor state.
      */
     private void updateShiftKeyState(EditorInfo attr) {
-//        if (attr != null 
-//                && mInputView != null && mQwertyKeyboard == mInputView.getKeyboard()) {
-//            int caps = 0;
-//            EditorInfo ei = getCurrentInputEditorInfo();
-//            if (ei != null && ei.inputType != EditorInfo.TYPE_NULL) {
-//                caps = getCurrentInputConnection().getCursorCapsMode(attr.inputType);
-//            }
-//            mInputView.setShifted(mCapsLock || caps != 0);
-//        }
+        if (attr != null 
+                && mInputView != null && mQwertyKeyboard == mInputView.getKeyboard()) {
+            int caps = 0;
+            EditorInfo ei = getCurrentInputEditorInfo();
+            if (ei != null && ei.inputType != EditorInfo.TYPE_NULL) {
+                caps = getCurrentInputConnection().getCursorCapsMode(attr.inputType);
+            }
+            mInputView.setShifted(mCapsLock || caps != 0);
+        }
     }
     
     /**
      * Helper to determine if a given character code is alphabetic.
      */
     private boolean isAlphabet(int code) {
-        if (Character.isLetter(code)) {
+        if (Character.isLowerCase(code)) {
             return true;
         } else {
             return false;
@@ -722,6 +722,7 @@ public class SoftKeyboard extends InputMethodService
             updateShiftKeyState(getCurrentInputEditorInfo());
             updateCandidates();
         } else {
+        	commitTyped(getCurrentInputConnection());
             getCurrentInputConnection().commitText(
                     String.valueOf((char) primaryCode), 1);
         }
