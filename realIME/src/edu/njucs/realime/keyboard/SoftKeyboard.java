@@ -513,7 +513,7 @@ public class SoftKeyboard extends InputMethodService
         	for (int i=0;i<delete;i++)
         		mComposing=mComposing.deleteCharAt(0);
         	selectedText+=selected.getWord().getText();
-        	getCurrentInputConnection().setComposingText(selectedText+mComposing.toString(), 1);
+        	getCurrentInputConnection().setComposingText(selected.getWord().getText()+mComposing.toString(), 1);
         	if (mComposing.length()==0)
         		commitTyped(getCurrentInputConnection());
         	else

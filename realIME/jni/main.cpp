@@ -181,7 +181,7 @@ int parseLine(char* line)
 	int count = 0;
 	for (int i = 0; i < sep1; i++) {
 		if (line[i] != '\'') {
-			code = code * 10 + line[i];
+			code = code * 26 + (line[i]-'a' + 1);
 			cur = i + 1;
 		}
 	}

@@ -87,7 +87,7 @@ public class InputManager {
 		int code=0;
 		for (int j=0;j<str.length();j++)
 		{
-			code=code*10+str.charAt(j);
+			code=code*26+(str.charAt(j)-'a' + 1);
 		}
 		return code;
 	}
