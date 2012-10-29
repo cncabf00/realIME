@@ -221,7 +221,7 @@ public class SoftKeyboard extends InputMethodService
         }
         
         mPredictionOn = true;
-        mCompletionOn = true;
+        mCompletionOn = false;
         mCompletions = null;
         
         // We are now going to initialize our state based on the type of
@@ -246,7 +246,6 @@ public class SoftKeyboard extends InputMethodService
                 // be doing predictive text (showing candidates as the
                 // user types).
                 mCurKeyboard = mQwertyKeyboard;
-                mPredictionOn = true;
                 
                 // We now look for a few special variations of text that will
                 // modify our behavior.
@@ -255,7 +254,6 @@ public class SoftKeyboard extends InputMethodService
                         variation == EditorInfo.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD) {
                     // Do not display predictions / what the user is typing
                     // when they are entering a password.
-                    mPredictionOn = false;
                 }
                 
                 if (variation == EditorInfo.TYPE_TEXT_VARIATION_EMAIL_ADDRESS 
@@ -263,7 +261,6 @@ public class SoftKeyboard extends InputMethodService
                         || variation == EditorInfo.TYPE_TEXT_VARIATION_FILTER) {
                     // Our predictions are not useful for e-mail addresses
                     // or URIs.
-                    mPredictionOn = false;
                 }
                 
                 if ((attribute.inputType&EditorInfo.TYPE_TEXT_FLAG_AUTO_COMPLETE) != 0) {
@@ -272,8 +269,8 @@ public class SoftKeyboard extends InputMethodService
                     // to supply their own.  We only show the editor's
                     // candidates when in fullscreen mode, otherwise relying
                     // own it displaying its own UI.
-                    mPredictionOn = true;
-                    mCompletionOn = isFullscreenMode();
+//                    mPredictionOn = true;
+//                    mCompletionOn = isFullscreenMode();
                 }
                 
                 // We also want to look at the current state of the editor
@@ -530,15 +527,15 @@ public class SoftKeyboard extends InputMethodService
      * editor state.
      */
     private void updateShiftKeyState(EditorInfo attr) {
-        if (attr != null 
-                && mInputView != null && mQwertyKeyboard == mInputView.getKeyboard()) {
-            int caps = 0;
-            EditorInfo ei = getCurrentInputEditorInfo();
-            if (ei != null && ei.inputType != EditorInfo.TYPE_NULL) {
-                caps = getCurrentInputConnection().getCursorCapsMode(attr.inputType);
-            }
-            mInputView.setShifted(mCapsLock || caps != 0);
-        }
+//        if (attr != null 
+//                && mInputView != null && mQwertyKeyboard == mInputView.getKeyboard()) {
+//            int caps = 0;
+//            EditorInfo ei = getCurrentInputEditorInfo();
+//            if (ei != null && ei.inputType != EditorInfo.TYPE_NULL) {
+//                caps = getCurrentInputConnection().getCursorCapsMode(attr.inputType);
+//            }
+//            mInputView.setShifted(mCapsLock || caps != 0);
+//        }
     }
     
     /**
@@ -634,7 +631,7 @@ public class SoftKeyboard extends InputMethodService
      * candidates.
      */
     private void updateCandidates() {
-        if (!mCompletionOn) {
+//        if (!mCompletionOn) {
             if (mComposing.length() > 0) {
                 ArrayList<Candidate> list = new ArrayList<Candidate>();
                 List<String> splittedInput=InputManager.getInstance().split(mComposing.toString());
@@ -645,7 +642,7 @@ public class SoftKeyboard extends InputMethodService
             } else {
                 setSuggestions(null, false, false);
             }
-        }
+//        }
     }
     
     public void setSuggestions(List<Candidate> suggestions, boolean completions,
