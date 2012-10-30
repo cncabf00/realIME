@@ -25,6 +25,7 @@ import android.content.res.AssetFileDescriptor;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
+import android.os.AsyncTask;
 import android.text.method.MetaKeyKeyListener;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
@@ -85,10 +86,12 @@ public class SoftKeyboard extends InputMethodService
     
     private List<Candidate> candidates;
     
-    private String selectedText="";
+    private List<SelectedWord> selectedText=new ArrayList<SelectedWord>();
     
     private final static float TARGET_HEAP_UTILIZATION = 0.75f;  
     private final static int CWJ_HEAP_SIZE = 30* 1024* 1024 ; 
+    
+    private AsyncTask lastTask=null;
     
     /**
      * Main initialization of the input method component.  Be sure to call
@@ -496,10 +499,17 @@ public class SoftKeyboard extends InputMethodService
      */
     private void commitTyped(InputConnection inputConnection) {
 //        if (selectedText.length() > 0) {
-            inputConnection.commitText(selectedText+mComposing, selectedText.length()+mComposing.length());
-            selectedText="";
-            mComposing.setLength(0);
-            updateCandidates();
+    	
+    	String selectedStr="";
+    	for (int i=0;i<selectedText.size();i++)
+    	{
+    		selectedStr+=selectedText.get(i).text;
+    	}
+		inputConnection.commitText(selectedStr + mComposing,
+				selectedStr.length() + mComposing.length());
+		selectedText.clear();
+		mComposing.setLength(0);
+		updateCandidates();
 //        }
     }
 
@@ -511,10 +521,18 @@ public class SoftKeyboard extends InputMethodService
         		length+=selected.getRestInput().get(i).length();
         	}
         	int delete=mComposing.length()-length;
+        	SelectedWord sw=new SelectedWord();
+        	sw.text=selected.getWord().getText();
+        	sw.pinyin=mComposing.substring(0, delete);
         	for (int i=0;i<delete;i++)
         		mComposing=mComposing.deleteCharAt(0);
-        	selectedText+=selected.getWord().getText();
-        	getCurrentInputConnection().setComposingText(selected.getWord().getText()+mComposing.toString(), 1);
+        	selectedText.add(sw);
+        	String selectedStr="";
+        	for (int i=0;i<selectedText.size();i++)
+        	{
+        		selectedStr+=selectedText.get(i).text;
+        	}
+        	getCurrentInputConnection().setComposingText(selectedStr+mComposing.toString(), 1);
         	if (mComposing.length()==0)
         		commitTyped(getCurrentInputConnection());
         	else
@@ -634,15 +652,43 @@ public class SoftKeyboard extends InputMethodService
      */
     private void updateCandidates() {
 //        if (!mCompletionOn) {
+    	
             if (mComposing.length() > 0) {
-            	List<List<String>> allSplits=InputManager.getInstance().getAllPossibleSplit(mComposing.toString());
-            	candidates=InputManager.getInstance().getAllCandidatesForMultipleInput(allSplits);
+            	AsyncTask<Void, Void, Void> task=new AsyncTask<Void, Void, Void>()
+            	{
+
+            		@Override
+            		protected void onPreExecute()
+            		{
+            			if (lastTask!=null)
+            				lastTask.cancel(true);
+						lastTask=this;
+					}
+            		
+					@Override
+					protected Void doInBackground(Void... params) {
+						List<List<String>> allSplits=InputManager.getInstance().getAllPossibleSplit(mComposing.toString());
+		            	candidates=InputManager.getInstance().getAllCandidatesForMultipleInput(allSplits);
+						return null;
+					}
+					
+					@Override
+					protected void onPostExecute(Void result)
+					{
+						setSuggestions(candidates, true, true);
+						lastTask=null;
+					}
+            		
+            	};
+            	
+            	task.execute();
+            	
 //                ArrayList<Candidate> list = new ArrayList<Candidate>();
 //                List<String> splittedInput=InputManager.getInstance().split(mComposing.toString());
 //                candidates=InputManager.getInstance().getAllCandidates(splittedInput);
 //                list.addAll(candidates);
 //                list.add(mComposing.toString());
-                setSuggestions(candidates, true, true);
+                
             } else {
                 setSuggestions(null, false, false);
             }
@@ -663,7 +709,27 @@ public class SoftKeyboard extends InputMethodService
     
     private void handleBackspace() {
         final int length = mComposing.length();
-        if (length > 1) {
+        if (!selectedText.isEmpty())
+        {
+        	mComposing.insert(0,selectedText.get(selectedText.size()-1).pinyin);
+        	selectedText.remove(selectedText.size()-1);
+        	List<String> words=InputManager.getInstance().split(mComposing.toString());
+            String str="";
+            for (int i=0;i<words.size();i++)
+            {
+            	str+=words.get(i);
+            	if(i!=words.size()-1)
+            		str+="'";
+            }
+        	String selectedStr="";
+        	for (int i=0;i<selectedText.size();i++)
+        	{
+        		selectedStr+=selectedText.get(i).text;
+        	}
+        	getCurrentInputConnection().setComposingText(selectedStr+str, 1);
+            updateCandidates();
+        }
+        else if (length > 1) {
             mComposing.delete(length - 1, length);
             List<String> words=InputManager.getInstance().split(mComposing.toString());
             String str="";
@@ -673,7 +739,12 @@ public class SoftKeyboard extends InputMethodService
             	if(i!=words.size()-1)
             		str+="'";
             }
-            getCurrentInputConnection().setComposingText(selectedText+str, 1);
+            String selectedStr="";
+        	for (int i=0;i<selectedText.size();i++)
+        	{
+        		selectedStr+=selectedText.get(i).text;
+        	}
+            getCurrentInputConnection().setComposingText(selectedStr+str, 1);
             updateCandidates();
         } else if (length > 0) {
             mComposing.setLength(0);
@@ -723,7 +794,12 @@ public class SoftKeyboard extends InputMethodService
             	if(i!=words.size()-1)
             		str+="'";
             }
-            getCurrentInputConnection().setComposingText(selectedText+str, 1);
+            String selectedStr="";
+        	for (int i=0;i<selectedText.size();i++)
+        	{
+        		selectedStr+=selectedText.get(i).text;
+        	}
+            getCurrentInputConnection().setComposingText(selectedStr+str, 1);
             updateShiftKeyState(getCurrentInputEditorInfo());
             updateCandidates();
         } else {
