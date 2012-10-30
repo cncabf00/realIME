@@ -4,7 +4,13 @@ import java.io.FileDescriptor;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import android.util.Log;
 
 import edu.njucs.realime.lexicon.LexiconTree;
 
@@ -62,6 +68,60 @@ public class InputManager {
 
 		return result;
 	}
+    
+    public PinyinResult parse(int code)
+    {
+    	PinyinResult result=new PinyinResult();
+    	Word[] strs=InputManager.getInstance().getWord(code);
+		for (int i=0;i<strs.length;i++)
+			result.wordCandidates.add(strs[i]);
+
+		return result;
+    }
+    
+    public List<Candidate> getAllCandidatesForMultipleInput(List<List<String>> inputs)
+    {
+    	Set<Candidate> set=new HashSet<Candidate>();
+    	Map<String,Boolean> parseMap=new HashMap<String, Boolean>();
+    	List<String> originInput=inputs.get(0);
+    	Log.d("realime", "start parsing");
+    	for (int k=0;k<inputs.size();k++)
+    	{
+    		Log.d("realime", "input "+k);
+    		List<String> input=inputs.get(k);
+    		for (int i=input.size();i>0;i--)
+    		{
+    			String str="";
+    			for (int j=0;j<i;j++)
+    			{
+    				str+=input.get(j);
+    			}
+    			if (parseMap.containsKey(str))
+    				continue;
+    			else
+    			{
+    				parseMap.put(str, true);
+    			}
+
+    			PinyinResult result=this.parse(trans(input,0, i));
+    			for (int j=0;j<result.wordCandidates.size();j++)
+    			{
+    				List<String> restInput=new ArrayList<String>();
+    				restInput=originInput.subList(originInput.size()-result.restInput.size()-(input.size()-i), originInput.size());
+//    				restInput.addAll(result.restInput);
+//    				restInput.addAll(input.subList(i, input.size()));
+    				Candidate candidate=new Candidate(result.wordCandidates.get(j), restInput);
+    				set.add(candidate);
+    			}
+    		}
+    	}
+    	Log.d("realime", "sort");
+    	List<Candidate> list=new ArrayList<Candidate>(set);
+    	if (list.size()>1)
+    		Collections.sort(list,new CandidateComparatorByPriority());
+    	Log.d("realime", "complete");
+    	return list;
+    }
 	
 	public List<Candidate> getAllCandidates(List<String> input) {
 		List<Candidate> candidates=new ArrayList<Candidate>();
@@ -90,6 +150,29 @@ public class InputManager {
 			code=code*26+(str.charAt(j)-'a' + 1);
 		}
 		return code;
+	}
+	
+	public int trans(List<String> list,int start,int end)
+	{
+		int code=0;
+		for (int i=start;i<end;i++)
+		{
+			String str=list.get(i);
+			for (int j=0;j<str.length();j++)
+			{
+				code=code*26+(str.charAt(j)-'a' + 1);
+			}
+		}
+		return code;
+	}
+	public List<List<String>> getAllPossibleSplit(String input,int maxFill)
+	{
+		return lexicon.getAllPossibleSplit(input, maxFill);
+	}
+	
+	public List<List<String>> getAllPossibleSplit(String input)
+	{
+		return lexicon.getAllPossibleSplit(input);
 	}
 }
 

@@ -1,6 +1,9 @@
 package edu.njucs.model;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class HashTreeNode<T> implements java.io.Serializable{
@@ -67,6 +70,34 @@ public class HashTreeNode<T> implements java.io.Serializable{
 	public void setKey(Object key)
 	{
 		this.key=key;
+	}
+
+	public List<HashTreeNode<T>> getAllLeafs()
+	{
+		List<HashTreeNode<T>> leafs=new ArrayList<HashTreeNode<T>>();
+		Collection<HashTreeNode<T>> allChildren=children.values();
+		List<HashTreeNode<T>> array=new ArrayList<HashTreeNode<T>>(allChildren);
+		while (array.size()>0)
+		{
+			HashTreeNode<T> node=array.get(0);
+			if (!node.hasChild())
+			{
+				leafs.add(node);
+				array.remove(0);
+			}
+			else
+			{
+				array.addAll(node.children.values());
+				array.remove(0);
+			}
+		}
+		
+		return leafs;
+	}
+	
+	public Collection<HashTreeNode<T>> getAllChildren()
+	{
+		return children.values();
 	}
 	
 }

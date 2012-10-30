@@ -1,6 +1,7 @@
 package edu.njucs.realime.lexicon;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 import edu.njucs.model.HashTree;
@@ -8,6 +9,8 @@ import edu.njucs.model.HashTreeNode;
 
 public class LexiconTree {
 	HashTree<LexiconInfo> lexiconTree;
+	public static final int DEFAULT_MAX_FILL=2;
+	
 	
 	public void build(List<String> pinyins)
 	{
@@ -30,7 +33,7 @@ public class LexiconTree {
 		int length=keyPath.length();
 		for (;i<length;i++)
 		{
-			HashTreeNode<LexiconInfo> child=node.childWithKey(""+keyPath.charAt(i));
+			HashTreeNode<LexiconInfo> child=node.childWithKey(keyPath.charAt(i));
 			if (child==null)
 			{
 				break;
@@ -42,17 +45,18 @@ public class LexiconTree {
 		}
 		for (;i<length;i++)
 		{
-			HashTreeNode<LexiconInfo> child=node.childWithKey(""+keyPath.charAt(i));
+			HashTreeNode<LexiconInfo> child=node.childWithKey(keyPath.charAt(i));
 			if (child==null)
 			{
 				HashTreeNode<LexiconInfo> newNode = new HashTreeNode<LexiconInfo>();
-				newNode.setKey(""+keyPath.charAt(i));
+				newNode.setKey(keyPath.charAt(i));
 				newNode.setNodeInfo(new LexiconInfo(keyPath.charAt(i), node.getNodeInfo().charPath+keyPath.charAt(i)));
 				node=node.addChild(newNode);
 			}
 			else
 				node=child;
 		}
+		node.getNodeInfo().isFinal=true;
 	}
 	
 //	HashTreeNode<LexiconInfo> insertFromNode(HashTreeNode<LexiconInfo> node,String keyPath,int from)
@@ -109,11 +113,11 @@ public class LexiconTree {
 				node=lexiconTree.getRoot();
 				continue;
 			}
-			HashTreeNode<LexiconInfo> child=node.childWithKey(""+c);
+			HashTreeNode<LexiconInfo> child=node.childWithKey(c);
 			if (child==null)
 			{
 				results.add(node.getNodeInfo().charPath);
-				node=lexiconTree.getRoot().childWithKey(""+c);
+				node=lexiconTree.getRoot().childWithKey(c);
 			}
 			else
 			{
@@ -124,4 +128,75 @@ public class LexiconTree {
 		return results;
 	}
 	
+	public List<List<String>> getAllPossibleSplit(String input)
+	{
+		return getAllPossibleSplit(input, DEFAULT_MAX_FILL);
+	}
+	
+	public List<List<String>> getAllPossibleSplit(String input,int maxFill)
+	{
+		int fill=0;
+		List<List<String>> allSplits=new ArrayList<List<String>>();
+		List<String> originSplit=split(input);
+		allSplits.add(originSplit);
+		for (int i=1;i<originSplit.size() && fill<=maxFill;i++)
+		{
+			String str=originSplit.get(i);
+			HashTreeNode<LexiconInfo> n=lexiconTree.getRoot();
+			boolean isFinal=false;
+			for (int j=0;j<str.length();j++)
+			{
+				n=n.childWithKey(str.charAt(j));
+				if (n.getNodeInfo().isFinal)
+				{
+					isFinal=true;
+					break;
+				}
+			}
+			if (isFinal)
+				continue;
+			if (str.length()==1 || (str.length()==2 && str.charAt(1)=='h'))
+			{
+				//fill
+				fill++;
+				HashTreeNode<LexiconInfo> node=lexiconTree.getRoot();
+				for (int j=0;j<str.length();j++)
+				{
+					node=node.childWithKey(str.charAt(j));
+				}
+				List<HashTreeNode<LexiconInfo>> leafs=getAllFinal(node);
+				for (int j=0;j<leafs.size();j++)
+				{
+					List<String> list=new ArrayList<String>();
+					list.addAll(originSplit);
+					list.set(i, leafs.get(j).getNodeInfo().charPath);
+					allSplits.add(list);
+				}
+			}
+		}
+		
+		return allSplits;
+	}
+	
+	public List<HashTreeNode<LexiconInfo>> getAllFinal(HashTreeNode<LexiconInfo> n)
+	{
+		List<HashTreeNode<LexiconInfo>> leafs=new ArrayList<HashTreeNode<LexiconInfo>>();
+		Collection<HashTreeNode<LexiconInfo>> allChildren=n.getAllChildren();
+		List<HashTreeNode<LexiconInfo>> array=new ArrayList<HashTreeNode<LexiconInfo>>(allChildren);
+		while (array.size()>0)
+		{
+			HashTreeNode<LexiconInfo> node=array.get(0);
+			if (node.getNodeInfo().isFinal)
+			{
+				leafs.add(node);
+			}
+			if (node.hasChild())
+			{
+				array.addAll(node.getAllChildren());
+			}
+			array.remove(0);
+		}
+		
+		return leafs;
+	}
 }

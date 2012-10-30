@@ -17,6 +17,7 @@ extern "C"
 #define ERROR_CODE_CANNOT_OPEN_MYFILE 100
 #define ERROR_CODE_CANNOT_GET_DESCRIPTOR_FIELD 101
 #define ERROR_CODE_CANNOT_GET_FILE_DESCRIPTOR_CLASS 102
+#define MAX_SIZE 128
 
 TreeLanguageModel model;
 
@@ -135,10 +136,10 @@ jobjectArray Java_edu_njucs_realime_manager_InputManager_cGetWord(JNIEnv *env, j
 
 	long i=(long)id;
 	set<Word*>* s=&model.dict[i];
-	result = env->NewObjectArray(s->size(), env->FindClass("edu/njucs/realime/manager/Word"),NULL);
+	result = env->NewObjectArray(s->size()<MAX_SIZE?s->size():MAX_SIZE, env->FindClass("edu/njucs/realime/manager/Word"),NULL);
 	set<Word*>::iterator it;
 	int k=0;
-	for (it=s->begin();it!=s->end();it++)
+	for (it=s->begin();it!=s->end() && k<MAX_SIZE;it++)
 	{
 		jstring jstr= env->NewStringUTF((*it)->text.c_str());
 
@@ -157,6 +158,7 @@ jobjectArray Java_edu_njucs_realime_manager_InputManager_cGetWord(JNIEnv *env, j
 int parseLine(char* line)
 {
 	long code=0;
+	long code1=0;
 	int k=0;
 	int sep1 = 0;
 	int sep2 = 0;
@@ -179,14 +181,27 @@ int parseLine(char* line)
 	}
 	cur = 0;
 	int count = 0;
+	bool extra=true;
 	for (int i = 0; i < sep1; i++) {
 		if (line[i] != '\'') {
 			code = code * 26 + (line[i]-'a' + 1);
+			if (extra)
+			{
+				extra=false;
+				code1 = code1 * 26 + (line[i]-'a' + 1);
+				if (line[i+1]=='h')
+				{
+					code1 = code1 * 26 + (line[i+1]-'a' + 1);
+				}
+			}
 			cur = i + 1;
 		}
+		else
+			extra=true;
+
 	}
 	int priority=0;
-	for (int i=sep2+1;line[i]!='\0';i++)
+	for (int i=sep2+1;line[i]>'0' && line[i] < '9';i++)
 	{
 		priority=priority*10+(line[i]-'0');
 	}
@@ -194,6 +209,8 @@ int parseLine(char* line)
 	word->text=string(line, sep1 + 1, sep2 - sep1 - 1);
 	word->priority=priority;
 	(model.dict[code]).insert(word);
+	if (code1>26 || word->priority>1)
+		(model.dict[code1]).insert(word);
 	return k;
 }
 

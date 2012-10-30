@@ -3,6 +3,7 @@ package edu.njucs.realime.lexicon;
 public class LexiconInfo {
 	char character;
 	String charPath;
+	boolean isFinal=false;
 	
 	public LexiconInfo(char character, String charPath) {
 		super();

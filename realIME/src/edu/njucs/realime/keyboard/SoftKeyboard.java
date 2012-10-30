@@ -32,6 +32,7 @@ import android.view.View;
 import android.view.inputmethod.CompletionInfo;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
+import dalvik.system.AllocationLimitError;
 import dalvik.system.VMRuntime;
 import edu.njucs.realime.R;
 import edu.njucs.realime.lexicon.LexiconFileParser;
@@ -634,12 +635,14 @@ public class SoftKeyboard extends InputMethodService
     private void updateCandidates() {
 //        if (!mCompletionOn) {
             if (mComposing.length() > 0) {
-                ArrayList<Candidate> list = new ArrayList<Candidate>();
-                List<String> splittedInput=InputManager.getInstance().split(mComposing.toString());
-                candidates=InputManager.getInstance().getAllCandidates(splittedInput);
-                list.addAll(candidates);
+            	List<List<String>> allSplits=InputManager.getInstance().getAllPossibleSplit(mComposing.toString());
+            	candidates=InputManager.getInstance().getAllCandidatesForMultipleInput(allSplits);
+//                ArrayList<Candidate> list = new ArrayList<Candidate>();
+//                List<String> splittedInput=InputManager.getInstance().split(mComposing.toString());
+//                candidates=InputManager.getInstance().getAllCandidates(splittedInput);
+//                list.addAll(candidates);
 //                list.add(mComposing.toString());
-                setSuggestions(list, true, true);
+                setSuggestions(candidates, true, true);
             } else {
                 setSuggestions(null, false, false);
             }
@@ -670,11 +673,12 @@ public class SoftKeyboard extends InputMethodService
             	if(i!=words.size()-1)
             		str+="'";
             }
-            getCurrentInputConnection().setComposingText(str, 1);
+            getCurrentInputConnection().setComposingText(selectedText+str, 1);
             updateCandidates();
         } else if (length > 0) {
             mComposing.setLength(0);
-            getCurrentInputConnection().commitText("", 0);
+            commitTyped(getCurrentInputConnection());
+//            getCurrentInputConnection().commitText("", 0);
             updateCandidates();
         } else {
             keyDownUp(KeyEvent.KEYCODE_DEL);
@@ -719,7 +723,7 @@ public class SoftKeyboard extends InputMethodService
             	if(i!=words.size()-1)
             		str+="'";
             }
-            getCurrentInputConnection().setComposingText(str, 1);
+            getCurrentInputConnection().setComposingText(selectedText+str, 1);
             updateShiftKeyState(getCurrentInputEditorInfo());
             updateCandidates();
         } else {

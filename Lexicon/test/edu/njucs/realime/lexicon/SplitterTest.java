@@ -47,6 +47,16 @@ public class SplitterTest {
 			assertEquals("xi", results.get(0));
 			assertEquals("an", results.get(1));
 			
+			List<List<String>> allSplits=lexiconTree.getAllPossibleSplit("wozhe", 2);
+			for (int i=0;i<allSplits.size();i++)
+			{
+				for (int j=0;j<allSplits.get(i).size();j++)
+				{
+					System.out.print(allSplits.get(i).get(j)+"'");
+				}
+				System.out.println();
+			}
+			
 		}
 		catch (FileNotFoundException e1) {
 			// TODO Auto-generated catch block
