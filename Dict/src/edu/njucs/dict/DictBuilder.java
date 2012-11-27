@@ -43,6 +43,7 @@ public class DictBuilder {
 			words.addAll(reader.readRawDict("placename1.txt"));
 			words.addAll(reader.readRawDict("2.txt"));
 			words.addAll(reader.readRawDict("eco.txt"));
+			words.addAll(reader.readRawDict("log_fix.txt"));
 			for (Word word:words)
 			{
 				if (pinyinMap.containsKey(word.name))
@@ -188,6 +189,7 @@ public class DictBuilder {
 			logWriter.append(pinyin+" ");
 			logWriter.append(text);
 			logWriter.append("\n");
+			throw new Exception("word "+ text+"'s pinyin has multiple inferences");
 		}
 		return pinyin;
 	}

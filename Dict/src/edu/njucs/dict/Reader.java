@@ -18,12 +18,20 @@ public class Reader {
 		try {
 			String line = br.readLine();
 			while (line != null) {
-				String[] strs = line.split(" ");
-				Word word = new Word();
-				word.pinyin = strs[0];
-				word.name = strs[1];
-				words.add(word);
+				try
+				{
+					String[] strs = line.split(" ");
+					Word word = new Word();
+					word.pinyin = strs[0];
+					word.name = strs[1];
+					words.add(word);
+				}
+				catch (ArrayIndexOutOfBoundsException e)
+				{
+					System.out.println(line);
+				}
 				line = br.readLine();
+				
 			}
 		} catch (IOException e) {
 			e.printStackTrace();

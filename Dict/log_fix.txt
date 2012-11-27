@@ -1858,7 +1858,7 @@ ke'xue'xi 科学系
 shi'mo 石墨
 yan'du 盐度
 sheng'rong 盛戎
-hu'shui'xi湖水系
+hu'shui'xi 湖水系
 nan'xi 南淅
 nan'pai 南派
 huang'qi'cui 黄奇萃
@@ -2003,3 +2003,15 @@ ye'yi'tian 叶以田
 wan'chong'shan 万重山
 zha'ye'ni 扎耶尼
 xie'wei'xian 谢维铣
+mao'yi'qu 贸易区
+ze'ren'ren'yuan 责任人员
+sa'er'ci'bao 萨尔茨堡
+pai'xi 排戏
+qiang'zhong 抢种
+bi'geng'bu'chuo 笔耕不辍
+pei'yong'jun 裴永俊
+zi'xun'tai 咨询台
+liang'du 量度
+du'du 读读
+liu'po 柳陂
+mu'wei 穆圩
