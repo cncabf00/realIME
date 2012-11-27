@@ -1,19 +1,11 @@
-like[jiang, qiang] 李克强
 [zhang, chang][xiao] 长效
-[gu, jia][qing][lin] 贾庆林
 [xing, sheng][ou, qu, gou] 省区
 zheng[de, di] 征地
-[ka, qia][za, zha][fei] 卡扎菲
-heguo[jiang, qiang] 贺国强
 shi[de, di] 湿地
-[da, dai][peng] 大棚
-[hang, ben][shi] 夯实
 penghu[ou, qu, gou] 棚户区
 jing[ge, he] 经合
 [hu, he][dian] 核电
 [ou, qu, gou][wei] 区委
-jiao[hui, kuai] 交会
-li[na, nuo] 李娜
 [zhong, chong][liang] 种粮
 [fu, bi][ken] 复垦
 du[zha, cha] 督查
@@ -25,59 +17,35 @@ zu'zhi'bu[zhang, chang] 组织部长
 qu'nian[de, di] 去年底
 [ou, qu, gou][wei] 区位
 kai[heng, xing, hang] 开行
-[de, di][li][bo, bei][li] 的黎波里
 [xing, sheng][zhi] 省直
 gong'xian[shuai, lv, lue] 贡献率
-lin[de, di] 林地
 zhu'chan[ou, qu, gou] 主产区
-[de, di][wei] 地委
 [che, ju][zu] 车组
 xuan'chuan'bu[zhang, chang] 宣传部长
 [dun, bu][jie] 不竭
 mao'yi[ou, qu, gou] 贸易区
 [she, die][nong] 涉农
 liang[jie, jia] 粮价
-[de, di][yuan] 地缘
-guan[ou, qu, gou] 灌区
 [zeng, zong][zhi] 综治
 [mo, wu][xu] 无需
 yuan[cang, zang] 援藏
 [zhong, chong][gong] 重工
 [zeng, zong][zhi][wei] 综治委
-[de, di][ji] 地级
 ge[ou, qu, gou] 各区
-li[da, dai][zhao] 李大钊
-da'dou[fu, shi] 大都市
 chu'li[an, chang] 处理厂
-cai[zhang, chang] 财长
-[de, di][yue, kuai] 地块
-[de, di][gou] 地沟
 [cang, zang][pin] 藏品
-kan[zha, cha] 勘查
 zhai'ji[de, di] 宅基地
 [xing, sheng][li] 省里
 yu[zhong, chong] 育种
-yue'hanneisi[pu, bu, bao] 约翰内斯堡
-[chan, dan, shan][chan] 单产
-chang[shou, shu] 常熟
-[za, zha][xi] 扎西
 [tai, si][zhang] 台账
-[cen, san, can, shen][hui, kuai] 参会
 [yao, lue][jie, jia] 药价
-yinjian[hui, kuai] 银监会
 zuo[luo, la, lao] 坐落
 zi[xing, sheng] 自省
 zuo'zhe[xi, ji] 作者系
 [fu, shi][zhi] 市直
-bai[shai, se] 百色
 [yi, si][zhi] 以至
 [mo, wu][gong'hai] 无公害
-min[yue, le] 民乐
-hu[yun, jun] 户均
-xia[heng, xing, hang] 下行
 [jin, jing][er] 劲儿
-[jie, xie][nan] 解难
-[ke, ka][shen, shi] 喀什
 [ou, qu, gou][zhang, chang] 区长
 [zhong, chong][zheng] 重症
 ze'ren'ren[yuan, yun] 责任人员
@@ -86,32 +54,15 @@ han[ou, qu, gou] 旱区
 [hui, kuai][zhi] 会址
 ji'zhong[du, duo] 集中度
 qi[chen, cheng] 脐橙
-wang[yue, le][quan] 王乐泉
 [yi, si][qi, ji] 以期
-guo[bo, bai][xiong] 郭伯雄
 [chu, xu][qin] 畜禽
 shu[zhong, chong] 树种
-ju[zhong, chong] 剧种
-[e, a][si][da, ta][na] 阿斯塔纳
-[da, dai][bu] 大部
 [jie, xie][min][you] 解民忧
 yi[yi, si][guan][zhi] 一以贯之
-[wan, mo][gang] 万钢
-[ka, qia][mei][lun] 卡梅伦
-[jiang, qiang][jun] 强军
-zhan[hong, gong][li] 詹红荔
-jing'ji[quan, juan] 经济圈
-[da, dai][gang] 大港
-gan[nan, na] 赣南
-mo[de, dei][zhao, zhuo, zhe] 摸得着
-[fu, shi][zhi] 市值
 [lu, liu][shang] 陆上
-tai[heng, xing, hang] 太行
 shui[jie, jia] 水价
 zhong'xiao'xue[jiao, xiao] 中小学校
-su[nan, na] 苏南
 yi[shuo, shu] 一数
-[lu, liu][qi] 六七
 [zhong, chong][te'da] 重特大
 xin'xi[yuan, yun] 信息员
 [zhong, chong][shu] 种树
@@ -121,486 +72,250 @@ ta[jie, jia] 她家
 jie[zhong, chong] 接种
 [dan, shi][mo][hua] 石漠化
 yi'cun[du, duo] 依存度
-yang[cheng, deng][hu] 阳澄湖
 man'yi[shuai, lv, lue] 满意率
-ma[le, lei] 马勒
-[nan, na][sha] 南沙
-tieliwaer[de, di] 铁力瓦尔地
-ken[ou, qu, gou] 垦区
 ju'zhu[de, di] 居住地
-[da, dai][ya][wan] 大亚湾
 [zhong, chong][yang] 种养
 xiang'mu[ou, qu, gou] 项目区
+guo'yi[hui, kuai] 国议会
 de[yue, yao][ke][wei][qi, ji] 德约科维奇
 [qiao, ke][pai] 壳牌
 ji[jie, jia] 计价
-[e, a][ba][si] 阿巴斯
-wa[da, ta][la] 瓦塔拉
 [fu, shi][zhen] 市镇
-[fu, pou][ling] 涪陵
 lianwei[hui, kuai] 联委会
-[da, dai][ou, qu, gou] 大区
-[da, dai][tong'dao] 大通道
 shen[wei, yi] 申遗
 [qi, ji][xu] 亟需
 sai[hui, kuai] 赛会
 sui[heng, xing, hang] 遂行
-[tai, si][lian] 台联
-[de, di][fu, shi] 地市
 [xiang, jiang][hao] 降耗
 [xiang, jiang][xue] 降雪
 [qi, ji][xu] 亟须
 mu[huan, hai][cao] 牧还草
 [shuo, shu][yi] 数亿
-[wan, mo][yi] 万亿
-huangmeng[fu, bi] 黄孟复
-[fu, bi][du, dou] 复读
 ying[ou, qu, gou] 营区
 tong[tai, si] 同台
-huang[pou, pei][zhao] 黄培昭
-[su, xiu][qian] 宿迁
-jian[jiao, xiao] 建校
 wu'yun[qi, ji] 乌云其
 ju'ju[ou, qu, gou] 聚居区
-[ka, qia][en] 卡恩
 gai[ou, qu, gou] 该区
-yuan[pou, pei] 元培
 ling'dao'ren[yuan, yun] 领导人员
-[dong, tong][zu] 侗族
-[fei, pei][yan][ling] 裴艳玲
 gai[xing, sheng] 该省
-[cang, zang][zhuan, chuan] 藏传
-[cen, san, can, shen][ping] 参评
 [ou, qu, gou][ji] 区级
 [zhong, chong][gou] 重构
-[da, dai][qi] 大旗
-na[za, zha][er][ba][ye][fu] 纳扎尔巴耶夫
-[ding, zheng][ning] 丁宁
+na[za, zha][er][ba'ye][fu] 纳扎尔巴耶夫
 quanwei[hui, kuai] 全委会
 ka'er[za, zha][yi] 卡尔扎伊
 ken'tan[hui, kuai] 恳谈会
 luofu[huo, hu, he] 罗富和
-pang[ji, ge][ping] 庞革平
 [ding, zheng][wan] 丁湾
 guo[ge, he] 国合
-[lu, liu][qi'shi] 六七十
-[po, fan][yu] 繁育
-[zhang, chang][zhi] 长治
 nei[da, ta][ni][ya][hu] 内塔尼亚胡
-[de, di][qi] 地气
 chu'li[shuai, lv, lue] 处理率
-hai[ge, he][hui, kuai] 海合会
-dafen[qi, ji] 达芬奇
 yu[jiao, jue][min] 俞觉敏
 liu'ru[de, di] 流入地
-[da, dai][qiu] 大邱
-[xing, sheng][dao] 省道
 [tai, si][ban] 台办
 [xing, sheng][qing] 省情
-bao'an[yuan, yun] 保安员
-gong[ou, qu, gou] 工区
-gaohong[bo, bei] 高洪波
 [dan, shi][li][ying] 石利颖
-[nei, na, ne][qu] 那曲
 cheng'bao[de, di] 承包地
-[nan, na][zhuang] 南庄
 yue[du, duo] 月度
-chang[du, dou] 昌都
 [di, zhi][kou] 抵扣
-yanggen[sai, si] 杨根思
 [jiang, qiang][xian] 强县
-[ding, zheng][jun][hui] 丁俊晖
-[wan, mo][xiang] 万象
-sun[jie, jia][zheng] 孙家正
-diao[na, nuo] 刁娜
 ji'huadan'lie[fu, shi] 计划单列市
-[guang, an][yuan] 广元
 xingshi[jie, xie][jiao] 刑释解教
-[che, ju][cheng] 车程
-jiao[da, dai] 交大
-[ye, xie][zhi][ping] 叶志平
-zhang'guo[dao, tao] 张国焘
 [jiao, xiao][ji] 校际
 zhuan'hua[shuai, lv, lue] 转化率
-[nan, na][dan] 南丹
 chu[e, wu] 除恶
-wenbo[hui, kuai] 文博会
-[wan, mo][xiang] 万向
+wen'bo[hui, kuai] 文博会
 wendai[hui, kuai] 文代会
-jingan[ou, qu, gou] 静安区
-[qi, ji][lu] 齐鲁
 [shui, shei][zhi] 谁知
 gai[zhong, chong] 改种
-[de, di][re] 地热
-[lu, liu][shi] 六十
 lun'zheng[hui, kuai] 论证会
 [cang, zang][yu] 藏语
 ge[pa, pai] 各派
 [an, chang][wu] 厂务
+biao'yan'yi'shu[jie, jia] 表演艺术家
 di'si'shi[lu, liu] 第四十六
 jing[zhong, chong] 警种
 [nei, na, ne, nai][jie, jia] 哪家
 shu'qian[wan, mo] 数千万
 xiao'zu[zhang, chang] 小组长
-[hong, gong][an] 红安
-[da, dai][di] 大堤
 shui[jiao, zao] 水窖
 [lu, liu][wu] 六五
 guan'lian[du, duo] 关联度
 [zhong, chong][cao] 种草
-feide[le, lei] 费德勒
 tong'huo'peng'zhang[shuai, lv, lue] 通货膨胀率
-[gu, jia][li][le, lei] 贾利勒
-hei'tu[de, di] 黑土地
+jia'li[le, lei] 贾利勒
 [qian, yan][suan] 铅酸
-wudeng[cheng, sheng] 吴登盛
 [jiao, xiao][fang] 校方
 lian'xi[ka, qia] 联系卡
-lizhao[chao, zhuo] 李兆焯
 [tai, si][meng, ming] 台盟
-ai[ding, zheng][pu, bu, bao] 爱丁堡
-[zha, cha][wei][si] 查韦斯
+[zha, cha][wei'si] 查韦斯
 [zeng, zong][zhi][ban] 综治办
 [shuo, shu][ji] 数几
 [mo, wu][he'wu'qi] 无核武器
-wu[jie, jia] 武家
 zuodai[hui, kuai] 作代会
-zhou[guang, an][zhi] 周广智
 bo[hui, kuai] 博会
-[e, a][ba] 阿坝
 jin[sui, shuai] 晋绥
-[cen, san, can, shen][fang] 参访
-ha[ka, qia][ni] 哈卡尼
-[chan, dan, shan][ti] 单体
 [bo, bai][nan, na][ke] 伯南克
 [fu, shi][zhu, shu] 市属
 yuan[de, di] 源地
 ti[du, duo] 梯度
 ling'jiang[tai, si] 领奖台
-ju[dan, shi] 巨石
 [de, di][mo] 地膜
 misula[da, ta] 米苏拉塔
-bi[jie, jia] 比价
 [cen, san, can, shen][yuan] 参院
 ze'ren[ou, qu, gou] 责任区
-ren[zhang, chang][xia] 任长霞
-chang[wan, mo][quan] 常万全
-bi[de, dei] 彼得
-[zhang, chang][xing] 长兴
-lin[jiao, jue][min] 林觉民
 [zhong, chong][miao] 种苗
-[de, di][shi'ji] 地市级
-[zhuan, chuan][xi] 传习
-[dun, bu][shuai, cui] 不衰
 zhi'dui[zhang, chang] 支队长
 cao[chu, xu] 草畜
-wang[jie, jia][rui] 王家瑞
 songji[hui, kuai] 宋基会
 ya[heng, xing, hang] 亚行
 panei[da, ta] 帕内塔
 [ji, gei][shui] 给水
 [du, dou][chu] 读出
 tang[ka, qia] 唐卡
-[ye, xie][ting] 叶挺
-liu'zhi[jiang, qiang] 刘志强
-zheng[wan, mo][tong] 郑万通
-[da, dai][zhong'zhuan] 大中专
-[xiang, jiang][jie, xie] 降解
-[fu, bi][zhen] 复诊
-duoguan[qi, ji][xia] 多管齐下
+duo'guan[qi, ji][xia] 多管齐下
 [dun, bu][du] 不独
-xiang[nan, na] 湘南
-wu[guang, an][gao] 武广高
-[tai, si][qian] 台前
-[da, dai][fu, shi] 大市
-[lu, liu][hai] 陆海
-[chao, zhao][ri] 朝日
 chan'chu[shuai, lv, lue] 产出率
 ming'sheng[ou, qu, gou] 名胜区
-zhong[du, duo] 中度
-er[pao, bao] 二炮
 [de, di][biao] 地标
 nong[ou, qu, gou] 农区
-[tang, shang][xian][zu] 汤显祖
-bai'xing[jie, jia] 百姓家
 [zhong, chong][hua'gong] 重化工
 [da, dai][zhan] 大展
-[da, dai][hu] 大湖
 qiong[qin, qing] 穷亲
-yujiaoyu[yue, le] 寓教于乐
 [gu, jia][kang] 贾康
 yanukewei[qi, ji] 亚努科维奇
 jiao[de, di] 浇地
 zhi'dao[jie, jia] 指导价
-xibo[hui, kuai] 西博会
+xi'bo[hui, kuai] 西博会
 ru[meng, ming] 入盟
-[gai, ge][te][na] 盖特纳
-yuan[zhun, chun][qing] 袁纯清
 yi[zhuan, chuan] 一传
 [yi, si][fang] 以方
-[hong, jiang][qiao] 虹桥
 nei'zheng'bu[zhang, chang] 内政部长
 du'shu[hui, kuai] 读书会
 nong'yong[de, di] 农用地
-shang'cheng[ou, qu, gou] 上城区
 yun'shu[che, ju] 运输车
-[e, a][er] 阿尔
-ben[yong, chong] 奔涌
 guan[yuan, yun] 馆员
 [mo, wu][hui] 无悔
-[cheng, sheng][lai][yun] 盛来运
 [lu, liu][ya][nan] 陆娅楠
-[e, a][shen, shi][dun, du] 阿什顿
-huang[qi, ji][fan] 黄奇帆
 [mai, mi][biao] 咪表
-[bo, bao][xi][lai] 薄熙来
-[guang, an][kai] 广开
 xiongbing[qi, ji] 熊丙奇
 [tiao, diao][jian] 调减
 kou[jiao, zhuo] 扣缴
-[zhang, chang][feng'xian] 长丰县
 zi[yue, le] 自乐
 [nan, na][si][hu] 南四湖
-zhou[jiang, qiang] 周强
 kubu[qi, ji] 库布其
-heng[nan, na][xian] 衡南县
-houji[bo, bao][fa] 厚积薄发
 shang'sheng[qi, ji] 上升期
 kuang[zhang, chang] 矿长
 [shuo, shu][yi] 数一
 xia[pa, pai] 下派
-gen[xi, ji] 根系
-[lu, liu][an] 六安
-bing[yuan, yun] 兵员
 yi[da, dai] 医大
 hu'lian'wang[luo, lao] 互联网络
-xu[qi, ji][liang] 许其亮
 sha[dan, shi] 砂石
-[lu, liu][jie, jia][zui] 陆家嘴
 chuan[cang, zang][xian] 川藏线
-[hui, kuai][qi, ji] 会期
-wang[da, dai][zhi] 王大芝
 hui[ruo, re][qi] 惠若琪
 fa[da, ta][he] 法塔赫
-yin[yu, wei][min] 尹蔚民
 [huo, hu, he][wei][bo] 和微博
-xu[jiang, qiang] 徐强
 shan[nan, na] 陕南
-[da, dai][ban] 大阪
-wang[da, dai][heng, hang] 王大珩
-zhang[sai, si][de] 张思德
-[bo, bei][guang] 波光
-[ka, qia][ma][qiao] 卡马乔
-lu[nan, na] 鲁南
 jinchang[bo, bai] 金昶伯
-[ding, zheng][da, dai][wei] 丁大伟
 zhen[ou, qu, gou] 震区
-wanglin[na, nuo] 王琳娜
-huwen[zhuan, chuan] 胡文传
 yalisang[nei, na, ne] 亚利桑那
 jie[de, di] 节地
-ma[chao, zhao][xu] 马朝旭
-[wan, mo][yuan] 万源
 bao'bao[de, di] 薄薄的
 diao'yan[yuan, yun] 调研员
-[cang, zang][shi] 藏式
 [cen, san, can, shen][jian] 参建
-li[ci, cha, chai] 利差
 hao[wan, mo][zhong] 郝万忠
-[fu, bi][jian] 复建
 [ao, you][hui, kuai] 奥会
-[da, dai][tong] 大通
 [bo, bai][wei] 柏威
-qianyun[hui, kuai] 钱云会
-dongmai[ou, qu, gou] 冬麦区
+qian'yun[hui, kuai] 钱云会
+dong'mai[ou, qu, gou] 冬麦区
 zhaoshi[zhu, shu] 赵世术
-[lan, la][mei] 蓝莓
-[cang, zang][xiang] 藏香
 [chou, qiu][duo][fu] 仇多馥
-zhou[jie, jia][gui] 周家贵
 chu'xu[shuai, lv, lue] 储蓄率
 [jiang, qiang][ji] 强基
-liu[bo, bai][cheng] 刘伯承
-[zha, cha][fang] 查房
-[jiang, qiang][yin] 强音
 zheng[jiao, zhuo] 征缴
-[ceng, zeng][yin][quan] 曾荫权
 zi[chao, zhao] 自嘲
-[lan, la][yun] 蓝云
 [dun, bu][chan, dan, shan] 不单
 hui'shou[shuai, lv, lue] 回收率
-bao'hu[jie, jia] 保护价
 [yuan, yun][e] 员额
-[wan, mo][da] 万达
-hawa[nei, na, ne] 哈瓦那
-liu[qi, ji][bao] 刘奇葆
 shan[dan, shi] 山石
-xin'cheng[ou, qu, gou] 新城区
 ji[zhang, chang][qiu] 纪长秋
-[hong, gong][liu] 红柳
 chang[zhang, chang] 场长
-long[nan, na] 陇南
 tao[shuo, shu] 套数
 cuo[luo, la, lao] 错落
 yuan[zhang, chang] 园长
-[lu, liu][hang] 陆航
-ba[se, sai][er] 巴塞尔
 xian[zhong, chong] 险种
 li[fu, shi] 立市
 fei[di, zhi] 飞抵
-[dan, shi][men] 石门
-huang[bei, po, pi][ou, qu, gou] 黄陂区
-deng[tuo, ta] 邓拓
-[jie, xie][zhen][hua] 解振华
-guo[guang, an][chang] 郭广昌
-hua[du, dou] 花都
-[yue, le][ye] 乐业
-[lu, liu][gui][shan] 陆贵山
+[lu, liu][gui'shan] 陆贵山
 shi[heng, xing, hang] 世行
-bao[jie, jia] 保价
 ju'ban[de, di] 举办地
 [ke, ka][tu][mu] 喀土穆
-[zhuan, chuan][song] 传颂
 jian'mian[hui, kuai] 见面会
-[de, di][kong][dao'dan] 地空导弹
 fa'sheng[de, di] 发生地
-[e, a][bo, bu][ye][yi] 阿卜耶伊
 [lu, liu][yu] 陆域
 lao'fu[qin, qing] 老父亲
-pingqiao[ou, qu, gou] 平桥区
-chao[che, ju] 超车
-[yao, tao][heng, xing, hang][zhi] 陶行知
-tai[le, lei] 泰勒
-[bo, bei][en] 波恩
 zhi[jiao, xiao] 治校
-[chan, dan, shan][ji][xiang] 单霁翔
-pei[dun, du] 佩顿
 shuijiao[de, di] 水浇地
-wang[jiang, qiang] 王强
 li[tuo, ta] 力拓
-cai[dan, shi] 采石
 [jiao, zhuo][cun] 缴存
 [lv, lu][dang] 绿党
-[da, dai][tian] 大田
 tao[zhong, chong] 套种
-[ceng, zeng][zhi] 曾志
-[e, a][ni][pa] 阿尼帕
 ju'ju[de, di] 聚居地
 [ye, xie][ru][ling] 叶如陵
 yuancheng[jie, jia] 袁诚家
 [ding, zheng][lai][fu] 丁来富
-[che, ju][heng, xing, hang] 车行
-si[da, ta][ji][yi][na, nuo] 斯塔季伊娜
-jianghan[ou, qu, gou] 江汉区
-[di, zhai][zhen][wu] 翟振武
 zhi[ji, ge] 制革
-[ceng, zeng][pou, pei][yan] 曾培炎
-[wan, mo][fu][xiang] 万阜乡
-[nan, na][ou, qu, gou] 南区
 [lu, liu][xun] 六旬
 [zhong, chong][zai] 重载
 suo[nan, na] 索南
-luo[jie, jia][hui] 骆家辉
-zheng[pou, pei][min] 郑培民
 qi'xi[de, di] 栖息地
 [che, ju][gai] 车改
-youxiaodao[da, dai] 由小到大
-he'tian[fu, shi] 和田市
 [fei, pei][chun][liang] 裴春亮
 ji'nian[de, di] 纪念地
 quan[huo, hu, he] 劝和
 jing'bei[ou, qu, gou] 警备区
-[de, dei][ke][sa][si][zhou] 得克萨斯州
 [ji, gei][yi, si] 给以
-[lv, lu][cheng] 绿城
-[du, duo][xia] 度夏
-[da, dai][gong] 大公
-[zhang, chang][yang] 长阳
-wuhou[ou, qu, gou] 武侯区
 [ou, qu, gou][dang'wei] 区党委
-li[zhang, chang][you] 李长有
 wen'mang[shuai, lv, lue] 文盲率
-luo[se, sai][fu] 罗塞夫
 [xi, qi][jing] 蹊径
-[da, dai][zha'lan] 大栅栏
-[se, sai][she][er] 塞舌尔
 he'tan[de, di] 河滩地
-[hu, gu][hu, gu] 汩汩
 liucui[hong, gong] 刘粹红
-wang[jie, jia][jiang, qiang] 王家强
 [ceng, zeng][shou][ying] 曾寿瀛
-heng[nan, na] 衡南
 [qi, ji][si] 其四
-[hui, hun][chun] 珲春
 quan[heng, xing, hang] 全行
 zhi[jiao, xiao] 职校
 [hong, gong][ge] 红歌
 shan[nan, na] 山南
-[da, dai][zhai] 大寨
 [da, dai][wang] 大网
-[sha, suo][la][bo, bei][wa] 莎拉波娃
+[sha, suo][la'bo][wa] 莎拉波娃
 [jiao, jue][li] 角力
-cheng'guan[ou, qu, gou] 城关区
-zhang[guang, an][xiu] 张广秀
-cai[yao, tao] 彩陶
-[e, a][bi][rang] 阿比让
-[ka, qia][li][mo][fu] 卡里莫夫
-dong[ou, qu, gou] 东区
-xuhui[ou, qu, gou] 徐汇区
-changde[cheng, sheng] 常德盛
+chang'de[cheng, sheng] 常德盛
 jue'bu[hui, kuai] 决不会
 [dan, shi][cai] 石材
-po[de, di] 坡地
-[lv, lu][cheng][dui] 绿城队
-[yu, gu][chao][hao] 谷超豪
 fen'shao[an, chang] 焚烧厂
 ban[jiao, xiao] 办校
-wu[di, dai][mei] 吴棣梅
-dongxing[fu, shi] 东兴市
-[nan, na][dan][xian] 南丹县
 mian[jie, jia] 棉价
 bu[jiao, zhuo] 补缴
 zeng'chang[qi, ji] 增长期
-[de, dei][bing] 得病
 ju'ji[de, di] 聚集地
 yi'jia[jie, jia] 一家家
 pin'kun[shuai, lv, lue] 贫困率
-feng[tai, si] 丰台
-[jie, jia][ci, cha, chai] 价差
-xiao[qian, gan] 萧乾
 you[cang, zang] 油藏
 shu[xi, ji] 书系
 mei[qi, ji] 每期
 [tai, si][ci] 台次
 sun[guang, an][yong] 孙广勇
-[nan, na][an][ou, qu, gou] 南岸区
-[wan, mo][long] 万隆
-[nan, na][ping] 南平
 luoke[cheng, sheng] 骆科盛
 [sui, niao][suan] 尿酸
 nong'ji[yuan, yun] 农技员
-luo[ai, yi][hua] 罗艾桦
-buyinuosi[ai, yi][li][si] 布宜诺斯艾利斯
-[hong, gong][tu] 红土
-[cheng, sheng][guang][zu] 盛光祖
-feiguo[da, dai] 非国大
 fang[qin, shen, sen] 防渗
-tang[an, chang] 糖厂
 liang'san[wan, mo] 两三万
 [dun, du][zhu] 顿珠
-[hong, gong][tu'di] 红土地
-zhang[chao, zhao][feng] 张朝锋
 lv'you[quan, juan] 旅游圈
 na[ka, qia] 拿卡
-[e, a][ji][nuo] 阿基诺
-zhao[zhi, shi, jing] 赵氏
 wangxi[guang, an] 汪锡广
 [guang, an][tie] 广铁
-[ke, ka][shen, shi][fu, shi] 喀什市
-pu'tuo[ou, qu, gou] 普陀区
 zhuanwei[hui, kuai] 专委会
 shu[jie, jia] 书价
-[hui, kuai][er] 会儿
 [cheng, sheng][zhao, zhuo, zhe] 乘着
 rong[hui, kuai] 融会
 [zhong, chong][yang][ye] 种养业
@@ -609,761 +324,375 @@ rong[hui, kuai] 融会
 yong[xue, xie] 用血
 guan[yuan, yun] 关员
 jiao'yi[yuan, yun] 交易员
-hua[jiang, qiang] 华强
 fen[zhu, shu] 分属
-guohai[bo, bei] 郭海波
 zhang[bo, bai][li] 张伯礼
-[ao, you][pu][la] 奥普拉
-ba[za, zha] 巴扎
+[ao, you][pu'la] 奥普拉
 [da, ta][diao] 塔吊
-[da, ta][shan] 塔山
-lou[de, di] 娄底
-huan'bing[shuai, lv, lue] 患病率
-guo[hu, he] 果核
 xie'tiao[yuan, yun] 协调员
 [mo, wu][wu'ran] 无污染
 zheng[de, di] 整地
-luobu[bo, po] 罗布泊
-han[zhang, chang][fu] 韩长赋
 ban'zu[zhang, chang] 班组长
 zong'dui[zhang, chang] 总队长
 [yi, si][jun] 以军
-jun[luo, la, lao] 菌落
 [zhuan, chuan][hui] 传回
-zhang[da, dai][wei] 张大伟
-shaping'ba[ou, qu, gou] 沙坪坝区
-yi'nian[qi, ji] 一年期
-he[bo, bai][te] 贺伯特
-[ge, he][bian] 合编
-ligong[yue, le] 李公乐
+li'gong[yue, le] 李公乐
 chang[ou, qu, gou] 场区
-cai[huo, hu, he][sen] 蔡和森
-wang[ceng, zeng][qi] 汪曾祺
-[dan, shi][bao][sen] 石宝森
-[ye, xie][jiang][chuan] 叶江川
 guang[yu, gu] 光谷
-xi'lin'guo'le[meng, ming] 锡林郭勒盟
-[ao, you][si][lu, liu] 奥斯陆
+du'li'guo[jie, jia] 独立国家
 lani[na, nuo] 拉尼娜
-chen[cheng, sheng, jing] 陈晟
-huang'tu[de, di] 黄土地
-[ge, he][yang][xian] 合阳县
-[wan, mo][lian][yun] 万连云
+[wan, mo][lian'yun] 万连云
 [shuo, shu][di'er] 数第二
-saerci[pu, bu, bao] 萨尔茨堡
+sa'erci[pu, bu, bao] 萨尔茨堡
 lin[huan, hai][cao] 林还草
 yi[bo, bu][la][xin] 易卜拉欣
 yu'bao[yuan, yun] 预报员
-zhaoshi[jiang, qiang] 赵世强
 yao[chui, zhui] 腰椎
-han[jie, jia][zhou] 韩家洲
 luo[bo, bai][si] 罗伯斯
-qiao[dan, shi] 乔石
-[hong, gong][he][zhou] 红河州
-[ding, zheng][zhi][jie] 丁志杰
-[gu, jia][bu][li][le, lei] 贾布里勒
+jia'buli[le, lei] 贾布里勒
 shi'fei[yuan, yun] 试飞员
-liang[sai, si][cheng] 梁思成
-[de, di][tan] 地坛
 pin[du, dou] 品读
 daimu[le, lei] 戴姆勒
-ma[xing, sheng] 麻省
 zhu[zhuan, chuan][bo, bei] 朱传波
 ju[de, di] 局地
-[da, dai][ma][ha][yu] 大马哈鱼
 [da, ta][ma] 塔玛
-[da, dai][yuan, yun] 大员
-han[chao, zhao] 韩朝
-bao[di, chi] 宝坻
-shi[jie, jia][min] 史家民
-liu[cheng, sheng][jia] 刘盛佳
 [se, sai][han][ba] 塞罕坝
-jiang'bei[ou, qu, gou] 江北区
-xiusi[dun, dui] 休斯敦
-bao[le, lei][de] 包勒德
-[ding, zheng][xin][min] 丁新民
+[ding, zheng][xin'min] 丁新民
 zhi'yu[shuai, lv, lue] 治愈率
-deng[piao, pu, po][fang] 邓朴方
-[ding, zheng][ling] 丁玲
-luan[dan, shi] 乱石
 dang'tuan[yuan, yun] 党团员
 [fei, pei][zhai] 裴寨
-[jiao, xiao][xun] 校训
 [shuo, shu][yi, si][yi][ji] 数以亿计
-liu[zhi, shi][qing] 刘峙清
 [qi, ji][yi] 其意
-jingyang[ou, qu, gou] 旌阳区
-guan[she, die] 关涉
-ping[yue, le] 平乐
-guan[che, ju] 罐车
-[hong, gong][zhuan] 红砖
 [zhang, chang][shi] 长诗
 jian[chen, cheng] 坚称
-[de, di][zu] 地租
-[hu, he][dian'chang] 核电厂
-li[jiang, qiang] 李强
 luo[zhang, chang][jie] 罗长姐
-pingliang[fu, shi] 平凉市
-weisitewei[le, lei] 韦斯特韦勒
+wei'si'tewei[le, lei] 韦斯特韦勒
 yan[ji, ge] 沿革
-guo[jie, jia][cun] 郭家村
 xiao[yin, yan] 萧殷
 ping'pang'qiu[tai, si] 乒乓球台
-[xia, ha][zi] 虾子
-[ka, qia][lei][la][si] 卡雷拉斯
-shan[nan, na][di'qu] 山南地区
+[ka, qia][lei][la'si] 卡雷拉斯
 mei[yue, kuai] 每块
 [lan, la][zao] 蓝藻
 sa[nei, na, ne] 萨那
-[gu, jia][zhi][bang] 贾治邦
-gong'lao[bu, bao] 功劳簿
 jian'cha[yuan, yun] 监察员
-liu'wen[bo, bei] 刘文波
-sun[jie, jia][dong] 孙家栋
-[zhuan, chuan][qiu] 传球
-jinjiang[ou, qu, gou] 锦江区
-[nan, na][xian] 南县
-[ao, you][li][fu] 奥利弗
-xu[zhang, chang][you] 许长有
 zhi[shuo, shu] 职数
 she'ying[jie, jia] 摄影家
 [yue, yao][fa] 约法
 [fu, shi][qing] 市情
-[jiang, qiang][wei] 强卫
-[da, dai][tang] 大塘
-[da, dai][ban] 大班
-[zhang, chang][qing] 长青
 jiaozu[bo, bei] 焦祖波
-[da, dai][dan, shi] 大石
-[fu, bi][zhuan] 复转
 [za, zha][er][da][li] 扎尔达里
 ding'huo[hui, kuai] 订货会
-da[yao, lue] 打药
-xi'hu[ou, qu, gou] 西湖区
-su[bo, po][er] 苏泊尔
+bai'qian[wan, mo] 百千万
 nong[lu, liu][shi] 农六师
-[dan, tan][dao][dao'dan] 弹道导弹
-[ka, qia][nei][ji] 卡内基
 wo[zi, ci] 沃兹
-erqi[ou, qu, gou] 二七区
 kezuo[jie, kai] 柯作楷
-wu[sai, si][han] 吴思汉
-gao[cheng, sheng] 高盛
 [nan, na][duan] 南端
-[nan, na][zhuang][zhen] 南庄镇
-yalu[cang, zang][bu][jiang] 雅鲁藏布江
-[ye, xie][qing] 叶青
-huang[lan, la] 黄蓝
 [an, chang][ban] 厂办
 ban'gong[hui, kuai] 办公会
 bei[ze, ce] 北侧
-nong[jiao, xiao] 农校
 xiao[xi, hu] 小戏
-min[heng, xing, hang][ou, qu, gou] 闵行区
 zhen[ou, qu, gou] 镇区
-[da, dai][ping] 大坪
-[da, dai][de] 大德
 [e, a][fang] 阿方
 [da, ta][ji] 塔基
-[jian, xian][xian][sai, si] 见贤思
+jian'xian[sai, si] 见贤思
 pa[da, ta][mu][han] 帕塔木汗
 tiao[yue, kuai] 条块
-xiezi[zhang, chang] 谢子长
 yi[heng, xing, hang] 易行
-shang[zhang, chang][rong] 尚长荣
-a'bu[gu, jia] 阿布贾
 shi[zhong, chong] 试种
-[lv, lu][shu][cheng][yin] 绿树成荫
 li'fa[hui, kuai] 立法会
-gu'lou[ou, qu, gou] 鼓楼区
 [wan, mo][li] 万历
-sha[dan, shi] 沙石
 cai'shou[shuai, lv, lue] 采收率
 [cang, zang][yao, lue] 藏药
 si'wan[wan, mo] 四万万
-[xue, xie][zhan] 血站
-xi[chan, dan, shan] 西单
-li[yi, si][ning] 厉以宁
-gan[dan, shi] 矸石
 [ou, qu, gou][zhi] 区直
 shu'shi[du, duo] 舒适度
-na[bo, bei][li][da, ta][nuo] 纳波利塔诺
 [zi, ci][pu, bu, bao] 兹堡
 nong[ge, he] 农合
-[nan, na][chuan] 南川
 [ye, xie][shi'wen] 叶诗文
 [nan, na][xiang] 南向
 zhi[zhong, chong] 制种
-[che, ju][guan][suo] 车管所
 [hong, gong][wai] 红外
-luan[nan, na][xian] 滦南县
-[jiang, qiang][du] 强渡
-zhangyong[hong, gong] 张永红
-beichen[ou, qu, gou] 北辰区
-ning[jiang, qiang][xian] 宁强县
 wen'hua'bu[zhang, chang] 文化部长
-fei[de, di] 飞地
 shang'ban[ye, xie] 上半叶
 [fu, bi][geng] 复耕
 [za, zha][wei][ye] 扎维耶
-[ruo, re][er][gai, ge][xian] 若尔盖县
-[zha, cha][kan] 查勘
 [piao, pu, po][wen] 朴文
 [hong, gong][tong][she] 红通社
 xu[huo, hu, he][yi] 徐和谊
 [yu, gu][nei] 谷内
-[gu, jia][li] 贾莉
-[e, a][le, lei][tai][di'qu] 阿勒泰地区
-[mo, wu][di, dai][xian] 无棣县
 xin[shuai, lv, lue] 心率
 yi'hang[heng, xing, hang] 一行行
-youli[hong, gong] 尤立红
+you'li[hong, gong] 尤立红
 di'shi'ni[yue, le] 迪士尼乐
 yongjunyou[zhu, shu] 拥军优属
-[ai, yi][ha][mai][de] 艾哈迈德
-changping[ou, qu, gou] 昌平区
 [bo, bao][pi] 薄皮
-[de, dei][ke][sa][si] 得克萨斯
-[e, a][fan][da] 阿凡达
-[e, a][le, lei][tai] 阿勒泰
-guan'du[ou, qu, gou] 官渡区
-[dan, shi][quan] 石全
+[de, dei][ke][sa'si] 得克萨斯
 zheng'zhi[xi, ji] 政治系
-[de, di][kan] 地勘
-tian[jiang, qiang] 田强
-[ao, you][si][ben] 奥斯本
-tian'he[ou, qu, gou] 天河区
-zheng[bo, bai][nong] 郑伯农
-[zhang, chang][yuan] 长垣
-[fu, bi][xue] 复学
-hexin[chao, zhao] 何新朝
+he'xin[chao, zhao] 何新朝
 qing[ao, you][hui, kuai] 青奥会
 da'bie'shan[ou, qu, gou] 大别山区
 tiao'zheng[qi, ji] 调整期
-[nei, na, ne][da][mu] 那达慕
-zhou[bo, bai][hua] 周伯华
-xin[du, dou] 新都
 wu'liu[wan, mo] 五六万
-[gu, jia][yi] 贾谊
-chen'guo[jiang, qiang] 陈国强
 [che, ju][zhang, chang] 车长
 you'liang[shuai, lv, lue] 优良率
-bao[yu, gu] 苞谷
-[ding, zheng][wei] 丁伟
-chen[huo, hu, he][sheng] 陈和生
 [zai, zi][zhu] 仔猪
-[cang, zang][xi, hu] 藏戏
-wanger[zuo, zhuo] 王尔琢
-[wan, mo][zhou][ou, qu, gou] 万州区
-wu[hong, gong][bo, bei] 吴红波
 [ou, qu, gou][ji] 区际
 [dan, shi][liao] 石料
-si[cheng, sheng][ren'yuan] 司乘人员
+sicheng'ren[yuan, yun] 司乘人员
 [nan, na][ou] 南欧
-wan[nan, na] 皖南
 ru[hui, kuai] 入会
-shunyi[ou, qu, gou] 顺义区
 qun[luo, la, lao] 群落
-[yu, wei][jian][heng, xing, hang] 尉健行
 [fu, shi][mao] 市貌
-[da, dai][zhong'hua] 大中华
 shi'dian[ou, qu, gou] 试点区
 [zhang, chang][ying] 长影
-[da, dai][wei] 大卫
-chenghua[ou, qu, gou] 成华区
 tong'bao[hui, kuai] 通报会
-[ceng, zeng][mi] 曾宓
+ji'min[meng, ming] 基民盟
 ji[nan, na] 暨南
-li[yue, yao][re][nei][lu] 里约热内卢
-zhang'xiao[jiang, qiang] 张晓强
-pan'yu[ou, qu, gou] 番禺区
-eer[dun, dui] 额尔敦
-luobulin[ka, qia] 罗布林卡
-[dan, shi][chun][lin] 石春林
+e'er[dun, dui] 额尔敦
+[dan, shi][chun'lin] 石春林
 [che, ju][kuang] 车况
 [ding, zheng][dun, dui][ling] 丁敦龄
 niya[qi, ji] 尼亚齐
-yi[jie, jia][hao] 易家昊
-[fei, pei][guang, an][jiang] 裴广江
-[luo, ta][he] 漯河
+[fei, pei][guang'jiang] 裴广江
 bi'mu[hui, kuai] 闭幕会
 [tiao, diao][wei][hui, kuai] 调委会
-jiang[du, dou] 江都
 [luo, la, lao][zi] 落子
 yi'chan[de, di] 遗产地
-chenwei[jiang, qiang] 陈伟强
-[cang, zang][li] 藏历
 lou[jie, jia] 楼价
 [lu, liu][ke][wen] 陆克文
 xiaozhi[yi, si][li] 晓之以理
-yuzhong[ou, qu, gou] 渝中区
-[nan, na][yue] 南粤
 [ye, xie][bo'lin] 叶柏林
 [cheng, sheng][mou] 盛某
 [ye, xie][ping] 叶坪
-[e, a][za, zha][luo][fu] 阿扎罗夫
-duan[cheng, sheng][hai] 段盛海
 [meng, ming][yuan, yun] 盟员
-[cheng, sheng][tang] 盛唐
-[ruo, re][er][gai, ge] 若尔盖
 liu[ruo, re][peng] 刘若鹏
-muxin[na, nuo] 穆欣娜
+mu'xin[na, nuo] 穆欣娜
 [ou, qu, gou][qing] 区情
-[ka, qia][ni] 卡尼
 [nan, na][ze, ce] 南侧
-[qi, ji][ji] 齐骥
 wang[bo, bai][xiang] 王伯祥
-yanji[fu, shi] 延吉市
-zheng[bo, bai][wu] 郑伯武
 chang[sai, si] 常思
-[guang, an][an] 广安
-qin[hong, jiang] 秦虹
 gui'hua[ou, qu, gou] 规划区
-[wo, guo][yang][xian] 涡阳县
-[ke, ka][shen, shi][di'qu] 喀什地区
-xiao'he[ou, qu, gou] 小河区
-[da, dai][ye] 大冶
-[dan, shi][qiu][jie] 石秋杰
+[dan, shi][qiu'jie] 石秋杰
 [dan, shi][bo, bai][kui, kuai] 石柏魁
 quan[shuo, shu] 权数
-li[bo, bei] 李波
 sheng'cun[shuai, lv, lue] 生存率
 [za, zha][sang] 扎桑
 pai[xi, hu] 排戏
 qiang[zhong, chong] 抢种
 [gu, jia][ru][han] 贾茹涵
-tiexi[ou, qu, gou] 铁西区
-qiu[bo, bei] 邱波
 [ye, xie][jia][ying] 叶嘉莹
-deng[wei, xu] 邓圩
 [sha, xia][zhang][quan] 厦漳泉
-[ai, yi][qing] 艾青
 [yu, wei][wei] 蔚为
 san[qi, ji] 三期
-liwei[na, nuo] 李维娜
 peng[quan, juan] 棚圈
 mou[xing, sheng] 某省
 zhi[wan, man] 枝蔓
-wayao[pu, bu, bao] 瓦窑堡
-lu[ka, qia][shen][ke] 卢卡申科
-[ye, xie][cong] 叶聪
-ai[se, sai] 埃塞
-bai[da, ta] 白塔
+wa'yao[pu, bu, bao] 瓦窑堡
 [de, di][ya] 地压
-fenwei[hui, kuai] 分委会
-[da, ta][shen, shi][gan] 塔什干
+fen'wei[hui, kuai] 分委会
 [hui, kuai][feng] 会风
 zhu[zai, zi] 猪仔
 pu'cha[yuan, yun] 普查员
-chuang[jian, xian] 创见
-[nan, na][cun] 南村
-huang[bei, po, pi] 黄陂
 [bo, bai][wei][xia] 柏威夏
-[hu, he][ji'hua] 核计划
-[yue, le][du, dou][xian] 乐都县
+he'ji[hua, huai] 核计划
 [sha, cha][zhu] 刹住
-[qi, ji][fei] 齐飞
 shu'chu[de, di] 输出地
+tang'zhong[huo, hu, he] 唐中和
 [feng, ping][sai, si][guang, an] 冯思广
-cui[xiang, heng] 翠亨
 jie[dan, shi] 结石
-[wan, mo][yu, gu][hu] 万谷湖
 su[piao, pu, po] 素朴
 [lu, liu][ke] 陆客
-[da, dai][yong] 大庸
 [shuo, shu][di'yi] 数第一
 li[zhuan, chuan] 立传
 hui'bao[hui, kuai] 汇报会
-[da, dai][mian] 大面
 wen'wen[de, di] 稳稳地
-[e, a][mi][shen, shi] 阿米什
-[ao, you][ni][er] 奥尼尔
+a'mi[shen, shi] 阿米什
 chun[zhong, chong] 春种
-li[zhun, chun] 李淳
 [zha, cha][ti] 查体
-[jiao, xiao][wu] 校务
-si[yue, le] 斯乐
-feier[nan, na][duo] 费尔南多
 tong'zhi[ou, qu, gou] 统治区
 gan'shi[zhang, chang] 干事长
 shi[yi, si][yuan] 施以援
 tan[da, ta][wei] 坦塔维
-zhao[yue, le][ji] 赵乐际
-yi[sha, suo][bai] 伊莎白
-hui[tiao, diao] 徽调
-lin[bo, bai][qu] 林伯渠
-[wo, guo][lun] 涡轮
-[cheng, sheng][zhi][yong] 盛志勇
-[cun, jun, xun][xian] 浚县
-[hui, kuai][qi] 会旗
-[lan, la][bo][zhou] 蓝博洲
-[da, ta][ke'la][ma][gan] 塔克拉玛干
-wang[ruo, re][fei] 王若飞
+[cheng, sheng][zhi'yong] 盛志勇
 [nan, na][jia'zhou] 南加州
-yong[yue, le] 永乐
 [ai, yi][ji][da] 艾季达
 nei[gu, jia][de] 内贾德
 nie[jie, jia][he] 聂家河
-[lu, liu][lu'xu] 陆陆续
-[feng, ping][shu][yong] 冯树勇
 [bo, bu][ye] 卜耶
-[ye, xie][xin] 叶欣
 bian'lun[hui, kuai] 辩论会
 pi[ka, qia] 皮卡
-[lu, liu][qi'bai] 六七百
 yi'shu[xi, ji] 艺术系
-tong'zhou[ou, qu, gou] 通州区
 [yun, jun][zhi] 均值
 lu[se, sai][en] 卢塞恩
-ling[dan, shi] 灵石
 xiang'mu[shuo, shu] 项目数
-wei[hong, gong][zhao] 魏红召
 mao[de, di] 锚地
-ba[nan, na][ou, qu, gou] 巴南区
-huangpu[ou, qu, gou] 黄浦区
-[qi, ji][jue] 奇崛
 tie[hao, gao] 铁镐
 tu[dan, shi] 土石
 [zhong, chong][zhi] 种质
-xuanwei[fu, shi] 宣威市
-zhouwen[zhong, chong] 周文重
-[yu, gu][yue][pan] 谷岳潘
+zhou'wen[zhong, chong] 周文重
 jing'tian[de, di] 惊天地
 [dan, shi][feng] 石缝
-[mou, mu][zong][cong] 牟宗琮
-ji'jiu[che, ju] 急救车
-zhaoguo[jiang, qiang] 赵国强
-jifu[zi, ci] 吉福兹
+ji'fu[zi, ci] 吉福兹
 jie'an[shuai, lv, lue] 结案率
 [tiao, diao][tou] 调头
-heze[fu, shi] 菏泽市
 baoligega[zha, cha] 宝力格嘎查
-chang[du, dou][di'qu] 昌都地区
 [tiao, diao][jin] 调进
-li[cheng, sheng][lin] 李盛霖
 zong[jiao, xiao] 总校
 bian[chen, cheng] 辩称
-chen[qi, ji][jia] 陈奇佳
-cang[jin, jing] 苍劲
-miao[wei, xu] 苗圩
-caifu[chao, zhao] 蔡赴朝
-[tang, shang][min] 汤敏
-zhaodong[fu, shi] 肇东市
-[e, a][bo, bu][ye][yi][de, di] 阿卜耶伊地
-[bo, bei][feng] 波峰
-[yu, wei][xian] 蔚县
-er[zhuan, chuan] 二传
+a'buyeyi[de, di] 阿卜耶伊地
 [bo, bai][ban] 伯半
-xu[guang, an][jun] 续广军
 [wei, yi][kuang][ku] 尾矿库
 [zi, ci][li][tan] 兹利坦
-[she, yi][kou] 蛇口
-su'dan[hong, gong] 苏丹红
-lihua[bo, bei] 李华波
+li'hua[bo, bei] 李华波
 [cang, zang][yi] 藏医
-hui[fu, shi] 汇市
 hong'dou[sha, shan] 红豆杉
-[qi, ji][bei][ji] 齐贝吉
 [ye, xie][suan] 叶酸
-tian[tai, si][xian] 天台县
-guo[da, dai][dang] 国大党
 [xing, sheng][li] 省立
-wu[zhi, shi, jing] 吴氏
-[bo, bai][ke][li] 伯克利
 tou'piao[shuai, lv, lue] 投票率
 di'wa[de, di] 低洼地
 shui'jing[dan, shi] 水晶石
 zhuan'yong[che, ju] 专用车
 gong[zhong, chong] 供种
-huang[dan, shi] 黄石
-an[jie, jia] 俺家
-[tai, si][nan, na] 台南
-ma[da, ta][yi] 马塔伊
 zhu'chan[xing, sheng] 主产省
-suri[na, nuo] 苏日娜
 [zhong, chong][gang] 重钢
 lian[hui, kuai] 联会
 de[le, lei] 德勒
-shi[zhuan, chuan][xiang] 时传祥
-qianjiang[ou, qu, gou] 黔江区
-ping[yu, gu] 平谷
 yin[zhong, chong] 引种
-[hong, gong][shan] 红山
 xiaowei[hui, kuai] 消委会
-[zhang, chang][ling] 长岭
-[hong, gong][an][xian] 红安县
 [zhang, chang][yi] 长椅
-[lu, liu][hao] 陆浩
 [lu, liu][hao] 陆昊
 she'hui'xue[xi, ji] 社会学系
-[lu, liu][you] 陆游
-[su, xiu][zhou] 宿州
 [da, dai][fen] 大芬
-da[ke, ka][er] 达喀尔
 na[yao, lue] 拿药
-pinglu[ou, qu, gou] 平鲁区
-[che, ju][gong] 车工
 yin'lian[ka, qia] 银联卡
 guo'wu'wei'yuan[hui, kuai] 国务委员会
-[e, a][da][ke][si][dan, shi] 阿达克斯石
-[guang, huang][ruo, re] 恍若
-mao[yi, si][sheng] 茅以升
-zhang[guang, an][ning] 张广宁
-tian'shan[ou, qu, gou] 天山区
-zheng[zhang, chang][lin] 郑长林
+a'dakesi[dan, shi] 阿达克斯石
 wu'can[hui, kuai] 午餐会
 [she, die][qi] 涉企
 [yue, le][sheng] 乐声
 wu[da, ta] 乌塔
-[nan, na][ke'er][duo] 南科尔多
+[nan, na][ke'er'duo] 南科尔多
 dong[hui, kuai] 董会
 hu[de, di] 湖底
-wu[guang, an] 武广
 yang[ba, pa] 氧吧
 kai'mu[hui, kuai] 开幕会
-gao[pou, pei][yong] 高培勇
 pu[shen, shi][tu] 普什图
 [sai, si][ju][cun] 思居村
 [e, a][nu][bo, bai] 阿努伯
-[nan, na][qian][dao] 南千岛
+[nan, na][qian'dao] 南千岛
 [se, sai][bo, bu][ha] 塞卜哈
-didao[ou, qu, gou] 滴道区
-bai[dan, shi] 白石
 [ye, xie][pa, pai] 叶派
 gao[pao, bao] 高炮
-feng[zhang, chang] 疯长
-[ba, pa][ta] 吧嗒
 [an, chang][fang] 厂方
-sha[jie, jia][bang] 沙家浜
-dian[dan, shi] 电石
-[e, a][ba][zang'zu][qiang][zu][zi'zhi'zhou] 阿坝藏族羌族自治州
-[gu, jia][zheng'fang] 贾正方
-nan'shan[ou, qu, gou] 南山区
 qiu[fu, shi] 球市
 [wan, mo][ya] 万鸦
 kou[zhuan, chuan] 口传
-[feng, ping][fei] 冯飞
 [qin, tan][ren][yong] 覃仁勇
-[hong, gong][li][ting] 红荔庭
-ceyuan[de, di] 策源地
 [zhua, zhao][hua, wa] 爪哇
-[za, zha][lan][tun, zhun][fu, shi] 扎兰屯市
 [hong, gong][shi] 红诗
 [zhong, chong][tou] 重头
-jiangzhu[yun, jun] 江竹筠
 [jiao, xiao][ling'dao] 校领导
-[gu, jia][chun][wang] 贾春旺
 [tang, shang][bing][gui] 汤秉贵
 ou[ge, he] 耦合
-[hong, gong][miao] 红庙
-xi[da, ta][qin] 西塔琴
-[e, a][pei] 阿沛
 su[yi, si] 素以
 wei'shu[ou, qu, gou] 卫戍区
 [da, ta][tai, si] 塔台
-donghu[ou, qu, gou] 东湖区
 dao[qiao, ke] 稻壳
 li[de, di] 立地
 [za, zha][shen, shi][lun][bu][si] 扎什伦布寺
-[guang, an][rao][xian] 广饶县
-xin[lv, lu] 新绿
-[gui, ju][yuan, yun] 柜员
 [sai, si][zheng][ke] 思政课
-[e, a][mu][si][te][dan] 阿姆斯特丹
-[ka, qia][luo][si] 卡洛斯
 gai[de, di] 该地
 [shuo, shu][yi, si][bai'wan][ji] 数以百万计
-[e, a][sa][de] 阿萨德
-[du, dou][mai][xin'wen] 读卖新闻
-haizhu[ou, qu, gou] 海珠区
-bo[ji, gei] 拨给
 jian[yao, tao] 建陶
-[ye, xie][ping][cun] 叶坪村
+[ye, xie][ping'cun] 叶坪村
 wei[chao, zhao][an] 危朝安
-zi'lai'shui[an, chang] 自来水厂
 tan[de, di] 滩地
-maoyong[hong, gong] 茅永红
-luoguang[jie, xie] 罗光解
-cheng[sai, si][wei] 成思危
-[yue, le][kai] 乐凯
+luo'guang[jie, xie] 罗光解
 jun[zhong, chong] 菌种
-mao[yu, hu] 毛羽
 [yao, lue][xue] 药学
 [sha, suo][wa] 莎娃
-li[sha, suo] 丽莎
-wenjie[ruo, re] 文洁若
+wen'jie[ruo, re] 文洁若
 sa[da, ta] 萨塔
 yi'xue[hui, kuai] 医学会
-wu[qi, ji][jiang, qiang] 吴齐强
-[sai, si][miao'xiang] 思妙想
 [bo, bu][lei][jia] 卜雷加
-wangxia[hong, jiang] 王夏虹
-gan[nan, na][zang'zu][zi'zhi'zhou] 甘南藏族自治州
-[heng, xing, hang][qian] 行前
+wang'xia[hong, jiang] 王夏虹
 qu[guang, an][ci] 瞿广慈
-[ding, zheng][yi][hui] 丁一汇
-[gu, gua][gu, gua] 呱呱
-deng[bian, feng] 登封
 nong[de, di] 农地
 rongnai[da, dai] 容乃大
-[nan, na][guan] 南关
 pian[hui, kuai] 片会
-zi'chan'fu'zhai[shuai, lv, lue] 资产负债率
-masazhu[se, sai][zhou] 马萨诸塞州
+ma'sazhu[se, sai][zhou] 马萨诸塞州
 zhengbing[jiang, qiang] 郑炳强
 [lv, lu][zhuang] 绿装
 hu'ji[de, di] 户籍地
 shengen[ou, qu, gou] 申根区
-lusa[ka, qia] 卢萨卡
 suo[qi, xie] 索契
 ku[zi, ci] 库兹
-[da, ta][sha, suo] 塔莎
-xushou[cheng, sheng] 徐守盛
 [da, ta][na] 塔纳
-[zhang, chang][bai] 长白
-ji[qi, ji] 基期
-[da, dai][ren] 大任
-baien[pou, pei] 白恩培
 yi'tai[tai, si] 一台台
-luo[jie, jia][ping] 罗家坪
-[e, a][er][shan] 阿尔山
-lin[sha, shan] 林杉
-xie[hong, gong][fen] 谢红芬
-[hu, he][jian] 核减
-gan[ju, jie] 柑桔
 yuan'liao[yao, lue] 原料药
 jiangsi[zhang, chang] 姜泗长
-feng[tai, si][xian] 凤台县
-[ao, you][ting][jia] 奥廷加
+[ao, you][ting'jia] 奥廷加
 zheng'dian[shuai, lv, lue] 正点率
 [gai, ge][luo][pu] 盖洛普
-potou[ou, qu, gou] 坡头区
 zeng[ji, gei] 赠给
 bei[zhi, shi, jing] 贝氏
 [tiao, diao][xun] 调训
 jian'bianyi[heng, xing, hang] 简便易行
 [zhong, chong][yin] 重印
-zhao[hong, gong][wei] 赵红卫
 haiji[hui, kuai] 海基会
-[ding, zheng][xiao][bing] 丁晓兵
-[e, a][bo, bei][luo] 阿波罗
-hua[fu, shi] 花市
-ke[di, dai][hua] 柯棣华
 chuan'tong[xi, hu] 传统戏
 ju[luo, la, lao] 聚落
 kebo[hui, kuai] 科博会
-[di, zhai][hui][sheng] 翟惠生
-yan[fu, bi] 严复
-yuyong[bo, bei] 于永波
-cai[qi, ji] 蔡奇
 nongbo[hui, kuai] 农博会
-an[gu, jia][li] 安贾莉
 [zhuan, chuan][zhu] 传主
-[bo, bei][yu, gu] 波谷
-[ding, zheng][cong] 丁聪
 lianzu[hui, kuai] 联组会
-[yao, tao][cheng][zhang] 陶成章
-[lan, la][tian] 蓝田
-[gu, jia][xing][yi] 贾兴义
-zhang[da, dai][qian] 张大千
-lang[jie, jia][cun] 郎家村
-xi[ou, qu, gou] 西区
+[gu, jia][xing'yi] 贾兴义
 mei[pa, pai] 梅派
 ka'teli[na, nuo] 卡特里娜
-wang[jie, jia][wan] 王家湾
-hou[ka, qia][za, zha][fei] 后卡扎菲
 zhan'dou[yuan, yun] 战斗员
-zhujian[hong, gong] 朱剑红
-[chan, dan, shan][fei] 单飞
-[ge, he][shu] 合署
-yuanba[ou, qu, gou] 元坝区
-minyun[hui, kuai] 民运会
-yuhua[ou, qu, gou] 雨花区
+min'yun[hui, kuai] 民运会
 man'hua[jie, jia] 漫画家
 zhu'li[yuan, yun] 助理员
-jimo[fu, shi] 即墨市
 ji[nan, na] 冀南
-hai'shu[ou, qu, gou] 海曙区
-huangzhi[jiang, qiang] 黄志强
-yu[du, dou] 于都
 luojia[za, zha][te] 罗加扎特
-nong[ceng, zeng][wei] 农曾伟
-fang[jie, jia][zhuang] 方家庄
-[chan, dan, shan][fang] 单方
-bei[ou, qu, gou] 北区
 [shou, shu][liao] 熟料
 [mo, wu][shuang][qi, ji] 无霜期
-[wan, mo][zheng][lin] 万正琳
-[ai, yi][sen][ba][he] 艾森巴赫
-qing'shan[ou, qu, gou] 青山区
+[wan, mo][zheng'lin] 万正琳
 da'shui[xi, ji] 大水系
-guanlin[bo, bai] 关林柏
-[nan, na][ming][ou, qu, gou] 南明区
+guan'lin[bo, bai] 关林柏
 you[sai, si] 忧思
 zhong[quan, juan] 钟圈
-xilinhaote[fu, shi] 锡林浩特市
-bao'shan[ou, qu, gou] 宝山区
-[lu, liu][feng] 陆丰
-[da, dai][ka, qia] 大卡
 [de, di][biao][xing] 地标性
-min[heng, xing, hang] 闵行
-yu[kui, kuai][zhi] 于魁智
 qin[chu, xu] 禽畜
-jiang[qi, ji][ping] 姜奇平
 zhuan[dan, shi] 砖石
 kuang[zhong, chong] 矿种
-wuhua[ou, qu, gou] 五华区
-[chao, zhao][sheng] 朝圣
-jia'ding[ou, qu, gou] 嘉定区
-yang[bo, bei] 杨波
 mou[fu, shi] 某市
-yang[yin, yan] 杨殷
-zhu[di, dai] 朱棣
-luwan[ou, qu, gou] 卢湾区
 [di, ti][guan] 提灌
-[cheng, deng][mai][xian] 澄迈县
 muxi[ka, qia] 穆希卡
 [shuo, shu][li] 数理
-samute[pu, bu, bao] 萨姆特堡
-[dun, dui][hua][fu, shi] 敦化市
-[jie, xie][ti] 解题
-[feng, ping][shuang][bai] 冯双白
+sa'mute[pu, bu, bao] 萨姆特堡
+[feng, ping][shuang'bai] 冯双白
 pin[jin, jing] 拼劲
-[da, ta][cheng][di'qu] 塔城地区
 [fei, pei][xian][feng] 裴先峰
-[sai, si][yuan] 思源
-[e, a][za, zha][lun][ka, qia] 阿扎伦卡
-chongan[ou, qu, gou] 崇安区
-tuosi[ka, qia] 托斯卡
-xieji[bo, bai] 谢吉伯
-mai'mai[di, ti] 买买提
-dazhou[fu, shi] 达州市
-lvwang[da, dai] 吕网大
-[she, die][xian] 涉县
+a'zhalun[ka, qia] 阿扎伦卡
+xie'ji[bo, bai] 谢吉伯
 di'zhi'xue[jie, jia] 地质学家
-liang[da, dai][nan, na] 梁大南
-mande[le, lei] 曼德勒
-changde[zhuan, chuan] 常德传
-luo[cheng, sheng][jiao] 罗盛教
+liang'da[nan, na] 梁大南
+man'de[le, lei] 曼德勒
+chang'de[zhuan, chuan] 常德传
 ma[wan, mo][shui] 马万水
-la[gu, jia][pa][ke][sa] 拉贾帕克萨
+la[gu, jia][pa'ke][sa] 拉贾帕克萨
 wei'xian[ou, qu, gou] 危险区
-yili[sha, suo][bai] 伊丽莎白
 [che, ju][ya][hua] 车亚华
 shi'yan[tai, si] 试验台
-wangyao[nan, na] 王耀南
+wang'yao[nan, na] 王耀南
 [nan, na][yuan] 南缘
 [chan, dan, shan][ke] 单科
 [nan, na][duan] 南段
 yuanchu[hong, gong] 袁初红
-an[se, sai][xian] 安塞县
 tian[yue, kuai] 田块
-gong[hui, kuai] 公会
-zhang'jin[bo, bei] 张金波
-shenghe[se, sai] 圣何塞
 mei[du, dou] 煤都
 [shou, shu][ji] 熟记
-[lu, liu][qi'wan] 六七万
+liu'qi[wan, mo] 六七万
 [wan, mo][fu] 万阜
 renxiu[hong, jiang] 任秀虹
 re[ya, zha, ga] 热轧
@@ -1371,158 +700,75 @@ shi[shuo, shu] 十数
 jian'cha[yuan, yun] 检察员
 [hua, huai][jie] 划界
 quan[meng, ming] 全盟
-zhong[mou, mu][xian] 中牟县
 jie[zhong, chong] 借重
 [zhong, chong][han] 重旱
-huangyan[pou, pei] 黄炎培
-xiao[lu, liu] 小陆
-qingyang[ou, qu, gou] 青羊区
 fang'ying[yuan, yun] 放映员
 [zha, cha][xiu][min] 查秀民
-beilun[ou, qu, gou] 北仑区
-wang[da, dai][zhao] 汪大昭
-zhang[zhi, shi, jing] 张氏
-[sui, shuai][de] 绥德
-jiu'longpo[ou, qu, gou] 九龙坡区
-jinshui[ou, qu, gou] 金水区
-huang'pu[ou, qu, gou] 黄埔区
 zai[chu, xu][liang] 载畜量
-[lu, liu][jun] 陆俊
-liu[bo, bai][jian] 刘伯坚
 chang'tu[che, ju] 长途车
 xun'luo[che, ju] 巡逻车
-xin'hua[ou, qu, gou] 新华区
 [lu, liu][yuan] 陆源
-[da, dai][hua] 大华
 qi'ba[wan, mo] 七八万
 [qi, ji][da'shan] 齐大山
-[bian, feng][guan] 封关
-sun[bo, bei] 孙波
-gong'yue[shuo, shu] 公约数
-[dan, shi][hu] 石虎
 [qi, ji][dan, shi] 奇石
 [cang, zang][yu'wen] 藏语文
-yuan[zhi, shi, jing][xian] 元氏县
-[ba, pa][jiu] 把酒
 ming[na, nuo] 明娜
-[yu, gu][de, di] 谷地
 xue[fu, bi, fo][long] 雪佛龙
-[zhan, nian][ge, he][ji] 粘合剂
+[zhan, nian][he'ji] 粘合剂
 [dan, shi][yue'liang] 石月亮
-[zhang, chang][xing][xian] 长兴县
-[e, a][si][tuo][li] 阿斯托里
 [hong, gong][san'jun] 红三军
-[lu, liu][rong'hua] 陆荣华
 wu[bo, bai][xiong] 吴伯雄
-jin[de, di] 金地
-qiansan[jiang, qiang] 钱三强
-zhujing[ruo, re] 朱竞若
 fa'she[da, ta] 发射塔
 guan'li[xi, ji] 管理系
-jin[che, chi] 进尺
-you[bo, bei] 游波
-[e, a][ji][luo][fu] 阿基洛夫
-gao[lu, lou][jie] 高露洁
-zhu[jie, jia][hua] 朱家华
+[e, a][ji][luo'fu] 阿基洛夫
 [jiao, jue][ban] 脚板
-gao[jie, jia][ping] 高家坪
-[e, a][lian][de] 阿连德
-zhangxiu[lv, lu] 张绣绿
-[ding, zheng][gang] 丁刚
-[dun, bu][qi, ji][er][zhi] 不期而至
-[lan, la][jun] 蓝军
-lu'yi'sian[nei, na, ne] 路易斯安那
+zhang'xiu[lv, lu] 张绣绿
+lu'yi'si'an[nei, na, ne] 路易斯安那
 feng[tun, zhun] 丰屯
-[ai, yi][lin] 艾琳
 jiang[xiang, hang][cun] 蒋巷村
-wei[nan, na] 渭南
-cai[dan, shi][chang] 采石场
 jian'yi[yuan, yun] 检疫员
-bi[hong, gong][zhen] 毕红珍
-wuqing[ou, qu, gou] 武清区
 sun[lu, liu][long] 孙六龙
-[lan, la][hai] 蓝海
-a'bo[da, ta][ba][de] 阿伯塔巴德
+a'bo[da, ta][ba'de] 阿伯塔巴德
 shui'li[xi, ji] 水利系
-bu[ci, cha, chai] 补差
 [jian, xian][yu] 见于
-xiang[jie, jia][ba] 向家坝
 xuanwei[hui, kuai] 选委会
-liu[jie, jia][yi] 刘家义
-[dan, shi][tao] 石涛
-cha[che, ju] 叉车
-[dan, shi][lei] 石磊
-di'yibai[lu, liu][shi] 第一百六十
 [zan, za][cun] 咱村
-hou[fu, shi] 后市
 xiao'shou[jie, jia] 销售价
-[ao, you][ma][er] 奥马尔
-mo[guang, an][zhen] 莫广珍
-zhouli[bo, bei] 周立波
-wang[du, dou][xian] 望都县
-huer[le, lei] 呼尔勒
-hua'ji[xi, hu] 滑稽戏
+hu'er[le, lei] 呼尔勒
 fu[dun, du] 伏顿
-bulazewei[qi, ji] 布拉泽维奇
-[hui, kuai][ju] 会聚
+bulaze'wei[qi, ji] 布拉泽维奇
 [qin, qing][wen] 亲闻
 linxiao[kui, kuai] 林小魁
-[yu, gu][wen][chang] 谷文昌
-[nan, na][gang][ou, qu, gou] 南岗区
 shixiong[guang, an] 施雄广
-niu[quan, juan] 牛圈
 jin'nian[de, di] 今年底
 bie'shu[ou, qu, gou] 别墅区
-fu'rong[ou, qu, gou] 芙蓉区
-xinde[xing, sheng] 信德省
+xin'de[xing, sheng] 信德省
 [chan, dan, shan][xue][gang] 单学刚
 [ye, xie][ci][tian] 叶赐添
-[zhang, chang][ning][ou, qu, gou] 长宁区
 [yu, hu][lian] 羽联
-[hong, gong][hai] 红海
 fei'qi[de, di] 废弃地
-wang[lu, liu][wu] 王六五
 ni[pa, pai] 尼派
-[dan, shi][xiu][shi] 石秀诗
-xiao[tang, shang] 小汤
 yuan'jiao[ou, qu, gou] 远郊区
-[ao, you][ka, qia][xi][ao, you] 奥卡西奥
-[da, dai][wa][xian] 大洼县
+[ao, you][ka'xi][ao, you] 奥卡西奥
 [de, dei][zhou] 得州
-[yue, le][ting][xian] 乐亭县
-[de, di][shang] 底墒
 [qin, qing][gu'rou] 亲骨肉
 wu'gong[de, di] 务工地
-[zhang, chang][tian] 长天
-[zhang, chang][qi] 长崎
-[zhang, chang][qing] 长庆
-liao[jie, jia] 廖家
 zeng[zhi, shi] 增殖
-[fu, bi][gui] 复归
-[da, dai][wo] 大我
 [qi, xie][qi, ji] 契奇
 [zhang, chang][zhuo] 长桌
 [qi, ji][xiang] 奇想
 [zhan, nian][xing] 粘性
 [tai, si][chuang][yuan] 台创园
-qin[xi, qian] 秦茜
-tangrui[dan, shi] 唐瑞石
-ha[da, dai][qi, ji] 哈大齐
-[dan, shi][guang][wu] 石光武
+tang'rui[dan, shi] 唐瑞石
 [lu, liu][li][cai] 陆立才
-wangyong[cheng, deng] 王永澄
+wang'yong[cheng, deng] 王永澄
 [bing, ping][zhu] 屏住
-pan[dan, shi] 磐石
 [xue, xie][fang] 血防
-[zha, cha][kong] 查控
 [jiao, jue][er] 角儿
-[e, a][bo, bu][du][la] 阿卜杜拉
 ri[jian, xian] 日见
 panxiao[hong, gong] 盘晓红
-chen[jie, jia][dian] 陈家店
 qiu[jie, jia][ping] 邱家坪
-bigeng[dun, bu][chuo] 笔耕不辍
-[e, a][de][er] 阿德尔
+bi'geng[dun, bu][chuo] 笔耕不辍
 la[ge, he][er] 拉合尔
 [mo, wu][guai] 无怪
 [ye, xie][xiao][wen] 叶霄雯
@@ -1530,1025 +776,515 @@ ri[shuo, shu] 日数
 liao[mo, mei][sha] 廖沫沙
 mo'si'ke[fu, shi] 莫斯科市
 jing'ji[xi, ji] 经济系
-chen[ruo, re][lin] 陈若琳
 [ceng, zeng][jing][ping] 曾敬平
-jinan[ou, qu, gou] 晋安区
 [hu, lu][fu][zhuang] 芦阜庄
-he'xi[ou, qu, gou] 河西区
-[lu, liu][tian'ming] 陆天明
-zhang[sai, si][qing] 张思卿
-[che, ju][tian] 车田
-pan[jie, jia][hua] 潘家华
 meng[da, ta][er] 蒙塔尔
 he'tong[qi, ji] 合同期
-wu'chang[ou, qu, gou] 武昌区
-gebu[za, zha] 格布扎
+ge'bu[za, zha] 格布扎
 zeng'zhi[shuai, lv, lue] 增值率
 xiang'zhen[zhang, chang] 乡镇长
 maijintuo[shen, shi] 麦金托什
 [lv, lu][ye] 滤液
-[e, a][ka, qia][sen] 阿卡森
-jie[hui, kuai] 节会
-daoli[ou, qu, gou] 道里区
 dan[fu, bi, fo] 丹佛
-bai[yue, le][wei] 白乐威
 [hu, lu][sun] 芦笋
-[yue, le][min] 乐民
 [hun, kun][ju] 混居
-hulin[fu, shi] 虎林市
 si'wu[wan, mo] 四五万
 [cang, zang][bei] 藏北
 jiang[sai, si][zhe] 蒋思哲
 yue'qi[an, chang] 乐器厂
-[ding, zheng][zhi][jun] 丁志军
-[ceng, zeng][gang] 曾钢
-yanping[ou, qu, gou] 延平区
-cai[qi, ji][hua] 蔡其华
 you'ji[ou, qu, gou] 游击区
-zhu[hong, jiang] 朱虹
 sang[ren, shen] 桑葚
-bulei[dun, du] 布雷顿
+bu'lei[dun, du] 布雷顿
 shi'gong[qi, ji] 施工期
-[nan, na][yuan] 南苑
-kong[luo, la, lao][luo, la, lao] 空落落
-lipei[hong, gong] 李佩红
+kong'luo[luo, la, lao] 空落落
+li'pei[hong, gong] 李佩红
 [tai, si][de, di] 台地
 zhuxian[qi, ji] 朱先奇
-huangru[jie, kai] 黄如楷
-mu[e, a][li][mu] 穆阿利姆
-du[ruo, re][yuan] 杜若原
-hua[pa, pai] 画派
-gan[de, di] 甘地
-gan[nan, na] 甘南
-chong[jin, jing] 冲劲
-huling[hong, gong] 胡玲红
-butefuli[ka, qia] 布特弗利卡
-juchao[ou, qu, gou] 居巢区
+hu'ling[hong, gong] 胡玲红
+bu'tefuli[ka, qia] 布特弗利卡
 ke'li'si'di[na, nuo] 克里斯蒂娜
 long[wei, yi] 龙尾
 [nei, na, ne][chu][mu] 那楚姆
 leng[ya, zha, ga] 冷轧
-[ka, qia][suo][ma] 卡索马
-[ye, xie][xian] 叶县
+[ka, qia][suo'ma] 卡索马
 li[sai, si] 力思
-mai[jie, jia] 卖价
-[nan, na][cheng] 南城
-wangjing[bo, bei] 王敬波
+wang'jing[bo, bei] 王敬波
 fen[quan, juan] 分卷
 shen[du, dou] 审读
-zhang[bo, bai][ling] 张伯苓
 [zhong, chong][shui] 重水
 sengupu[da, ta] 森古普塔
-gao[zhun, chun][xian] 高淳县
 na[zi, ci] 纳兹
-wang[yue, le][yi] 王乐义
-gong[zhang, chang] 工长
-[hui, hun][chun][fu, shi] 珲春市
 rou[ge, he] 糅合
 loudong[zhang, chang] 楼栋长
-[cheng, sheng][hua][ren] 盛华仁
 ouwei[hui, kuai] 欧委会
-[nan, na][zhong'guo'hai] 南中国海
 [jiang, qiang][gui][xin] 强桂新
 qian[qi, ji][chen] 钱其琛
-[da, ta][cheng] 塔城
 [zhang, chang][feng] 长风
-[e, a][jiao] 阿胶
-[da, dai][ji] 大集
-[da, dai][liang][shan] 大凉山
-[e, a][qi, ji][qi, ji][ya] 阿齐齐亚
-[dan, shi][jiu] 石臼
+[e, a][qi'qi][ya] 阿齐齐亚
 zu[bo, bei] 祖波
 [zhong, chong][xing] 种姓
-ge[le, lei] 格勒
-chuguo[jiang, qiang] 楚国强
+chu'guo[jiang, qiang] 楚国强
 xiao[qin, qing][jing] 孝亲敬
-[sha, shan][mu] 杉木
-[hong, gong][he'gu] 红河谷
-[se, sai][na][he] 塞纳河
 tiao'jie[jie, jia] 调节价
-[se, sai][er][bi] 塞尔比
 ha[di, ti][bo, bu] 哈提卜
-li[jie, jia][xiang] 李家祥
 guan[da, ta][nei, na, ne] 关塔那
-zheng[zhi, shi, jing] 郑氏
 xuan[zhong, chong] 选种
-[lu, liu][hang][tuan] 陆航团
 bao'jian[yuan, yun] 保健员
-yi[nan, na][xian] 沂南县
 hang[jiao, xiao] 航校
-wang'zhi[jiang, qiang] 王志强
 [yu, gu][bao][rong] 谷保荣
-[ding, zheng][xiao][xi] 丁小希
-zhong[ji, ge][jun'wei] 中革军委
+[ding, zheng][xiao'xi] 丁小希
 shen'ji[zhang, chang] 审计长
 shu[quan, juan] 舒卷
 zhu[men, wen][fu] 竹汶府
-[yue, le][yong] 乐勇
-[yue, le][dong] 乐东
-cai[yue, le] 蔡乐
 shang[qi, ji] 上期
-xia[hong, gong][min] 夏红民
 [cheng, sheng][yuan, yun] 乘员
 yun[sha, shan] 云杉
-qingpu[ou, qu, gou] 青浦区
-linyu[shang, chang] 林玉裳
+lin'yu[shang, chang] 林玉裳
 [dong, tong][zhai] 侗寨
 bao[ka, qia] 保卡
 [ding, zheng][yi] 丁裔
-xushi[huo, hu, he] 徐世和
-[ding, zheng][zhao][zhong] 丁肇中
-beike[le, lei][er] 贝克勒尔
-wang[jie, jia][ling] 王家岭
-[da, dai][han][min'guo] 大韩民国
-xuding[bo, bei] 许定波
+bei'ke[le, lei][er] 贝克勒尔
+xu'ding[bo, bei] 许定波
 si[de, di] 死地
-tianxin[ou, qu, gou] 天心区
-can'yi[hui, kuai] 参议会
-chenyi[yun, jun] 陈一筠
+chen'yi[yun, jun] 陈一筠
 tian[zhuan, chuan][gui] 田传贵
-[ao, you][gu][si][ding, zheng] 奥古斯丁
-li[lan, la] 李蓝
 zhu'ge'liang[hui, kuai] 诸葛亮会
 [zha, cha][jiao, zhuo] 查缴
-[wan, mo][ji][fei] 万季飞
-yang[hong, gong][ying] 杨红樱
 bao'hu[de, di] 保护地
-lixia[ou, qu, gou] 历下区
-[e, a][ke][man] 阿克曼
-qinhuai[ou, qu, gou] 秦淮区
-guanyun[zhang, chang] 关云长
-sun[hong, gong][feng] 孙红枫
-[dan, shi][cun] 石村
 [nan, na][meng, ming] 南盟
 [ju, gou][shi] 句式
-[nan, na][ao] 南澳
 [cheng, sheng][jing] 盛景
-[lv, lu][yuan'qu] 绿园区
 [de, di][xian] 地县
-[de, di][li] 地力
 tu[jiang, qiang] 图强
-kaifu[ou, qu, gou] 开福区
-tiandong[mang, wang] 田东芒
+tian'dong[mang, wang] 田东芒
 jue'dui[shuo, shu] 绝对数
-yang[sai, si][chen] 杨思臣
-tai[huo, hu, he][xian] 太和县
 [dan, shi][tu][quan, juan] 石图卷
 [chu, xu][li] 畜力
-[feng, ping][jian] 冯坚
 [e, a][te][lan][di][si] 阿特兰蒂斯
-mai[de, di] 麦地
-jingwei[hui, kuai] 经委会
+jing'wei[hui, kuai] 经委会
 [feng, ping][zheng][lin] 冯正霖
-hei[dan, shi] 黑石
-wang[zhuan, chuan] 王传
-[qi, ji][jie, jia] 齐家
-donghong[qi, ji] 董洪齐
-[nan, na][an] 南安
-huangbin[hong, jiang] 黄宾虹
+dong'hong[qi, ji] 董洪齐
 fudai[hui, kuai] 妇代会
 chao'qiang[du, duo] 超强度
 te[ao, you] 特奥
 mi[ge, he][lun][sha] 米合伦沙
 ban[yue, kuai] 版块
-li[jie, jia][shi] 黎家狮
 dawute[ao, you] 达武特奥
-limeng[zhao, tao] 李梦桃
-huang[shang, chang] 黄裳
-[chan, dan, shan][xian] 单县
+li'meng[zhao, tao] 李梦桃
 wu'ran[ou, qu, gou] 污染区
-liu[zhun, chun][ying] 刘纯英
-[nei, na, ne][qu][di'qu] 那曲地区
-[da, ta][li][ke] 塔里克
 [wei, yi][yi] 尾翼
-ning[du, dou] 宁都
-[ceng, zeng][yu][ping] 曾玉萍
 [di, zhai][ai'guo] 翟爱国
-maxigeri[le, lei] 玛希格日勒
 [zeng, zong][cai] 综采
-xi[le, lei] 席勒
-jiang'an[ou, qu, gou] 江岸区
 hezhen[bo, bai] 何振柏
-he[jie, jia][xing'fu] 阖家幸福
 [jiang, qiang][min][fu] 强民富
 [guang, an][kong] 广空
 [fei, pei][yong][jun] 裴永俊
-hong'kou[ou, qu, gou] 虹口区
-wang[wan, mo][bin] 王万宾
-[e, a][er][bei][tuo] 阿尔贝托
-wen[guang, an][xin] 文广新
-chengyang[ou, qu, gou] 城阳区
-chen[zhun, chun][bo, bei] 陈纯波
-[ai, yi][mai][di, ti] 艾买提
+chen'chun[bo, bei] 陈纯波
 li[xue, xie][ping] 利血平
-tai[huo, hu, he] 太和
-[e, a][le, lei] 阿勒
-zuo[jie, jia][zhuang] 左家庄
 ru[qi, ji] 如其
-[da, dai][ping] 大平
 [zhang, chang][di] 长笛
 lian[zhang, chang] 链长
-[e, a][hong, heng] 阿訇
-wei[bo, bai] 韦伯
 qiu[zhong, chong] 秋种
-[nan, na][zhen][zhong] 南振中
-erdaojiang[ou, qu, gou] 二道江区
 sheng'tai[quan, juan] 生态圈
 zhong'xin[jiao, xiao] 中心校
 zhuang'jia[de, di] 庄稼地
 yin[yi, si][zi'hao] 引以自豪
 [ju, jie][nong] 桔农
-yue'xiu[ou, qu, gou] 越秀区
 ji[zhong, chong] 机种
 [ju, jie][yuan] 桔园
 [jiao, xiao][ban] 校办
 te[ao, you][hui, kuai] 特奥会
-liu[zhang, chang][yu] 刘长瑜
-hua[du, dou][ou, qu, gou] 花都区
 pu[le, lei] 普勒
-[e, a][mu][la][ni] 阿姆拉尼
-xuwang[zhi, shi, jing] 徐王氏
 man[heng, xing, hang] 慢行
-gan[yi, si][sheng] 干以胜
-chongchuan[ou, qu, gou] 崇川区
-gao[guang, an][bin] 高广滨
-[lan, la][si'dai] 蓝丝带
 [dan, shi][yang][he] 石羊河
 [dan, tan][dao] 弹道
-[zha, cha][wen][hong, gong] 查文红
-tang[jie, jia][shan] 唐家山
+[zha, cha][wen'hong] 查文红
 fan[jie, jia] 返家
-san'men'xia[fu, shi] 三门峡市
-miao[jie, jia] 苗家
 ma[zha, cha][duo] 马查多
 an'quan[qiao, ke] 安全壳
 tuo[se, sai][li] 托塞利
 qi'che[an, chang] 汽车厂
-zangke[jie, jia] 臧克家
-[wan, mo][an] 万安
-[ceng, zeng][qing][xiang] 曾庆香
-[bo, bei][pu] 波普
-[zuo, zha][shui][xian] 柞水县
-qiao[ye, xie] 乔叶
+[ceng, zeng][qing'xiang] 曾庆香
 fang[ting, jing] 芳烃
-[hui, kuai][ning][xian] 会宁县
 ji[sai, si][han] 吉思汗
 chenshan[guang, an] 陈善广
-chuzhou[ou, qu, gou] 楚州区
 [yao, lue][xue'yuan] 药学院
 [yao, lue][xie] 药械
-chenjun[dan, shi] 陈君石
-cao[guang, an][jiang] 曹广江
+chen'jun[dan, shi] 陈君石
 [jie, xie][zhen][dang] 解阵党
-[yin, yan][xu] 殷墟
-jinglin[bo, bei] 荆林波
-mai[qi, ji][guang] 麦齐光
 [zhi, shi, jing][zu] 氏族
 zu'zhuang[an, chang] 组装厂
-[qin, tan][jun] 覃俊
-dong'bao[ou, qu, gou] 东宝区
 ji[xiang, jiang] 机降
-[cheng, sheng][ruo, re][yu, wei] 盛若蔚
-qiande[le, lei] 钱德勒
 ke'yun[yuan, yun] 客运员
-[hu, he][suan] 核酸
 qiu'zhi[ruo, re][ke] 求知若渴
-zhang[gai, ge][lun] 张盖伦
 [da, ta][wa][lei][si] 塔瓦雷斯
-men'tou'gou[ou, qu, gou] 门头沟区
-tang[na, nuo] 唐娜
-[ka, qia][de][er] 卡德尔
-[cheng, sheng][ze] 盛泽
-[da, ta][di][qi, ji] 塔迪奇
+[ka, qia][de'er] 卡德尔
 xi'tu[an, chang] 稀土厂
-[nan, na][fang] 南芳
 hua[yue, yao] 华约
-nuo[ding, zheng][han] 诺丁汉
 kewa[zha, cha] 克瓦查
 [xing, sheng][jie] 省界
-[ye, xie][mei] 叶梅
 tianyang[chu, xu] 天养畜
 [da, ta][li][ya] 塔利亚
-ka'fei[ba, pa] 咖啡吧
 gu[tun, zhun] 古屯
-[nan, na][xi] 南溪
-[de, di][xia] 地峡
 [quan, juan][ceng] 圈层
 cundai[hui, kuai] 村代会
 [lan, la][shao][hui, kuai] 蓝绍会
-zhaomeng[zhao, tao] 赵梦桃
-[zhuan, chuan][dao] 传道
-liu[jiang, qiang][dong] 刘强东
-sunli[guang, an] 孙立广
-[cen, san, can, shen][hui, kuai][zhe] 参会者
-ou'yang[zhang, chang][qing] 欧阳长青
+sun'li[guang, an] 孙立广
 ji[da, ta][lian] 季塔连
 [yin, yan][xia] 烟霞
-ren[hong, gong] 任红
-[lu, liu][qi'qian] 六七千
-maoming[fu, shi] 茂名市
 [ceng, zeng][jian][qiu] 曾剑秋
 xi[xiang, rang] 熙攘
-ping'fang[ou, qu, gou] 平房区
 [hu, he][wu][ku] 核武库
-li[yue, le] 利乐
-gouliguo'jiasheng'si[yi, si] 苟利国家生死以
-hailin[fu, shi] 海林市
+gou'liguo'jiasheng'si[yi, si] 苟利国家生死以
 ba[bo, bai] 巴伯
-[tun, zhun][chang][xian] 屯昌县
 [wei, yi][gu] 遗骨
-jin[tai, si][xi'lu] 金台西路
 jing'mao[hun, kun][wei][hui, kuai] 经贸混委会
 bu[le, lei] 布勒
-hu[jiang, qiang] 胡强
-daiyue[ou, qu, gou] 岱岳区
-yunyan[ou, qu, gou] 云岩区
-[zhang, chang][ling][xian] 长岭县
-[hong, gong][dan, shi] 红石
-[feng, ping][de][ying] 冯德英
-ji[heng, xing, hang] 纪行
-bu[yu, gu] 布谷
 [de, di][ni] 底泥
-wang[yue, le][wen] 王乐文
 [du, duo][xun] 度汛
-[jiang, qiang][ba] 强巴
-wangyun[na, nuo] 王云娜
+wang'yun[na, nuo] 王云娜
 ji[ci, cha, chai] 级差
-[jiang, qiang][sheng] 强生
 [sai, si][qin, qing] 思亲
-fanzhi[hong, gong] 范志红
-songzhi[jiang, qiang] 宋志强
-[zhang, chang][ning] 长宁
 ye[su, xiu] 夜宿
 [fu, bi][shi] 复式
 kangyong[qian, gan] 康雍乾
 [qi, ji][fu, shi] 奇市
-[zhang, chang][ting] 长汀
-mi[le, lei] 米勒
-chan[che, ju] 铲车
 yao[pu, bu, bao] 姚堡
-[feng, ping][yu][xiang] 冯玉祥
-yangpu[ou, qu, gou] 杨浦区
-shan'gaoshui[zhang, chang] 山高水长
+shan'gao'shui[zhang, chang] 山高水长
 [da, ta][zuo] 塔座
 shen[niao, diao] 神鸟
-[lu, liu][liang] 陆良
-[huo, hu, he][jing][xian] 和静县
 wo'er[shen, shi] 沃尔什
 [xin, xun][yi] 寻医
-fu[jie, jia] 富家
-yanliang[ou, qu, gou] 阎良区
-huan[tai, si][xian] 桓台县
 jing[ou, qu, gou] 警区
 xin[yue, shui, shuo] 新说
-shu[le, lei][xian] 疏勒县
 kun[sha, suo] 昆莎
 wenbu'er[dun, du] 温布尔顿
-beibei[ou, qu, gou] 北碚区
 [jiao, xiao][ming] 校名
-lianhu[ou, qu, gou] 莲湖区
 rou[zhu, shu] 柔术
-[yao, tao][jian][zhong] 陶建中
-[bo, bai][wan, mo][qing] 柏万青
-xi[heng, xing, hang][man] 西行漫
-xin[hui, kuai] 新会
-qi'lin[ou, qu, gou] 麒麟区
+[yao, tao][jian'zhong] 陶建中
+[bo, bai][wan'qing] 柏万青
 [tuo, ta][ba] 拓跋
-li[guang, an][yuan] 李广元
 jianming[hui, kuai] 蹇明会
 [piao, pu, po][zhi][en] 朴志恩
-[che, ju][jun] 车俊
 [za, zha][la] 扎拉
-[gu, jia][lei] 贾蕾
 chui'feng[hui, kuai] 吹风会
-[e, a][mo][si] 阿莫斯
-jian'cai[an, chang] 建材厂
-[cheng, sheng][ze][zhen] 盛泽镇
-zhou'cheng[an, chang] 轴承厂
 zhouheng[hua, huai] 舟恒划
-chenyi[hong, gong] 陈意红
+chen'yi[hong, gong] 陈意红
 [wei, yi][luo, la, lao] 遗落
 hanju[hong, gong] 韩举红
-han[jiang, qiang] 悍将
 tekewei[qi, ji] 特科维奇
-suyong[jiang, qiang] 苏永强
-chen[da, dai][gang] 陈大刚
-ha[za, zha][lei] 哈扎雷
+su'yong[jiang, qiang] 苏永强
 zhan[huo, hu, he] 战和
 su'ying[de, di] 宿营地
-zhang'zhi[jiang, qiang] 张志强
-zhongyang[bo, bei] 钟杨波
-[e, a][di][da][si] 阿迪达斯
-wang[heng, xing, hang][juan] 王行娟
-yu[du, dou][xian] 于都县
-[e, a][pei][cun] 阿沛村
-[di, zhai][juan] 翟隽
-[bo, bei][fu, bi] 波幅
-cang[chan, dan, shan] 仓单
+zhong'yang[bo, bei] 钟杨波
 [mo, ma][ke][li][si] 摩克利斯
 han[fu, bi][ling] 韩复龄
 yangzhao[ou, qu, gou] 阳照区
 you'zhiyou[jie, jia] 优质优价
 yao[qi, ji][zhi] 姚期智
-baixia[ou, qu, gou] 白下区
 [ceng, zeng][de][mei] 曾德梅
-[fu, bi, fo][shou] 佛手
-shan'cheng[ou, qu, gou] 山城区
 [bo, bei][bei] 波贝
-weiyang[ou, qu, gou] 未央区
-sun[jin, jing][song] 孙劲松
-tai[ao, you][fei][er] 泰奥菲尔
-musi[da, ta][fa] 穆斯塔法
-[yu, wei][ran] 蔚然
+mu'si[da, ta][fa] 穆斯塔法
 kante[bo, bai][lei] 坎特伯雷
-chen[wan, mo][qing] 陈万清
-yang[hui, kuai][fei] 杨会飞
-qing'yunpu[ou, qu, gou] 青云谱区
-[tang, shang][yuan] 汤原
 [da, ta][pa][lang][xi] 塔帕朗西
-[lu, liu][lan][fang] 陆兰芳
 [zhao, tao][fu] 桃符
 [feng, ping][nai][en] 冯乃恩
 yi[za, zha][zi, ci] 伊扎兹
 [e, a][yi][pa][xia] 阿依帕夏
 tai'hang'shan[ou, qu, gou] 太行山区
-zheng[jie, jia][qing] 郑家晴
 liya[de, dei] 利雅得
-ma[yu, wei][hua] 马蔚华
 [qi, ji][pa][da, ta] 奇帕塔
 bao'gao[chan, dan, shan] 报告单
 [mou, miao, jiu, miu][xue][bing] 缪学兵
-shenhe[ou, qu, gou] 沈河区
 [ao, you][bei][di] 奥贝迪
 [sou, su][sou, su] 嗖嗖
-jia[yue, le] 嘉乐
-[dan, shi][mo] 石磨
 [ye, xie][cai] 叶菜
-[dan, shi][shan] 石山
 mu[ge, he][tai] 木合太
 [sao, shao][kou] 哨口
-gongduan[zhang, chang] 工段长
 [xing, sheng][shi] 省时
 tu'long[zhu, shu] 屠龙术
-[de, di][qi, xie] 地契
 [yue, kuai][er] 块儿
 [ding, ting][cun] 町村
-[ge, he][yang] 合阳
-xuan'wu[ou, qu, gou] 玄武区
-[feng, ping][jun] 冯军
 hanren'xin[bo, tuo, po] 撼人心魄
-huaiyin[ou, qu, gou] 淮阴区
-zhai[fu, shi] 债市
-[yue, le][ling] 乐陵
-xinluo[ou, qu, gou] 新罗区
-[hui, kuai][zhang] 会章
 guan[zhang, chang] 关长
 [ka, qia][fu] 卡夫
-[hu, lu][jian][de] 芦建德
+[hu, lu][jian'de] 芦建德
 [dan, shi][tian][miao] 石天苗
 lu[niao, diao] 鹭鸟
-yinhuangguan[ou, qu, gou] 引黄灌区
-[nan, na][da, ta] 南塔
-zhouzhi[jiang, qiang] 周志强
-xie[jiao, jue][zai] 谢觉哉
 [wan, mo][xiang][wen] 万香文
-[qi, ji][mei] 其美
 ren[zhang, chang][lian] 任长连
-[ao, you][ke][ni] 奥克尼
-feng[wei, yi] 凤尾
 zheng'shou[shuai, lv, lue] 征收率
 mu[se, sai][wei][ni] 穆塞韦尼
-zheng[hong, gong] 郑红
 [sui, shuai][yuan] 绥远
 xite[shen, shi] 希特什
-la[da, ta][ji][ya] 拉塔基亚
 tiao[yue, kuai][jie'he] 条块结合
-gan[cang, zang][chun] 甘藏春
 xu[qi, ji] 续期
-[ding, zheng][hao][bo, bei] 丁浩波
-jiangning[ou, qu, gou] 江宁区
+ding'hao[bo, bei] 丁浩波
 sheng'chan'dui[zhang, chang] 生产队长
 jiao'yu[xi, ji] 教育系
-[zhun, chun][hua] 纯化
-huang'hai[bo, bei] 黄海波
-[ceng, zeng][jun][hua] 曾俊华
 zuan[tai, si] 钻台
-gelei[zi, ci] 格雷兹
-lv[an, chang] 铝厂
-xi'gang[ou, qu, gou] 西岗区
+ge'lei[zi, ci] 格雷兹
 [dan, shi][zhuan, chuan][wan, mo] 石传万
 san'si[wan, mo] 三四万
 yuanxue[hong, gong] 袁学红
-[da, dai][huo, hu, he] 大和
-bei'dai'he[ou, qu, gou] 北戴河区
 [yao, tao][yin] 陶印
-huaiyin[ou, qu, gou] 槐荫区
-kuo[da, dai] 阔大
 [tang, shang][yi][mei] 汤怡妹
-lian[nan, na][yao'zu][zi'zhi'xian] 连南瑶族自治县
-wuchang[fu, shi] 五常市
-[e, a][za, zha] 阿扎
 xi'men[ding, ting] 西门町
 [lu, liu][di] 陆第
-[da, dai][zhu'jiao] 大主教
 [di, ti][ge, gan][xing] 提个醒
-panjin[wan, mo] 潘金万
-[zha, cha][er][si] 查尔斯
+pan'jin[wan, mo] 潘金万
 [wan, mo][bing][gen] 万炳根
 mu'han'mo'de[za, zha][nuo][fu] 穆罕默德扎诺夫
-chen[dan, shi][luo] 陈石罗
 [lu, liu][qun] 陆群
-dongli[ou, qu, gou] 东丽区
-liu[zhao, tao][rui] 刘桃瑞
-an[nan, na] 安南
 shenyin[nan, na] 沈音南
-yantian[ou, qu, gou] 盐田区
-an[se, sai] 安塞
-[da, dai][nong'chang] 大农场
 jin[yao, lue] 禁药
 xin[zhang, chang][xing] 信长星
 ni[hong, jiang] 霓虹
 wang[zhang, chang][quan] 王长权
 min'gan[ou, qu, gou] 敏感区
 [yu, gu][yan][sheng] 谷彦生
-song[jie, jia][wei] 宋家伟
-caiyou[an, chang] 采油厂
+cai'you[an, chang] 采油厂
 kuang[che, ju] 矿车
-[feng, ping][jian][zhong] 冯建中
-[chan, shan][si] 禅寺
-jianye[ou, qu, gou] 建邺区
-[ao, you][er][da, ta] 奥尔塔
+ao'er[da, ta] 奥尔塔
 wen[yue, shui, shuo] 文说
 lin[ka, qia] 林卡
-[e, a][er][bei] 阿尔贝
 yanyi[na, nuo] 严意娜
-[ceng, zeng][zhuo] 曾卓
-gui[yue, yao] 规约
-song[zhao, tao] 松桃
 xiang'yang[hong, gong] 向阳红
-jiangli[na, nuo] 姜丽娜
-[yu, gu][xiu][mei] 谷秀梅
 [jiang, qiang][bi][ba] 强必霸
-[dun, dui][hua] 敦化
-[e, a][tan][ba][ye][fu] 阿坦巴耶夫
-longguo[jiang, qiang] 隆国强
+[e, a][tan][ba'ye][fu] 阿坦巴耶夫
+long'guo[jiang, qiang] 隆国强
 [she, zhe, shw][ye] 折页
-[da, dai][xin][xian] 大新县
-qilihe[ou, qu, gou] 七里河区
 yu[nan, na] 豫南
-li[zhang, chang][yun] 李长云
-yake[dan, shi][fu, shi] 牙克石市
-[di, zhai][yong][ping] 翟永平
+[di, zhai][yong'ping] 翟永平
 [yue, shui, shuo][jin] 说尽
-[bing, ping][nan, na][xian] 屏南县
 qi[zhong, chong] 起重
-huajin[na, nuo] 华金娜
+hua'jin[na, nuo] 华金娜
 [yao, tao][guang][xiong] 陶光雄
-bosiwo[sai, si] 博斯沃思
 [di, zhi][jing] 抵京
-jiangxia[ou, qu, gou] 江夏区
-wuwei[fu, shi] 武威市
 tan[jie, jia] 探家
-[tang, shang][yin][xian] 汤阴县
 wang[zhang, chang][jun] 汪长军
 xuan[ye, xie][guang] 玄叶光
 [huo, hu, he][wen'chuan] 和汶川
-[wan, mo][chun][sheng] 万春生
 [che, ju][guan] 车管
-[ye, xie][ping][xiang] 叶坪乡
-[e, a][ge, he][qi, ji][xian] 阿合奇县
-[sai, si][mao] 思茅
-walai[da, ta] 瓦莱塔
-hua'deng[xi, hu] 花灯戏
 [ao, you][la][ji] 奥拉基
 [bo, bei][hei] 波黑
 moni[ka, qia] 莫妮卡
-jiao'tong[yuan, yun] 交通员
 qing[jiao, zhuo] 清缴
 mu[tun, zhun][cun] 母屯村
 [she, die][xian] 涉险
-hai[dun, du] 海顿
-[hong, gong][qiao][ou, qu, gou] 红桥区
-yining[fu, shi] 伊宁市
-[nan, na][hou][jie] 南后街
-zhuan[qi, ji] 朱安奇
+zhu'an[qi, ji] 朱安奇
 di'jiu'shi[lu, liu] 第九十六
-hongbo[pou, pei] 洪博培
-shu[jie, jia] 舒家
-gaoan[tun, zhun] 高安屯
-[wan, mo][ning] 万宁
+hong'bo[pou, pei] 洪博培
 [bian, feng][hong, gong][nian] 封红年
-sha[fu, shi] 沙市
 [tang, shang][tang, shang] 汤汤
 yi'xue[xi, ji] 医学系
 cai[zhong, chong] 菜种
-mao[huo, hu, he][yi] 毛和易
 meng[zhi, shi, jing] 蒙氏
-[ai, yi][rui] 艾瑞
-[wan, mo][cheng, sheng] 万盛
-[da, dai][suo][lang] 大索朗
-[wan, mo][hao] 万豪
+[da, dai][suo'lang] 大索朗
 luyue[bo, bei] 鲁月波
-jian[shuo, shu] 件数
-[wan, mo][fang] 万芳
 fu'hua[an, chang] 孵化厂
 wei[zhao, zhuo, zhe] 为着
 si'si[de, di] 死死地
-zhong'shan[ou, qu, gou] 中山区
 [cang, zang][min] 藏民
 [lu, liu][cu][hai] 陆促海
-zheng[da, dai] 正大
 yan'zou[hui, kuai] 演奏会
 tongqin[che, ju] 通勤车
-[wan, mo][qing][liang] 万庆良
 mu[tun, zhun] 母屯
-[ao, you][tong][ba][ye][wa] 奥通巴耶娃
-lali[gu, jia][ni] 拉里贾尼
-[jie, xie][guo][sheng] 解国胜
-qian'dong'nanmiao'zu[dong, tong][zu][zi'zhi'zhou] 黔东南苗族侗族自治州
-chen'xiao[hong, gong] 陈晓红
+[ao, you][tong][ba'ye][wa] 奥通巴耶娃
+la'li[gu, jia][ni] 拉里贾尼
+[jie, xie][guo'sheng] 解国胜
 ping'rang[fu, shi] 平壤市
 [wan, mo][yin][di] 万引娣
 li[heng, xing, hang][gen] 励行根
-qing'tong'xia[fu, shi] 青铜峡市
 nabi[le, lei] 纳比勒
 wang[jin, jing] 汪劲
-er'ren[tai, si] 二人台
-wangxian[kui, kuai] 王宪魁
 shenyou[jiang, qiang] 申友强
-[e, a][da][ke][si] 阿达克斯
-zou[fu, shi][ming] 邹市明
-jiang'dong[ou, qu, gou] 江东区
 [jiao, xiao][ge] 校歌
 jiao'tong'bu[zhang, chang] 交通部长
-[ceng, zeng][jing] 曾静
-[yao, tao][fei][ke] 陶菲克
-[za, zha][wa][he][li] 扎瓦赫里
-jinghu[ou, qu, gou] 镜湖区
-yuanhui[ou, qu, gou] 源汇区
-wang[zhun, chun][yu] 王纯玉
-[di, zhe][ta] 嘀嗒
-[ding, zheng][yi][lan] 丁一岚
+[za, zha][wa'he][li] 扎瓦赫里
 [ka, qia][li] 卡里
-[nan, na][li] 南里
-fang[hong, gong][xiao] 方红霄
-lijing[cheng, sheng] 李京盛
-[dan, shi][qian][xian] 石阡县
-[ge, he][shan] 合山
+li'jing[cheng, sheng] 李京盛
 yi'liang[wan, mo] 一两万
-[nan, na][zhang] 南漳
 [nan, na][man] 南满
 wu[ding, zheng] 吴丁
-zhang[lu, lou][xin] 张露新
-[da, dai][tian][xian] 大田县
-zhou[jie, jia][de] 周家德
-xinyi[fu, shi] 信宜市
-jie[dan, shi] 界石
-[dan, shi][cheng][xian] 石城县
 [huo, hu, he][se] 和铯
 zhou[hao, gao] 周镐
-mu[ka, qia][mu] 木卡姆
 [hua, huai][shang] 划伤
-[lu, liu][san] 六三
-muxi[yue, yao][ka, qia] 穆西约卡
-yu[bing, ping] 玉屏
+mu'xi[yue, yao][ka, qia] 穆西约卡
 mai[mang, wang] 麦芒
-[e, a][yi][gu][li] 阿依古丽
+[e, a][yi][gu'li] 阿依古丽
 [da, dai][yang'ge] 大秧歌
 [ka, qia][li][pu][suo] 卡利普索
-wudao[qi, ji] 乌道奇
-xiangjun[bo, bei] 项俊波
-[dan, shi][jie, jia][tong] 石家统
 lu[guang, an][yu] 鲁广余
-[ka, qia][na][er] 卡纳尔
-li[bo, bei][xian] 荔波县
-hu[zhang, chang][qing] 胡长清
 [mo, mao][ding] 冒顶
 [qi, ji][rang] 齐让
 [le, lei][mu] 勒姆
-zhabei[ou, qu, gou] 闸北区
 [ka, qia][lun] 卡伦
 ji'suan[che, chi] 计算尺
 waha[ka, qia] 瓦哈卡
-[yin, yan][xiu][mei] 殷秀梅
 zhuo[jie, jia][tong] 卓家同
 nei[xing, sheng] 内省
 jiang'pai[shuo, shu] 奖牌数
 wei'fa[dun, bu][jiu] 违法不究
-xingeer[dun, du] 辛格尔顿
-[qi, ji][qi, ji] 齐齐
 wa[nan, na][di] 瓦南迪
-[feng, ping][ping] 冯平
-li[zi, ci] 利兹
 jue'sai[quan, juan] 决赛圈
 lie[du, duo] 烈度
 hu[qi, ji][xiang] 胡其祥
-husheng[jiang, qiang] 胡胜强
-xiao[jie, jia][ba] 肖家坝
-[lv, lu][yin] 绿茵
-fang[che, ju] 纺车
+hu'sheng[jiang, qiang] 胡胜强
 ding[tiao, diao] 定调
 [ci, cha, chai][ba] 差巴
 [chan, dan, shan][xiao][ming] 单晓鸣
 gang[ou, qu, gou] 岗区
-luo[jiang, qiang] 罗强
-lao[ding, zheng] 老丁
-luo[zhi, shi, jing] 罗氏
-[xin, xun][dian] 寻甸
 [sui, niao][yang] 尿样
-[fu, shi][bei][ou, qu, gou] 市北区
 ji[jian, xian] 己见
-chen[po, fan][chang] 陈繁昌
-[hong, gong][chang] 红场
 bi[le, lei] 彼勒
-[chan, dan, shan][wen][yuan] 单文渊
 [e, a][qi, ji][zi, ci] 阿齐兹
-[nan, na][lai][bei][wang] 南来北往
 wangbing[qian, gan] 王丙乾
-[hong, gong][feng] 红枫
-[mou, miao, jiu, miu][se, sai] 缪塞
-zhanghong[bo, bei] 张洪波
-ba[zhi, shi, jing] 巴氏
 mi[zhou, yu] 米粥
 [hong, gong][fu'shi] 红富士
-kang[qian, gan] 康乾
 [fei, pei][shi][you] 裴世友
 kai[fu, shi] 开市
-[guang, an][shui] 广水
-[feng, ping][ji][cai] 冯骥才
-liyong[bo, bei] 李永波
-[zhan, nian][tu] 粘土
 [lu, liu][ji] 陆基
 qingji[hui, kuai] 青基会
-[lu, liu][qiao] 陆桥
-bi[tiao, diao] 笔调
-[e, a][de] 阿德
 [lu, liu][sheng] 陆生
-guo[yao, lue] 国药
 yi'che[che, ju] 一车车
-[yao, tao][yi] 陶艺
 zhi'chi[men, wen] 支持汶
-[da, dai][hua] 大化
 [xiang, jiang][tang] 降糖
 [wan, kun][jun] 顽军
-li[jie, jia][zhai] 厉家寨
 zu[qi, ji] 租期
-[qi, ji][qi, ji][ya] 齐齐亚
-mu[le, lei] 穆勒
-xiling[ou, qu, gou] 西陵区
-bi[hui, kuai] 笔会
 [shi, yi, si][ju] 食具
 zhan[ou, qu, gou] 站区
 [zhong, chong][zhu] 种猪
 li[bo, bai][man] 利伯曼
-sanli[tun, zhun] 三里屯
 di'ba'shi[lu, liu] 第八十六
-chengguo[jiang, qiang] 程国强
-[da, dai][jiu] 大舅
 shang'zhang[shuai, lv, lue] 上涨率
 nen[ye, xie] 嫩叶
 [chen, cheng][zuo] 称做
-[jia, ga][shi][xian] 伽师县
 wang[da, ta] 望塔
-jiang[nan, na][xiang] 蒋南翔
-muhanmodi[za, zha][de] 穆罕默迪扎德
+mu'hanmodi[za, zha][de] 穆罕默迪扎德
 ji[tai, si] 机台
 za[jie, jia] 杂家
-gan[da, ta] 杆塔
 [zhi, shi][jia] 识假
 [jie, xie][niu] 解牛
 wei'xin[pa, pai] 维新派
-qiao[nan, na] 桥南
-[ceng, zeng][wei] 曾维
-pingxiang[fu, shi] 凭祥市
 [lu, liu][ding][yi] 陆定一
-gan[sai, si][huo, hu, he] 甘思和
-yangming[pu, bu, bao] 阳明堡
+gan'si[huo, hu, he] 甘思和
+yang'ming[pu, bu, bao] 阳明堡
 [jia, ga][jin'shan] 夹金山
 [hu, he][dao] 核岛
 yan'jiuguan[yuan, yun] 研究馆员
-qu[bo, bei] 曲波
-cao[zhi, shi, jing] 曹氏
-pi[qi, ji][ao, you][tuo] 皮奇奥托
 yan[zhuan, chuan] 言传
-[heng, xing, hang][cao] 行草
 yun[quan, juan][yun] 云卷云
-liangliang[de, di] 亮亮的
+liang'liang[de, di] 亮亮的
 [zhi, shi][jian, xian] 识见
-fengxian[ou, qu, gou] 奉贤区
-wang[da, dai][ping] 王大平
 si[qi, ji][ya][wo][ni] 斯齐亚沃尼
 xiejin[hui, kuai] 协进会
-[nan, na][xi][cun] 南溪村
-[nan, na][zhang][xian] 南漳县
 wen[yi, si][zai] 文以载
 fen'dui[zhang, chang] 分队长
 tong'guo[shuai, lv, lue] 通过率
-chen[jie, jia][rong] 陈家荣
 pei[se, sai][luo] 佩塞罗
 [zha, cha][mao][de] 查茂德
-zou[jie, jia][hua] 邹家华
-zhao[nan, na][qi] 赵南起
-wang[pou, pei][ting] 王培廷
-linzhi[bo, bei] 林治波
 sa[zhong, chong] 撒种
-yu[qi, ji][wu] 玉奇吾
-daerfuer[de, di] 达尔富尔地
-yi[wan, mo][nuo][wei][qi, ji] 伊万诺维奇
+da'erfu'er[de, di] 达尔富尔地
 [ai, yi][zai][zi] 艾在孜
 [che, ju][de, di] 车底
 [wan, mo][xin][gui] 万薪贵
 [xi, hu][ma] 戏码
-chen[ruo, re][xi] 陈若曦
 huang[wan, mo][biao] 黄万彪
-zhang[hong, gong][shun] 张红顺
-[za, zha][lu][bi][nuo] 扎鲁比诺
-zheng[xiang, rang][bai'qi] 正镶白旗
-[da, dai][tiao, diao][chu] 大调处
+[za, zha][lu][bi'nuo] 扎鲁比诺
 gaoxing[jie, jia] 高性价
-chenzhong[huo, hu, he] 陈忠和
-zhao[bo, bei] 赵波
-nuerxia[di, ti] 努尔夏提
+chen'zhong[huo, hu, he] 陈忠和
+nu'erxia[di, ti] 努尔夏提
 xu[chao, zhao][jun] 许朝军
-lumei[hong, gong] 卢梅红
+lu'mei[hong, gong] 卢梅红
 [cang, zang][yi'yuan] 藏医院
 bulian[da, ta] 补连塔
-fang[de, di] 房地
 shi'wu[lu, liu] 十五六
-[da, dai][yao'an] 大要案
-dao[de, di] 道地
-tang[jie, jia][du] 唐家渡
-[nan, na][xin][zhen] 南辛镇
-[yu, gu][xing][fu] 谷兴富
-[lu, liu][qi][zhou] 陆启洲
+[yu, gu][xing'fu] 谷兴富
 su[wan, mo][nei, na, ne][pu] 素万那普
-[ai, yi][sen] 艾森
-[za, zha][mu][su][rong] 扎木苏荣
-ling[dan, shi][xian] 灵石县
-zhangxi[jiang, qiang] 张希强
-lao[yu, gu] 老谷
+[za, zha][mu][su'rong] 扎木苏荣
+zhang'xi[jiang, qiang] 张希强
 guo[sai, si][yue, le] 郭思乐
-[nan, na][cheng, sheng][zhen] 南盛镇
-yi'yuan[fu, bi][shi] 一元复始
-shui[sha, shan] 水杉
-wu[jie, jia][wei] 吴家玮
-ou[lu, liu] 欧陆
-meng[na, nuo] 蒙娜
-[qi, ji][he][xian] 齐河县
-tong'yegong[hui, kuai] 同业公会
-[ding, zheng][jie] 丁杰
-qiao[jie, jia] 乔家
-er[lu, liu] 二六
 [yue, le][li] 乐理
 [ai, yi][lue] 艾略
-tong[nan, na][xian] 潼南县
 [wo, guo][shan] 涡扇
-miyasinikewei[qi, ji] 米亚斯尼科维奇
-[lan, la][tian][xian] 蓝田县
+mi'yasini'kewei[qi, ji] 米亚斯尼科维奇
 zi'xun[tai, si] 咨询台
 [de, di][dui][kong] 地对空
 [fu, bi, fo][da, ta] 佛塔
 mi[se, sai][li][ya] 米塞里亚
 bolandeng[pu, bu, bao] 勃兰登堡
-wo[dun, du] 沃顿
 nong[lv, lu] 浓绿
-he[se, sai] 何塞
-[e, a][ke'la] 阿克拉
 gong'si[an, chang] 公司厂
 [cang, zang][liang] 藏粮
 shi'fan[jiao, xiao] 示范校
-liubai[yu, hu] 刘白羽
-[nan, na][guan][ou, qu, gou] 南关区
 [lu, liu][ren][ze] 陆仁泽
-[bo, bao][ban] 薄板
 cao'zong[yuan, yun] 操纵员
-[wan, mo][qing][cun] 万庆村
 bai[zhong, chong][en] 白重恩
-rou[dan, shi] 柔石
-bujia[le, lei][si][te] 布加勒斯特
-[gu, jia][ren][huo, hu, he] 贾仁和
-zhanghong[chao, zhao] 张鸿朝
+[gu, jia][ren'he] 贾仁和
+zhang'hong[chao, zhao] 张鸿朝
 lin[zhong, chong] 林种
-[nan, na][ma][zhuang] 南马庄
-[zha, cha][qi, ji] 查缉
-luo[cheng, sheng][bo, bei] 罗盛波
+luo'sheng[bo, bei] 罗盛波
 mu[bian, feng][yu] 牧封育
 chenyun[guang, an] 陈允广
-[ka, qia][yi][si][er] 卡伊斯尔
 lian'xin[ka, qia] 连心卡
 liao[wan, mo][qing] 廖万清
-liangxiao[hong, gong] 梁小红
-ganjingzi[ou, qu, gou] 甘井子区
 nongbao[cen, san, can, shen] 农保参
-xuzhang[zhi, shi, jing] 许张氏
 [ye, xie][xin] 叶辛
-huzong[nan, na] 胡宗南
-[cen, san, can, shen][ye] 参谒
-chen[zhang, chang][qing] 陈长青
-meng[guang, an][lu] 孟广禄
 ying'xiong[zhuan, chuan] 英雄传
-[xiang, heng][ting][dun, du] 亨廷顿
 [dan, shi][da'chuan] 石大川
-[nan, na][ka, qia][luo][lai][na] 南卡罗来纳
-[nan, na][jie] 南街
-yi[bo, bu][sheng] 易卜生
-[e, a][ke][yao, tao][xian] 阿克陶县
-liu[jie, jia][an] 刘家安
-guli[sha, suo] 古丽莎
+[nan, na][ka'luo][lai][na] 南卡罗来纳
+gu'li[sha, suo] 古丽莎
 [nan, na][ma] 南玛
-[ge, he][jian] 合建
 [cheng, sheng][fang] 盛放
 [bo, bu][yan][rong] 卜延荣
 tian[wan, mo][chang] 田万昌
 [cheng, sheng][ju] 盛举
-xi[chao, zhao][feng] 习朝峰
 ji[hui, kuai] 基会
-ci[du, dou] 瓷都
-zhou[jie, jia][mu] 周家姆
-luo[bo, bai][tuo] 罗伯托
-tu[jie, jia] 土家
 qilunji[an, chang] 汽轮机厂
 [lu, liu][deng][hong] 陆登宏
-jia'ling[ou, qu, gou] 嘉陵区
-yi[wan, mo][nuo][fu] 伊万诺夫
 chang'huan[qi, ji] 偿还期
-chen[zhang, chang][pu] 陈长璞
-[e, a][li][wa] 阿丽瓦
-liying[jiang, qiang] 李英强
+li'ying[jiang, qiang] 李英强
 [jie, xie][min][nan] 解民难
-li[wan, mo][cai] 李万才
-ge'hang[qi, ji][dao] 各行其道
 yong[du, duo] 用度
-nan'kai[ou, qu, gou] 南开区
-gaoyu[hong, gong] 高玉红
-[feng, ping][hua] 冯华
-[ao, you][ke][lan] 奥克兰
 ying'er[che, ju] 婴儿车
 jia'ju[an, chang] 家具厂
 ma[za, zha] 麻扎
 zhu[yi, si][sa] 朱以撒
 leizi[yue, le] 雷子乐
-yubei[ou, qu, gou] 渝北区
 jieer[zha, cha][wen] 杰尔查文
 rong'zi[xuan, quan] 融资券
 waiwei[hui, kuai] 外委会
 hong[zhuan, chuan][lin] 洪传林
-lu[jie, jia][chang] 卢家场
+ming'wang[chao, zhao] 明王朝
 lv'he'jin[an, chang] 铝合金厂
-[hui, kuai][pa, pai] 会派
-[wan, mo][tong] 万通
-[feng, ping][hai][hong] 冯海泓
 [e, a][te][si] 阿特斯
-jia'zi[che, ju] 架子车
 xucai[di, ti] 徐才提
-[nan, na][ling] 南岭
-hei[yao, tao] 黑陶
-[chan, dan, shan][ji] 单极
 [hua, huai][hen] 划痕
 cui'lv[shai, se] 翠绿色
 re[luo, lao] 热络
 [bo, bu][xun] 卜勋
-[fu, shi][zhong][ou, qu, gou] 市中区
-[nan, na][ping] 南坪
-lamei[shen, shi] 拉梅什
-liu[tuo, ta] 刘拓
-wu[jie, jia][gang][ou, qu, gou] 伍家岗区
+la'mei[shen, shi] 拉梅什
 [lu, liu][jing] 六经
 [le, lei][tu] 勒图
 mei[yue, kuai] 煤块
-guang[bo, bei] 光波
 re[na, nuo] 热娜
-[hong, gong][du, dou] 红都
-meng[de, dei][wei][de, di][ya] 蒙得维的亚
 tan[zhuan, chuan][bao] 檀传宝
-chang'an[ou, qu, gou] 长安区
-lin[qu, chun][xian] 临朐县
 shan[pao, bao] 山炮
 [zhong, chong][you] 重油
-[ci, cha, chai][yi] 差役
-luosilei[di, ti][nan, na] 罗斯雷提南
+luo'silei[di, ti][nan, na] 罗斯雷提南
 [zhong, chong][pao, bao] 重炮
-mali[na, nuo] 玛丽娜
+ma'li[na, nuo] 玛丽娜
 [zhong, chong][zui] 重罪
 ren[bo, bai][nian] 任伯年
-[ding, zheng][xiang'yang] 丁向阳
 pen[bo, bao][er'chu] 喷薄而出
-fan[guang, an][cheng] 范广成
-mu'dan[ou, qu, gou] 牡丹区
 fan[de, di] 翻地
-[da, dai][gang][ou, qu, gou] 大港区
-gaogang[ou, qu, gou] 高港区
 zhong[nan, na] 终南
-zhang[jin, jing][fu] 张劲夫
 gao[yu, gu][shen] 高谷深
 peng[pu, bu, bao] 彭堡
 [sao, zao][si] 缫丝
-[jiao, zhuo][fu] 缴付
 kang[cang, zang] 康藏
-[shen, shi][sha, cha][hai] 什刹海
-jinchang[fu, shi] 金昌市
-[yin, yan][hong][jin] 殷洪金
-xi[bo, bai] 锡伯
+[yin, yan][hong'jin] 殷洪金
 wu[qu, xu][wei'xin] 戊戌维新
 xi[ka, qia] 锡卡
 chu'ban[jie, jia] 出版家
@@ -2556,187 +1292,93 @@ wu'la[zi, ci] 乌拉兹
 ciren[dun, du][zhu] 次仁顿珠
 nian[wei, yi] 年尾
 [tang, shang][su][lan] 汤素兰
-[jie, xie][jun][chang] 解俊昌
-zhang[hong, gong][yan] 章红艳
-[hong, gong][bai][shi] 红白事
-[ding, zheng][guo][jiang] 丁国江
-fujin[fu, shi] 富锦市
-kangba[da, ta] 康巴塔
+[ding, zheng][guo'jiang] 丁国江
+kang'ba[da, ta] 康巴塔
 [yao, tao][li][ming] 陶礼明
-xiangfang[ou, qu, gou] 香坊区
-qian[cheng, deng][hai] 钱澄海
 [zhan, nian][ge, he] 粘合
-jinyong[nan, na] 金永南
-[ao, you][ti] 奥体
+jin'yong[nan, na] 金永南
 [ao, you][mu] 奥姆
 yang[wei, xu] 阳圩
-[fu, pou][ling][ou, qu, gou] 涪陵区
-feier[nan, na][de][si] 费尔南德斯
 tou[shuo, shu] 头数
 [yao, tao][gang] 陶岗
-[ding, zheng][yuan][zhu] 丁元竹
-ya[yue, le] 雅乐
-[lu, liu][chuan] 陆川
-[de, di][kuang] 地矿
-[de, di][zhuan] 地砖
 [lu, liu][kong] 陆空
-yuquan[ou, qu, gou] 玉泉区
 [yao, tao][pian] 陶片
-[yu, wei][cheng][feng'qi] 蔚成风气
-[lu, liu][xiang] 陆相
+[yu, wei][cheng'feng][qi] 蔚成风气
 ju[mo, wu][ding] 居无定
-donggang[ou, qu, gou] 东港区
-yun'he[ou, qu, gou] 运河区
 [zhong, chong][mian] 种棉
-manjia[hui, kuai] 满佳会
-[zha, cha][gan][hu] 查干湖
+man'jia[hui, kuai] 满佳会
 shi[jie, jia] 实价
-[dan, shi][yuan][chun] 石元春
 [jie, jia][shen, shi] 家什
-[dan, shi][gu] 石鼓
 shun[jie, jia] 顺价
 qiu[tian, dian][jiang] 邱佃江
 fanwei[cheng, deng] 范维澄
 [gu, jia][de][chun] 贾德春
 han[ou, qu, gou] 寒区
 [zhong, chong][yang] 种羊
-mi[ka, qia][di, ti] 米卡提
+mi'ka[di, ti] 米卡提
 qing[lv, lu] 青绿
-[wan, mo][quan][he] 万泉河
 li[dan, shi] 砾石
 qiu[yi, si][gang] 邱以刚
-[dan, shi][ke][rong] 石克荣
 shen'bao[chan, dan, shan] 申报单
 [dan, shi][zhen] 石镇
-[da, dai][tiao, diao] 大调
-[ao, you][si][wei][xin] 奥斯威辛
 [feng, ping][pou, pei][xuan] 冯培炫
 dan'bai[sui, niao] 蛋白尿
-wang'guo[jiang, qiang] 王国强
-naxi[ou, qu, gou] 纳溪区
-wangguang[dao, tao] 汪光焘
-[ding, zheng][xu][dong] 丁旭东
 [lu, liu][xian][qin] 六弦琴
-yun[tai, si][shan] 云台山
 xuan[wo, guo] 旋涡
 zhou[mo, mu][ying] 周模英
 seluoye[shen, shi][jin] 瑟罗耶什金
 [jiao, jue][zhao, zhuo, zhe] 觉着
-sang[ye, xie] 桑叶
 [ye, xie][xiao][gang] 叶小纲
-a'lamutu[fu, shi] 阿拉木图市
-[e, a][zi][gu][li] 阿孜古丽
-ji[na, nuo][qiang] 吉娜羌
-[ceng, zeng][hao] 曾浩
+a'la'mu'tu[fu, shi] 阿拉木图市
+[e, a][zi][gu'li] 阿孜古丽
 [piao, pu, po][zhuo] 朴拙
 xian[jian, xian] 显见
 [qin, tan][mou] 覃某
 yiwei[hui, kuai] 艺委会
-bai'yin[fu, shi] 白银市
 [di, ti][ji] 提级
 rang[heng, xing, hang] 让行
 zheng[ou, qu, gou] 政区
-[feng, ping][tian][wei] 冯天薇
+[feng, ping][tian'wei] 冯天薇
 [yue, shui, shuo][zhe] 说者
-[hu, lu][xi][xian] 芦溪县
 chi'chuanzhu[heng, xing, hang] 吃穿住行
 yaqing[hui, kuai] 亚青会
 jiao[ou, qu, gou] 教区
 wen[zhuan, chuan] 文传
-[ye, xie][xiao][wen] 叶小文
-xu[zhang, chang][ming] 徐长明
-lian'shang[mo, wu][guang] 脸上无光
-huaxing[hui, kuai] 华兴会
-[piao, pu, po][cheng][hua] 朴成华
-[za, zha][ka, qia][li][ya] 扎卡里亚
+lin'bo[bo, bei] 林波波
+[piao, pu, po][cheng'hua] 朴成华
 shao[jie, jia][qiao] 邵家桥
-[dun, dui][mu] 敦睦
 jiao'wu[zhang, chang] 教务长
 si[zhi, shi, jing] 斯氏
-yangyan[sui, shuai] 杨燕绥
-duyu[bo, bei] 杜玉波
+yang'yan[sui, shuai] 杨燕绥
+du'yu[bo, bei] 杜玉波
 gai[tai, si] 该台
-wen[jiang, qiang] 文强
 ping[xi, hu] 评戏
-wen[guang, an] 文广
-xu[jiang, qiang] 许强
-huinong[ka, qia] 惠农卡
-shi[jie, jia] 施家
-[hong, gong][jin][cun] 红金村
-gong[jiao, jue][xian] 贡觉县
-wang[qi, ji][gui] 王其贵
-fu[mo, ma] 抚摩
+hui'nong[ka, qia] 惠农卡
 sheng'cun[qi, ji] 生存期
 [ao, you][fan][sai] 奥帆赛
-long[bo, bai][ge] 隆伯格
-ge[jie, jia][zhen] 葛家镇
-[wan, mo][chun][zhen] 万春镇
-ji'chuang[an, chang] 机床厂
-ping[lu, liu][xian] 平陆县
-jiuyan[dun, bu][shuai, cui] 久演不衰
-jin[tai, si] 金台
-[du, dou][ling] 都灵
-litong[ou, qu, gou] 利通区
-qu[wan, mo][xiang] 屈万祥
-[ke, ka][la][kun'lun'shan] 喀喇昆仑山
-tai[yu, gu][xian] 太谷县
 [de, di][xian] 底限
-yangrui[hong, gong] 杨瑞红
-mi[jie, jia][pu, bu, bao] 米家堡
-[zha, cha][chun][ming] 查春明
-[chou, qiu][bao][xing] 仇保兴
-[ba, pa][zhu] 把住
+yang'rui[hong, gong] 杨瑞红
+[zha, cha][chun'ming] 查春明
 [feng, ping][shuang][gui] 冯双贵
-yangkewei[qi, ji] 扬科维奇
-ping[nan, na][xian] 平南县
+su'hai[nan, na] 苏海南
 yue[zhi, shi, jing] 悦氏
-[da, dai][peng][cai] 大棚菜
 [mai, mo][mai, mo] 脉脉
-[ai, yi][ping] 艾平
 yao'bu[le, liao] 要不了
-[se, sai][wan, mo][di, ti][si] 塞万提斯
-zhang[hong, gong][bing] 张红兵
-cenxi[fu, shi] 岑溪市
 qiu'dong[zhong, chong] 秋冬种
-[wan, mo][shou][tai, si] 万寿台
-[da, dai][an][ou, qu, gou] 大安区
-[zhang, chang][ting][xian] 长汀县
-[za, zha][xi][ke] 扎西科
-[da, dai][gu'jie][bing] 大骨节病
-[da, dai][zhong'xue'sheng] 大中学生
-[qin, tan][zhi][gang] 覃志刚
+wan'shou[tai, si] 万寿台
+[qin, tan][zhi'gang] 覃志刚
 jian'yue[tai, si] 检阅台
 xiong[chui, zhui] 胸椎
-chenyong[yue, le] 陈永乐
-ning[du, dou][xian] 宁都县
-[ye, xie][wei][lu] 叶维禄
-tan[qi, ji][xiang] 谭其骧
-[feng, ping][wei][lin] 冯伟林
-[wan, mo][bao] 万宝
 shui[gui, ju] 水柜
-liaoxin[bo, bei] 廖新波
-cao[lv, lu] 草绿
-dan[cen, san, can, shen] 丹参
-[yue, le][ting] 乐亭
-tai[huo, hu, he] 泰和
-[nan, na][pan][jiang] 南盘江
-[tang, shang][tao] 汤涛
+[nan, na][pan'jiang] 南盘江
 [ding, zheng][hu, xu] 丁浒
-[ge, gan][jiu] 个旧
 zhe[nan, na] 浙南
 [lan, la][zi] 蓝字
 cao[shi, yi, si] 草食
 yu[jia, ga][xue] 雨夹雪
-[ge, gan][zhan] 个展
 lu[chao, zhao][jun] 鲁朝军
 fuyoufu[jiang, qiang] 扶优扶强
 minyi[yue, le] 民亦乐
-[yue, le][qing] 乐清
-[yue, le][cong][zhen] 乐从镇
-[nan, na][luo'gu][xiang, hang] 南锣鼓巷
-[ceng, zeng][qing][rui] 曾庆瑞
-hai[bo, bei] 海波
-[gai, jie][cai] 芥菜
 si[mo, ma][leng, ling][si][ke] 斯摩棱斯克
 wu[shuo, shu] 伍数
 lian'gang[an, chang] 炼钢厂
@@ -2746,316 +1388,161 @@ liantie[an, chang] 炼铁厂
 [dan, shi][ying][kang] 石应康
 cao[zhong, chong] 草种
 shi[xi, ji] 世系
-[hun, kun][zhuo] 混浊
-[fei, pei][duo][fei] 裴多菲
 lu[zhang, chang][lin] 卢长霖
-[nan, na][guan'xi] 南关系
+nan'guan[xi, ji] 南关系
 [lan, la][dun] 蓝盾
-[ai, yi][fu][si] 艾夫斯
-fei[le, lei][meng] 菲勒蒙
 [cang, zang][mu] 藏木
 [lu, liu][ben][hai] 陆本海
-gan[nan, na][zhou] 甘南州
 [dan, shi][gong'qiao] 石拱桥
-[e, a][bi][yang] 阿比扬
 yang[xiang, heng][xie] 杨亨燮
 [cheng, sheng][ming][fu] 盛明富
-wang[du, dou] 望都
-bu[zha, cha][er] 布查尔
-[di, zhai][xiao][chuan] 翟晓川
 mian[zhao, tao] 棉桃
 [jiao, xiao][jian] 校荐
-gong'chenglue[de, di] 攻城略地
-mao[jie, jia][yu] 毛家裕
 misula[da, ta][fu, shi] 米苏拉塔市
-cui[bo, bai][cong] 翠柏丛
 qiu[sai, si][ni] 邱思妮
 bu[zha, cha][te] 布查特
 shenling[huo, hu, he] 申领和
 ma[bo, bai][yi] 马伯义
 zhe[beng, bang][si] 哲蚌寺
 lou[gai, ge] 楼盖
-[guang, an][ping][zhen] 广坪镇
-ma[wan, mo][qi] 马万祺
-pi[hong, gong][yan] 皮红艳
-ding[yao, tao][xian] 定陶县
-li[yue, le] 礼乐
+tie'lao[da, dai] 铁老大
 [chan, dan, shan][ji] 单集
 [ye, xie][shen] 叶莘
-liu[zhuan, chuan][zhi] 柳传志
-tang[jiang, qiang] 唐强
-long'jing[fu, shi] 龙井市
-wuzhi[jiang, qiang] 吴志强
 hanpu[dun, du] 汉普顿
-du[wan, mo][hua] 杜万华
 [ai, yi][ri][ke] 艾日克
 [bo, bu][sai] 卜赛
-daowai[ou, qu, gou] 道外区
-[ka, qia][sa] 卡萨
-shi'shi[fu, shi] 石狮市
-xiao[jin, jing][guang] 萧劲光
 [dan, shi][quan, juan] 石卷
-[ye, xie][ming] 叶明
-gu[bo, bai] 古柏
-hua[gai, ge] 华盖
-[nan, na][xun] 南浔
-baihui[yu, gu] 白慧谷
 di[jiang, qiang][wo][ruo] 敌强我弱
-[lan, la][shan][xian] 蓝山县
-[da, ta][shen, shi][mu][ha][mei][duo][wa] 塔什穆哈梅多娃
-caidian[ou, qu, gou] 蔡甸区
-zhu[di, dai][wen] 朱棣文
+[da, ta][shen, shi][mu'ha][mei][duo][wa] 塔什穆哈梅多娃
 kao'gu[xi, ji] 考古系
 zhang[yun, jun][sai] 章均赛
-[ka, qia][za, zha][fei][ben] 卡扎菲本
 bingyi[zu, cu] 兵一卒
 li'xian[pa, pai] 立宪派
 [zhang, chang][xiao][xing] 长效性
 shang'xia[che, ju] 上下车
-ge[zai, zi][xi, hu] 歌仔戏
-huwenxi[ao, you] 胡文西奥
-si'tan[bo, bai][ge] 斯坦伯格
 yan'jiang[hui, kuai] 演讲会
-wang[hong, jiang] 王虹
 [qi, ji][pei][jiang, qiang] 齐配强
 tai'yuan[xing, sheng] 太原省
-kou[zhuan, chuan][xin][shou] 口传心授
-wang[bo, bei] 王波
-[qi, ji][yun][tao] 齐云涛
 [ka, qia][se, sai][li] 卡塞里
-luo[nan, na][xian] 洛南县
-zhouwei[zhi, shi] 周巍峙
-[yue, le][yin] 乐音
-wang[chao, zhao][guang] 汪朝光
-[qi, ji][he] 齐河
 [mou, miao, jiu, miu][rui][lin] 缪瑞林
-hou[jie, jia] 侯家
-[feng, ping][yuan'zheng] 冯远征
-[nei, na, ne][qu][zhen] 那曲镇
-moxi[ka, qia] 墨西卡
+mo'xi[ka, qia] 墨西卡
 [ye, xie][xuan][ping] 叶选平
 [mou, mu][tuo] 牟托
-[nan, na][fu, shi] 南市
 [li, lai][hei] 黧黑
-[ye, xie][dan] 叶丹
-zao[jiang, qiang][xian] 枣强县
-zhang[bo, bai][lun] 张伯伦
-[jin, jing][song] 劲松
 bolandeng[pu, bu, bao][zhou] 勃兰登堡州
 luoliu[bo, bei][fu] 罗留波夫
-xing'long[tai, si][ou, qu, gou] 兴隆台区
-jier[bo, bai][te] 吉尔伯特
-[feng, ping][chun'mei] 冯春梅
-liwan[ou, qu, gou] 荔湾区
 zhun[jiang, qiang] 准将
 ka'erdan[dun, du] 卡尔丹顿
 jian[fu, bi] 减幅
-[qi, ji][ji] 齐集
-zhan[zhun, chun][xin] 詹纯新
-[ding, zheng][dan, shi][sun] 丁石孙
 qi'xie[an, chang] 器械厂
 [lv, lu][fei] 绿肥
 liang[du, duo] 量度
-deng[da, dai][cai] 邓大才
-jin[ju, jie] 金桔
+hu'hua[nan, na] 胡华南
 zhi'jian[yuan, yun] 质检员
-wang[wan, mo][qing] 王万青
-han[lu, lou] 寒露
 pu[shen, shi][pa][na][tan] 普什帕纳坦
-chang[heng, xing, hang][wu'zu] 畅行无阻
-li[yue, yao] 里约
-[fu, shi][nan, na][ou, qu, gou] 市南区
 zi[dun, bu][dai][yan] 自不待言
-ba[fu, shi] 罢市
-yushui[ou, qu, gou] 渝水区
-[gai, ge][bao][de] 盖保德
-huang[bo, bei][li] 黄波黎
+[gai, ge][bao'de] 盖保德
 [hong, gong][jian] 红箭
-wei[jie, jia][fu] 魏家福
-[ai, yi][jun][tao] 艾俊涛
 [hong, gong][yan] 红艳
 [ze, zhai][jiao, xiao][sheng] 择校生
-di'tan[an, chang] 地毯厂
-[qian, gan][an][xian] 乾安县
 jing[zhuan, chuan] 经传
 [guang, an][jiao, jue] 广角
-[dan, tan][hen] 弹痕
-sun'shi[shuai, lv, lue] 损失率
 [hu, he][jun'bei] 核军备
 ying[yue, yao] 应约
-fu[pou, bao][dan, shi] 傅抱石
 [xi, xian][chuang] 铣床
 [di, zhai][pi][feng] 翟丕锋
 [huo, hu, he][wei][wen] 和维稳
-shijin[bo, bei] 史金波
-jin[bing, ping] 锦屏
+shi'jin[bo, bei] 史金波
 queyishao[shi, yi, si] 缺衣少食
-[jiang, qiang][guang] 强光
-zhang[na, nuo] 张娜
 [fu, shi][li] 市立
 jian[ka, qia] 建卡
-[ba, pa][bi][wa] 芭比娃
-[da, dai][gu] 大姑
 cuo[zeng, zong] 错综
-[da, dai][han] 大寒
-mi[fu, shi] 米市
-xi[meng, ming] 锡盟
-[ding, zheng][guang][xun] 丁光训
 [e, a][shen, shi] 阿什
 you'hua[jie, jia] 油画家
-[feng, ping][xue][feng] 冯雪峰
-chen[zhi, shi, jing] 陈氏
-xiaguan[ou, qu, gou] 下关区
 [ao, you][sha] 奥沙
 guan'ce[yuan, yun] 观测员
-[fu, pou][cheng'qu] 涪城区
-[da, dai][dong] 大洞
-[da, dai][ze] 大泽
-binhu[ou, qu, gou] 滨湖区
-li'shu[ou, qu, gou] 梨树区
 [lu, lou][de, di] 露地
-[yao, tao][zhi, shi, jing] 陶氏
 [zhang, chang][xiu] 长袖
 [yao, tao][guan] 陶罐
-[lu, liu][yu, hu] 陆羽
-[ao, you][ge][ni][lan][de] 奥戈尼兰德
+[ao, you][ge][ni'lan'de] 奥戈尼兰德
 mu[hong, jiang] 穆虹
 zhong[qi, ji][yue, le] 钟其乐
 [ao, you][jin] 奥金
-[lu, liu][yao] 陆遥
 [di, ti][xian][mu'ou] 提线木偶
-[feng, ping][yi][hua] 冯益华
 wai[bi, mi] 外秘
 bian'ji[jie, jia] 编辑家
-liyun[nan, na] 李运南
-maoze[qin, tan] 毛泽覃
+li'yun[nan, na] 李运南
 [lu, lou][lu, lou] 露露
-[da, dai][ying] 大营
-[da, dai][ke] 大课
-[ai, yi][hong][de] 艾洪德
-[qi, ji][li][xin] 齐立新
-kelai[ao, you] 克莱奥
+[ai, yi][hong'de] 艾洪德
+[qi, ji][li'xin] 齐立新
+ke'lai[ao, you] 克莱奥
 [fu, bi][ping] 复评
 ping'gu[jie, jia] 评估价
 [yin, yan][huan][ying] 殷焕英
-[e, a][mi][na, nuo] 阿米娜
-[xin, xun][wu][xian] 寻乌县
-wang'hai[bo, bei] 王海波
-[chan, shan][zong] 禅宗
 wang[zhang, chang][yuan] 王长元
-gu[du, dou] 故都
-[ceng, zeng][zhu][shao] 曾竹韶
 shi[hui, kuai] 诗会
-shunqing[ou, qu, gou] 顺庆区
 zhou[fu, bi, fo][hai] 周佛海
 [lu, liu][xue'yi] 陆学艺
-zhu[yue, le] 朱乐
 she'ji[jie, jia] 设计家
-si[jie, jia][ying] 司家营
 zi'you[shuai, lv, lue] 自有率
-[ai, yi][li][ken] 艾里肯
-[zha, cha][ku] 查库
+[ai, yi][li'ken] 艾里肯
 cheng'nuo[ka, qia] 承诺卡
-[hu, he][zi] 核子
 xiao[hong, gong] 晓红
-lu[nan, na][lin] 鲁南临
 fei[guang, an][zheng] 费广正
 li[pa, pai] 李派
 su'she[ou, qu, gou] 宿舍区
-zhongchen[dan, shi] 钟陈石
-cai[da, dai] 财大
 [du, dou][du, dou] 读读
-xie[bo, bei] 谢波
-huli[ou, qu, gou] 湖里区
-[hong, gong][yuan][xian] 红原县
 yintong[ka, qia] 银通卡
-chen'xiao[bo, bei] 陈晓波
-[mo, ma][si] 摩斯
 ri[sai, si] 日思
 jin[nan, na] 晋南
-fa'fentu[jiang, qiang] 发奋图强
-zhangye[fu, shi] 张掖市
 su[xi, la][sa] 素腊萨
-li[guang, an][hua] 李广华
 zhi[xi, ji] 支系
-xin[pa, pai] 新派
 [dan, shi][jing][feng] 石敬烽
 liao[nan, na] 辽南
 [wan, mo][ben][rong] 万本荣
 luo[zhang, chang][gang] 罗长刚
-daidai[zhuan, chuan] 代代传
+dai'dai[zhuan, chuan] 代代传
 fu[jiang, qiang] 扶强
 si'wan[wan, mo][wu'qian'wan] 四万万五千万
 lai[sha, suo] 赖莎
 zhuangxiang[nan, na] 庄乡南
-huang[bo, bai][yun] 黄伯云
-[feng, ping][you][lan] 冯友兰
 jin'qiu[shuo, shu] 进球数
 ying[de, di][hua] 硬底化
-ge[hong, gong][bing] 葛红兵
 jiangdong[hong, gong] 姜冬红
-tou'zi[jie, jia] 投资家
-bei[da, ta][si][man] 贝塔斯曼
 da[la, zha] 打蜡
 [gu, jia][li] 贾理
 yin'yue[xi, ji] 音乐系
-cang'songcui[bo, bai] 苍松翠柏
-muladi[qi, ji] 姆拉迪奇
-[heng, xing, hang][fang'bian] 行方便
-[lu, liu][jian][fen] 陆建芬
-zhang'die[fu, bi] 涨跌幅
-zhang[liang, jing] 张靓
+mula'di[qi, ji] 姆拉迪奇
 [mou, miao, jiu, miu][fei][yan] 缪非言
 [e, a][di, ti][ya] 阿提亚
-jiandangli[ka, qia] 建档立卡
-[che, ju][zhou] 车轴
-ou[guang, an][yuan] 欧广源
+jian'dangli[ka, qia] 建档立卡
 shi[pou, pei][jun] 史培军
-[feng, ping][jie][tuan] 冯结团
-hailing[ou, qu, gou] 海陵区
+[feng, ping][jie'tuan] 冯结团
 [ai, yi][bo][nian] 艾博年
 zheng[ye, xie][rong] 郑叶榕
 fa'she[tai, si] 发射台
-fu[e, a][de] 福阿德
 mu[da, ta][sa] 穆塔萨
-[hong, gong][jiu][lian] 红九连
-[gu, jia][ge][na][te] 贾格纳特
-qiao[jie, jia][zhuang] 乔家庄
+[gu, jia][ge'na][te] 贾格纳特
 li[zhong, chong][zhu] 李种珠
-[de, dei][xian] 得闲
 [yu, gu][yuan][zhen] 谷垣祯
 a'la[za, zha] 阿拉扎
-[che, ju][jia] 车架
 gu[qian, xian][dao] 古纤道
 fang'han[fu, bi] 防寒服
 shang'pin[shuai, lv, lue] 商品率
 [yao, tao][ya][cheng] 陶亚成
-[lu, liu][qing][yun] 陆清云
-[bo, bai][ge][jin][si][ji] 伯格金斯基
-[zhang, chang][zhi][xian] 长治县
-mi[zha, cha][la][ke] 米查拉克
+[lu, liu][qing'yun] 陆清云
 baike[qi, ji] 拜科奇
 [chan, dan, shan][fu][jiang, qiang] 单福强
-zhang'jian[jiang, qiang] 张建强
-chen[jin, jing][han] 陈劲翰
 [ai, yi][ge] 艾格
-[heng, xing, hang][jian][de] 行俭德
-mai[gai, ge][di, ti][xian] 麦盖提县
-tang[guang, an][zhi] 唐广智
-[gu, jia][xi][jin] 贾西津
+[heng, xing, hang][jian'de] 行俭德
+[gu, jia][xi'jin] 贾西津
 [yao, lue][nong] 药农
 [lu, liu][han'wen] 陆汉文
 zang[fou, pi] 臧否
-shangzhi[fu, shi] 尚志市
-lao[lu, liu] 老陆
-[da, dai][yu][shan] 大屿山
-[cong, zong][yang][xian] 枞阳县
 [yin, yan][fu] 殷福
-[ou, qu, gou][li][xian] 区礼贤
+[ou, qu, gou][li'xian] 区礼贤
 shang[jin, jing] 上劲
 ta'xian[de, di] 塌陷地
-[ding, zheng][yi] 丁一
-[ding, zheng][hao] 丁浩
 aisen[fu, shi] 埃森市
 [sha, suo][li] 莎莉
 [shuo, shu][yi, si][shi'wan][ji] 数以十万计
@@ -3065,436 +1552,216 @@ lin[yue, le][xuan] 林乐宣
 ao'di[che, ju] 奥迪车
 yu[ou, qu, gou] 渔区
 [ding, zheng][fu] 丁福
-[tian, dian][nong] 佃农
-[yao, tao][liang][cun] 陶梁村
-[zhang, chang][liu'shui] 长流水
-[guang, an][run][men] 广润门
+[yao, tao][liang'cun] 陶梁村
 [yue, le][duan] 乐段
-tuyong[hong, gong] 涂永红
 shan'po[de, di] 山坡地
-gou[yu, gu] 沟谷
 [ze, ce][hou] 侧后
 [ke, a, he, ha][le][fu] 呵叻府
 [shai, se][you] 色釉
-fan[du, dou] 泛读
 [jin, qin][zhong, chong] 浸种
 jing[yong, chong] 井涌
-[e, a][ge][li] 阿格里
-liwei[hong, gong] 李卫红
-[cang, zang][jie, jia][yue, le] 藏家乐
+[cang, zang][jia'le] 藏家乐
 [mo, mu][ben] 模本
 [gu, jia][hui, kuai][rong] 贾会荣
 [fei, pei][shan][rui] 裴珊睿
 [ka, qia][pei][lei] 卡佩雷
-tianshun[huo, hu, he] 田顺和
-du[se, sai][er][duo][fu] 杜塞尔多夫
 [lan, la][rui][ming] 蓝睿明
 an[da, ta][li][ya] 安塔利亚
-xiao[nan, na][ou, qu, gou] 孝南区
-lai[dun, du] 莱顿
-zhangru[bo, bai] 张如柏
-la[yue, yao][ge] 拉约格
+zhang'ru[bo, bai] 张如柏
 liu'dong[che, ju] 流动车
 [feng, ping][jing][yu] 冯荆育
-[za, zha][qie][luo][ni] 扎切罗尼
-wu[jiang, qiang] 武强
+[za, zha][qie][luo'ni] 扎切罗尼
 [huo, hu, he][shi][yong] 和仕勇
-[lan, la][lan, la] 蓝蓝
 gexian[qi, ji][neng] 各显其能
-shan[wei, yi] 汕尾
-han[nan, na][ou, qu, gou] 汉南区
-[lu, liu][yang][cun] 陆杨村
-[hong, gong][shui][lian] 红水莲
-qu[yu, gu][xiang] 曲谷乡
-chabu[zha, cha][er][xi][bo, bai][zi'zhi'xian] 察布查尔锡伯自治县
-zhang[da, dai][wei] 张大卫
-cang[nan, na][xian] 苍南县
-[chao, zhao][jin] 朝觐
-deerluosali[ao, you] 德尔罗萨里奥
-xi[pu, bu, bao] 西堡
+[lu, liu][yang'cun] 陆杨村
+[hong, gong][shui'lian] 红水莲
 diao'su[xi, ji] 雕塑系
 kuangyu[qi, ji] 匡宇奇
 gu'zhuang[xi, hu] 古装戏
-song[zhao, tao][miao'zu][zi'zhi'xian] 松桃苗族自治县
 liu[bei, po, pi] 柳陂
-[hong, jiang][mo] 虹膜
-bayingao[le, lei][ga][zha, cha] 巴音高勒嘎查
-yang[hong, gong][xu] 杨红旭
+ba'yingao[le, lei][ga][zha, cha] 巴音高勒嘎查
 mu[bo, bei][ke] 姆波科
-[ge, he][shan][fu, shi] 合山市
-[nan, na][hua][si] 南华寺
 hua'xue[an, chang] 化学厂
 lin[kui, kuai] 林魁
-[zhun, chun][an][xian] 淳安县
-zhang[zhuan, chuan][jie, jia] 章传家
-chen[bo, bai][da] 陈伯达
-sang[dun, du] 桑顿
-hei[dan, shi][du] 黑石渡
-cao[jie, jia][qiao] 曹家桥
 [hu, he][zheng'ce] 核政策
-[gu, jia][zuo][guang] 贾作光
-wu[dan, shi][tang] 乌石塘
 nimi[zi, ci] 尼米兹
-can[e, yi] 蚕蛾
 da'ji[yue, le] 打击乐
-chaozhang'chao[luo, la, lao] 潮涨潮落
 ran[e, a][rang] 冉阿让
-xixiu[ou, qu, gou] 西秀区
 [cheng, sheng][yun] 盛运
-yan[du, dou] 盐都
 ma[fu, shi] 马市
-mu[leng, ling][he] 穆棱河
-changji[fu, shi] 昌吉市
-zhou[da, dai][xin] 周大新
 [nan, na][yin] 南音
 [an, chang][bu] 厂部
 san'si'shi[wan, mo] 三四十万
 [ding, zheng][jiu'yue] 丁九月
 [tai, si][wang] 台网
-[ai, yi][sa][ke][sen] 艾萨克森
-[cheng, sheng][hong, jiang] 盛虹
 huai'yun[qi, ji] 怀孕期
-wuluque[le, lei] 乌鲁却勒
-[guang, an][song][cun] 广宋村
+wu'luque[le, lei] 乌鲁却勒
+[guang, an][song'cun] 广宋村
 zhi'pu[mo, wu][hua] 质朴无华
-[ye, xie][qi] 叶琦
-[chen, cheng][duo][xian] 称多县
-[ge, he][jiang] 合江
-[ye, xie][dan][dan] 叶丹丹
 [nan, na][yi] 南翼
 [ding, zheng][shi'xiong] 丁世兄
-[nan, na][tian] 南田
 fa[sao, shao] 发梢
 [bo, bei][si][deng] 波司登
-fan[shi, yi, si] 饭食
 jian'zhu[xi, ji] 建筑系
-[nan, na][wan] 南湾
-zhuqi[nan, na] 朱启南
+zhu'qi[nan, na] 朱启南
 yuan[shou, shu] 圆熟
-[du, dou][chang][xian] 都昌县
-gan[lan, la] 甘蓝
 za'jiao[zhong, chong] 杂交种
-xi[ka, qia][li] 西卡利
-fengshui[qi, ji] 丰水期
+feng'shui[qi, ji] 丰水期
 [jiang, qiang][mai][jiang, qiang][mai] 强买强卖
-[de, di][quan] 地权
-chang[heng, xing, hang] 畅行
-dong[yong, chong][zhen] 东涌镇
-[de, di][qin] 地勤
 tu[yue, kuai] 土块
 li[qian, gan][jiang] 李乾江
-xi[huo, hu, he][xian] 西和县
-[wan, mo][bo'lin][ou, qu, gou] 万柏林区
 tang[che, ju] 唐车
-hua[fu, bi] 画幅
-[ding, zheng][yu][jun] 丁玉军
-chen[zhang, chang][gen] 陈长根
 yan[se, sai][qiu] 燕塞秋
 pu'gai[quan, juan] 铺盖卷
 lu[men, wen] 鲁汶
 xiang[chao, zhao][fang] 向朝方
-[lu, liu][zhong][fu] 陆中富
 [wan, mo][zhuan, chuan][guang, an] 万传广
 [ye, xie][wen] 叶问
-weiluoni[ka, qia] 维罗尼卡
-jiang[lan, la][sheng] 江蓝生
-chengjin[wan, mo] 程金万
+wei'luoni[ka, qia] 维罗尼卡
+cheng'jin[wan, mo] 程金万
 yu[zhong, chong] 鱼种
-jinli[qi, ji] 金里奇
-[di, zhai][zhi][gang] 翟志刚
+[di, zhai][zhi'gang] 翟志刚
 huang[bing, ping] 黄屏
 [bo, bai][en][si'tan] 伯恩斯坦
-shou'gou[yuan, yun] 收购员
 yao[jie, jia] 瑶家
 [zi, ci][te][ke] 兹特克
-zichuan[ou, qu, gou] 淄川区
 la[gai, ge][er] 拉盖尔
-fu[zhi, shi, jing] 傅氏
-baqiao[ou, qu, gou] 灞桥区
 [piao, pu, po][yi][chun] 朴义春
 [qi, ji][pi][luo] 奇皮洛
-liu[sai, si][min] 刘思敏
-[cheng, sheng][chu] 乘除
 yu[mai, mo] 余脉
-li'xiao[bo, bei] 李晓波
-wang[qi, ji] 王奇
-zhang'yu[tai, si] 张玉台
-ci[wan, mo][ji] 茨万吉
 zhuli[jie, jia] 竹立家
 xi[jian, xian] 习见
-[ye, xie][jian, qian][yu] 叶浅予
 linyu[yun, jun] 林育均
-lixin[bo, bei] 李新波
-bulun[nan, na] 布伦南
+bu'lun[nan, na] 布伦南
 sanjian[qi, ji][kou] 三缄其口
-hong[yue, le][feng] 洪乐风
 [chan, dan, shan][ji] 单季
 [shou, shu][ren] 熟稔
-[zha, cha][ke'la][ba][di] 查克拉巴蒂
 [nan, na][xun] 南巡
-[ao, you][si][te][luo][fu][si][ji] 奥斯特洛夫斯基
-[nan, na][an] 南岸
-[e, a][wei][jie][te] 阿维杰特
-[feng, ping][gui][fu] 冯贵富
-bao'guan[yuan, yun] 保管员
+[e, a][wei][jie'te] 阿维杰特
+[feng, ping][gui'fu] 冯贵富
 [ge, he][xie] 合写
-hou[yue, le] 后乐
 xuan'chuan[che, ju] 宣传车
-[feng, ping][zhi] 冯至
 [hua, huai][zhao, zhuo, zhe] 划着
-jin'niu[ou, qu, gou] 金牛区
 [chan, dan, shan][jing] 单井
-[nan, na][hua] 南华
-ai[yue, le] 爱乐
-jie[bo, bei] 劫波
-han[guang, an][cheng] 韩广成
-lubei[ou, qu, gou] 路北区
 [jie, xie][niu][zhu, shu] 解牛术
 [bo, bao][gui][li] 薄贵利
 zhao[du, duo] 照度
-[qi, ji][shi][rong] 齐世荣
-huangdao[ou, qu, gou] 黄岛区
-[feng, ping][mu] 冯牧
-pula[ka, qia][shen, shi] 普拉卡什
-liu[bo, bei] 刘波
 wen'quan[tun, zhun] 温泉屯
 hama[fu, shi] 哈马市
 qing[jiao, jue] 倾角
-chu[ye, xie] 初叶
 qinqian[hong, gong] 秦前红
-[ai, yi][ke][fu][er] 艾克甫尔
+[ai, yi][ke][fu'er] 艾克甫尔
 yi'nan[zhong, chong][zheng] 疑难重症
 zhi'hui[tai, si] 指挥台
-[yu, hu][tian] 羽田
-[bi, mi][yang][xian] 泌阳县
 zhong[da, dai] 肿大
 [bei, bi][lu][zhi][xing, sheng] 俾路支省
 xi[de, di] 席地
-[lv, lu][ye] 绿野
-he'bei[ou, qu, gou] 河北区
-lao[dan, shi] 老石
-xiao[jie, jia][he] 肖家河
-liu[nan, na][kui] 刘南奎
+shibai'qian[wan, mo] 十百千万
 yu'hang[fu, bi] 宇航服
 [di, zhai][feng][ying] 翟凤英
-[ai, yi][bo, bai][te] 艾伯特
-[gu, jia][xin][guang] 贾新光
-[nan, na][qiao][cun] 南桥村
-[e, a][luo][ding, zheng] 阿罗丁
-pao[mo, mao][di][lou] 跑冒滴漏
-[dan, shi][jian][cheng] 石健成
+a'luo[ding, zheng] 阿罗丁
+pao[mo, mao][di'lou] 跑冒滴漏
 [piao, pu, po][tai][huan] 朴泰桓
 zhang'xian[qi, ji] 彰显其
 ni[ao, you] 尼奥
 buridega[zha, cha] 布日德嘎查
-[lv, lu][yang] 绿杨
 jian'xin[dun, bu][yi] 坚信不疑
 [hong, gong][jian] 红碱
 [jie, jia][cun] 家村
 shan[bing, bin] 山槟
-cao[jin, jing][song] 曹劲松
 zhu'ren[jie, jia] 主人家
-quangang[ou, qu, gou] 泉港区
-[yue, yao][ke] 约克
-beiliu[fu, shi] 北流市
-xu[na, nuo] 徐娜
 [guang, an][na][qun] 广纳群
 nian[shuai, lv, lue] 年率
-[ye, xie][lan'hua] 叶兰花
-[ceng, zeng][yi][xin] 曾益新
-[ka, qia][sa][er] 卡萨尔
-he'gang[fu, shi] 鹤岗市
-[ye, xie][hua][feng] 叶华凤
-gao[wan, mo][xin] 高万新
 [ding, zheng][sheng][jun] 丁声俊
-shengandongni[ao, you] 圣安东尼奥
-[de, di][fei] 底肥
-[sai, si][nan, na] 思南
 mi[shen, shi][la] 米什拉
 [qi, ji][xu][chun] 齐续春
-ma[jie, jia][dian] 马家店
-ma'wei[ou, qu, gou] 马尾区
-xin[dan, shi][cun] 新石村
 cai'pan[zhang, chang] 裁判长
-[zhang, chang][dao] 长岛
 [zhan, nian][chou] 粘稠
-liu[da, dai][hua] 柳大华
 [e, a][ting] 阿婷
 [wan, mo][jia][hua] 万加华
-qianwei[zhang, chang] 钱伟长
-[zhang, chang][hu] 长湖
-xunfeng[xi, qi] 荀凤栖
-[e, a][cheng] 阿城
-chen[xing, sheng][shen] 陈省身
-[e, a][lan] 阿兰
 cuo[che, ju] 错车
 lu[pou, pei][jun] 鲁培军
-lei[ye, xie] 雷叶
-[da, dai][yang] 大杨
-ke[shen, shi][ke][teng][qi] 克什克腾旗
-[fu, bi][yong] 复用
 [xue, xie][xi'bao] 血细胞
 [dan, shi][gong][fu] 石功赋
-[qi, ji][zheng] 奇正
-[zhang, chang][ye] 长野
 [de, di][zhi] 地直
 jian[zhong, chong] 间种
 xiong[jiang, qiang] 雄强
-[lu, liu][gang] 陆港
 chu'fa[de, di] 出发地
-[ding, zheng][guang][hong] 丁光宏
-[qi, ji][ren] 奇人
 [da, dai][ban] 大办
 maixian[de, dei] 麦贤得
-[e, a][ken] 阿肯
 [e, a][geng] 阿耕
-bu'er[se, sai][wei][ke] 布尔塞维克
-chen[lu, lou] 陈露
-mu[jie, jia] 穆家
+bu'er[se, sai][wei'ke] 布尔塞维克
 du[she, die][hei] 杜涉黑
-[e, a][bu] 阿部
 diao'cha[hui, kuai] 调查会
-bi[hua, huai] 笔划
-[da, dai][ling][he] 大凌河
+[da, dai][ling'he] 大凌河
 [qiao, que][niao, diao] 雀鸟
-san[tai, si][xian] 三台县
-han[zhi, shi, jing] 韩氏
 zhai[fu, bi] 窄幅
-qian[nan, na][zhou] 黔南州
-[fu, bi][zhong, chong] 复种
-qian[nan, na][bu'yi'zu][miao'zu][zi'zhi'zhou] 黔南布依族苗族自治州
-maidi[ao, you] 麦迪奥
+mai'di[ao, you] 麦迪奥
 [dan, shi][yang] 石羊
 [qi, ji][jue] 奇绝
-dan[leng, ling][xian] 丹棱县
-gai'liang[pa, pai] 改良派
-shen[da, dai][wei] 沈大伟
 [lu, liu][jing][chun] 陆竞春
-qiu[ye, xie] 秋叶
 [dan, shi][zhi] 石质
-bei[dan, shi] 碑石
-long[jie, jia][zhen] 龙家镇
 jian'shang[jie, jia] 鉴赏家
-[da, dai][cang, zang][jing] 大藏经
-chen[jie, jia][lin] 陈家林
 [hu, he][ke'xue] 核科学
 san[jian, xian] 散见
 shi[di, ti][peng] 诗提蓬
 [fu, bi, fo][she'li] 佛舍利
-[feng, ping][yao][hui] 冯耀辉
 xin[jie, xie] 新解
-[ding, zheng][yin][nan] 丁荫楠
-[yao, tao][guo][fu] 陶国富
-[e, a][si][wang] 阿斯旺
+[yao, tao][guo'fu] 陶国富
 pang[cheng, sheng][yong] 庞盛永
 [chao, zhao][ke] 朝克
 qing'xie[du, duo] 倾斜度
-shamen[zhi, shi, jing][jun] 沙门氏菌
+sha'men[zhi, shi, jing][jun] 沙门氏菌
 pa[da, ta][ya] 帕塔亚
-si'tankewei[qi, ji] 斯坦科维奇
-saihan[ou, qu, gou] 赛罕区
 [cheng, sheng][guo][qi, ji] 盛果期
-yang[zhi, shi, jing] 杨氏
-tusen[fu, shi] 图森市
-zhu[hong, gong] 朱红
+tu'sen[fu, shi] 图森市
 [zha, cha][dang] 查档
-[e, a][ni][er] 阿尼尔
-[zha, cha][qin] 查勤
-[qi, ji][huan][gong] 齐桓公
-[du, dou][an][yao'zu][zi'zhi'xian] 都安瑶族自治县
-ju[nan, na][xian] 莒南县
 [chao, zhao][fang][yuan] 朝方愿
-li'zhi[jiang, qiang] 李志强
 she'ji[xi, ji] 设计系
-hu[cang, zang][long] 虎藏龙
-yan[da, ta][ou, qu, gou] 雁塔区
-chen[guang, an][yuan] 陈广元
 [huo, hu, he][xin'chou] 和薪酬
-[e, a][de][li] 阿德利
 [bi, ben][zhang] 贲张
-shi[jie, jia][ying] 史家营
-xin[yue, le] 新乐
-xiuzhou[ou, qu, gou] 秀洲区
-da[chan, zhan] 打颤
 xie[zhi, shi, jing] 谢氏
-huo[jie, jia] 货价
-[ka, qia][yi][mu] 卡伊姆
 [tiao, diao][yan] 调演
-binjiang[ou, qu, gou] 滨江区
 she[shai, se] 设色
 guozhan[guang, an] 郭占广
-[da, dai][yi][xian] 大邑县
-jiadi[na, nuo] 加蒂娜
-[ke, ka][la][qin][qi] 喀喇沁旗
+jia'di[na, nuo] 加蒂娜
 [tiao, diao][shi] 调式
-bazhou[ou, qu, gou] 巴州区
-wu[jie, jia][zhuang] 武家庄
-[feng, ping][zi'you] 冯自由
-xing'hualing[ou, qu, gou] 杏花岭区
-[tai, si][an][xian] 台安县
 nuo[nan, na] 诺南
 [e, a][na][duo][lu] 阿纳多卢
-xielifu[pa, pai] 谢里夫派
-li'xiao[hong, gong] 李小红
+xie'li'fu[pa, pai] 谢里夫派
 ni[di, ti] 拟提
 youqi[ou, qu, gou] 油气区
-hu[jiao, xiao] 护校
-gua[bing, ping] 挂屏
 [wan, mo][shu][li] 万树梨
-[che, ju][zuo] 车座
 na[de, di] 拿地
-oumi[qie, jia] 欧米茄
+ou'mi[qie, jia] 欧米茄
 gao[jiao, jue][wu] 高脚屋
 [xi, hu][jiao, xiao] 戏校
-du[jie, jia][tai, si] 杜家台
-jingkou[ou, qu, gou] 京口区
-huang[zhuan, chuan][hui, kuai] 黄传会
-wudang[ou, qu, gou] 乌当区
+du'jia[tai, si] 杜家台
 [hong, gong][qi][jun] 红七军
-li[jie, jia][zhen] 李家珍
 [za, zha][lai] 扎赉
 zu[jiao, xiao] 足校
-shao[da, dai][zhen] 邵大箴
-buyinuosi[ai, yi][li][si][fu, shi] 布宜诺斯艾利斯市
+bu'yi'nuo'si'ai'li'si[fu, shi] 布宜诺斯艾利斯市
 linxun[jiang, qiang] 林勋强
-dangxiao'zu[zhang, chang] 党小组长
+dang'xiao'zu[zhang, chang] 党小组长
 zhao[piao, pu, po] 赵朴
-lian[nan, na][guan] 连南贯
 lei'da[bo, bei] 雷达波
-gede[pu, bu, bao] 哥德堡
-huangyi[lan, la] 黄一蓝
-lu[nan, na] 路南
-dai[hong, gong] 戴红
+huang'yi[lan, la] 黄一蓝
 [cang, zang][yuan][ling] 藏原羚
 lin[xing, sheng] 邻省
 [sai, si][ke] 思科
 jin[sha, xia] 金厦
-[jiang, qiang][ren] 强韧
-[qi, ji][yan][qin] 齐艳琴
-jiao'tong[che, ju] 交通车
 [guang, an][ya] 广雅
-[sai, si][ming][ou, qu, gou] 思明区
 shuang[tun, zhun][cun] 双屯村
-[guang, an][rao] 广饶
-[yu, gu][cheng][xian] 谷城县
-[ka, qia][na][wei][la][er][jiao, jue] 卡纳维拉尔角
+ka'nawei'la'er[jiao, jue] 卡纳维拉尔角
 [nei, na, ne][mo] 那末
-tian[heng, xing, hang][jian] 天行健
-[lo, luo, ka, ge][zi, zhi][lo, luo, ka, ge][zi, zhi] 咯吱咯吱
-han'yang[ou, qu, gou] 汉阳区
-guo[na, nuo] 郭娜
 [ya, zha, ga][hua] 轧花
-lujin[bo, bei] 路金波
-mayuan[cheng, deng] 马渊澄
+ma'yuan[cheng, deng] 马渊澄
 zhi[huo, hu, he] 郅和
 [za, zha][ke] 扎克
-[huo, hu, he][lin][ge][er][xian] 和林格尔县
 deng[de, di] 邓地
 zhang'de[guang, an] 张德广
 zhuan'bo[tai, si] 转播台
-chenji[hong, gong] 陈继红
-mofan[qi, ji] 莫凡奇
-wulingyuan[ou, qu, gou] 武陵源区
+mo'fan[qi, ji] 莫凡奇
 [da, ta][er][hu] 塔尔胡
 hua'pao[an, chang] 花炮厂
 jing'hua[an, chang] 净化厂
@@ -3503,455 +1770,236 @@ hanmu[za, zha] 汉姆扎
 hai[yao, lue] 海药
 wen[zhi, shi, jing] 温氏
 [jian, qian][biao] 浅表
-hua[ne, ni] 花呢
-hua[quan, juan] 花卷
-[guang, an][li][he] 广利河
-chen[nan, na][sheng] 陈南生
-[lan, la][bo'wen] 蓝博文
 nong[xue, xie] 脓血
 [mang, wang][fu, shi] 芒市
-xikaipu[xing, sheng] 西开普省
-[hong, gong][feng][hu] 红枫湖
-[da, dai][zhong'xue][jiao, xiao] 大中学校
-la[shen, shi][ka'er][jia] 拉什卡尔加
+xi'kaipu[xing, sheng] 西开普省
 dai'biao[hui, kuai] 代表会
-bulvde[le, lei] 布吕德勒
+bulv'de[le, lei] 布吕德勒
 [hu, he][gong'cheng] 核工程
-wang[guang, an][he] 王广河
-zhangdian[ou, qu, gou] 张店区
-ze[da, ta][si] 泽塔斯
 nai[du, dou] 耐读
 gan[da, ta][er] 甘塔尔
-nabiwulin[na, nuo] 纳比乌林娜
+nabiwu'lin[na, nuo] 纳比乌林娜
 shifu[hui, kuai] 世妇会
-jimei[ou, qu, gou] 集美区
-[e, a][di][le, lei] 阿迪勒
+a'di[le, lei] 阿迪勒
 [cheng, sheng][zhi][guo] 盛志国
-zhao[wan, mo][yong] 赵万永
-jialiningge[le, lei] 加里宁格勒
-[e, a][di][er] 阿迪尔
-ba[jie, xie][zu'zhi] 巴解组织
 wu'xian'dian[tai, si] 无线电台
-[da, ta][cheng'shi] 塔城市
-[ding, zheng][yuan] 丁园
 shui[cao, zao] 水槽
-[bo, bei][mi] 波密
 luo[bo, bai][sen] 罗伯森
-boya[da, ta] 博雅塔
-[ding, zheng][li] 丁力
-[tang, shang][chi] 汤池
-[ceng, zeng][zhi][quan] 曾志权
+bo'ya[da, ta] 博雅塔
 [tang, shang][quan] 汤泉
-[ding, zheng][ting] 丁汀
 [cheng, sheng][zhen][zhong] 盛振中
-bai[yu, gu][cun] 百谷村
-hong[pu, bu, bao] 洪堡
-qingshui[lv, lu] 青水绿
-halin[dun, du] 哈林顿
+qing'shui[lv, lu] 青水绿
+ha'lin[dun, du] 哈林顿
 [bo, bei][shu] 波束
 [jia, ga][da][mo][er] 伽达默尔
 [yue, le][kang] 乐康
 [ding, zheng][song] 丁松
 sheng'zi[xi, ji] 绳子系
 mai[de, di] 买地
-[dun, bu][wei] 不惟
-[yue, le][tian] 乐天
-[guang, an][qu][men] 广渠门
 [lu, liu][shan][zhen] 陆善真
-li'guo[jiang, qiang] 李国强
 [yin, yan][jian] 殷鉴
-[qi, ji][qi][shun] 齐气顺
-zi[zhang, chang][xian] 子长县
 [ruo, re][guo] 若果
-huoermu[zi, ci] 霍尔木兹
+huo'ermu[zi, ci] 霍尔木兹
 [shuo, shu][jiu][han'dong] 数九寒冬
 hua[qing, jing] 花箐
-hai[bo, po] 海泊
 [bo, bai][shuo, shu] 伯数
 [dun, bu][an] 不谙
-[yue, le][dong][li][zu][zi'zhi'xian] 乐东黎族自治县
 luoxian[fu, shi] 罗先市
 [ceng, zeng][bi][jiang, qiang] 曾必强
 qiu[cheng, sheng][rong] 裘盛戎
-chang[huo, hu, he][yuan] 畅和园
 ren[ze, zhai] 任择
 qing[bo, bei] 清波
 anda'lue[xing, sheng] 安大略省
-[ao, you][kan][pu] 奥坎普
-[yu, wei][ran][cheng] 蔚然成
 [cang, zang][hui] 藏汇
 [cang, zang][bao][yu] 藏宝于
 yingzhao[fu, bi] 应召服
 pei'jian[an, chang] 配件厂
-maiba[za, zha] 迈巴扎
-shang[sai, si][xian] 上思县
-chen[zhuan, chuan][tao] 陈传涛
-[lu, liu][yan][shao] 陆俨少
-[xi, she][xian] 歙县
-jinzhou[ou, qu, gou] 金州区
-wang[jie, jia][ping] 王家坪
-mengbing[xi, qian] 孟冰茜
+meng'bing[xi, qian] 孟冰茜
 huabo[hui, kuai] 花博会
-[hong, gong][shui][he] 红水河
-gaoping[ou, qu, gou] 高坪区
-[yin, yan][na, nuo] 殷娜
 [gu, jia][mai][le, lei] 贾迈勒
 [cang, zang][dong] 藏东
-[yu, gu][yun][feng] 谷云峰
 wei[qi, ji][wu] 韦奇伍
 you[ou, qu, gou] 油区
 muwu[da, dai] 母戊大
 [bo, bao][xi] 薄熙
-[mo, ma][la][wei][ya] 摩拉维亚
-wu[da, dai][you] 吴大猷
+[mo, ma][la'wei][ya] 摩拉维亚
 tanzuo[yun, jun] 谭作均
-[se, sai][wei][li][ya] 塞维利亚
 [hu, he][wu] 核武
 [fu, bi][bu] 服部
 li[fei, pei] 李裴
 you'hui[ka, qia] 优惠卡
-kui[she, yi] 蝰蛇
-sun[zhuan, chuan][fang] 孙传芳
-[di, zhai][xiao][juan] 翟晓娟
 [ding, zheng][mao][zhong] 丁茂中
 song[dan, shi] 松石
-wang[guang, an][ren] 王广仁
 wu[yu, hu][song] 吴羽松
-li[hong, gong] 李红
-[ai, yi][er][sha] 艾尔沙
-[ceng, zeng][cheng] 曾诚
 bi[shen, shi][kai][ke] 比什凯克
-gang'kou[ou, qu, gou] 港口区
 [fei, pei][mou] 裴某
-bei'yue[ou, qu, gou] 北岳区
-wu[jiang, qiang][xian] 武强县
 lai[hong, gong][qing] 来红庆
-xu[guang, an][ping] 许广平
 donggu[jie, jia] 东孤家
-hu[quan, juan][qiu] 弧圈球
-bei[fu, bi] 被服
-zhou[qi, ji][feng] 周其凤
 [ai, yi][wan][xiu] 艾婉秀
 [chan, dan, shan][ke'long] 单克隆
 huai[ye, xie] 槐叶
-guo[da, dai][jian] 郭大建
 [wan, mo][shao][fen] 万绍芬
 ba'li[fu, shi] 巴黎市
-[de, di][kuang][ju] 地矿局
-bei[ka, qia][luo][lai][na] 北卡罗来纳
-feng'huo[tai, si] 烽火台
 dao[che, ju] 盗车
-[fei, pei][zhi][yong] 裴智勇
-[dan, shi][wan] 石湾
-[jie, jue][you, tan] 嗟叹
-wangji[cheng, sheng, jing] 王继晟
-zhang[zhang, chang][fu] 张长富
+wang'ji[cheng, sheng, jing] 王继晟
 [dan, shi][bi] 石碧
-yan[hong, gong][ying] 闫红英
 [dan, shi][jing] 石径
 zhuang[da, dai][man] 庄大馒
-[dan, shi][yu][mei] 石玉梅
-li[heng, xing, hang] 厉行
 fa[lv, lu] 发绿
 yang[de, dei][ming] 杨得明
 [dan, shi][guan] 石棺
 zhuo[zhi, shi] 卓识
 [dan, shi][fang] 石方
-[ao, you][fa][lei] 奥法雷
-[dan, shi][dong] 石东
-hu[fu, shi] 呼市
-lv[bo, bei] 吕波
+[ao, you][fa'lei] 奥法雷
 yao[ge, he] 咬合
-he[jie, jia][tuan'yuan] 阖家团圆
 shi[mo, mei] 史沫
-li[qi, ji][fu] 李其付
 [dan, shi][yuan] 石原
-[dan, shi][ping] 石坪
 ke'xue[xi, ji] 科学系
 [dan, shi][mo] 石墨
-shuangqing[ou, qu, gou] 双清区
 yan[du, duo] 盐度
-[ge, he][qing] 合情
-liangzhi[jiang, qiang] 梁志强
-[gai, ge][de] 盖德
-liu[jie, jia][shan] 刘家山
-zhou[hong, gong][yun] 周红云
-wu[pu, bu, bao] 吴堡
 [cheng, sheng][rong] 盛戎
-guan[yao, tao] 馆陶
 hu'shui[xi, ji] 湖水系
 [nan, na][xi] 南淅
 [nan, na][pa, pai] 南派
-[dan, shi][men][xian] 石门县
-[tai, si][shan] 台山
 huang[qi, ji][cui] 黄奇萃
 [nan, na][liang] 南梁
-[ye, xie][cheng] 叶城
 te[fu, bi][hao] 特服号
 yu[fu, shi] 鱼市
-bulakeqiewei[qi, ji] 布拉克切维奇
-[che, ju][yu][ming] 车玉明
-yuehu[ou, qu, gou] 月湖区
-yideli[bo, bu] 伊德利卜
-luo[hui, kuai][ming] 罗会明
-[e, a][er][bo, bai][da, ta] 阿尔伯塔
-[yu, wei][zhi, shi, jing][xian] 尉氏县
+bu'la'keqiewei[qi, ji] 布拉克切维奇
+[che, ju][yu'ming] 车玉明
+yide'li[bo, bu] 伊德利卜
+a'er[bo, bai][da, ta] 阿尔伯塔
 [piao, pu, po][xin][yong] 朴信永
 [cang, zang][jing][dong] 藏经洞
-[gai, ge][ru][yin, ken] 盖如垠
-zhou[jie, jia][cun] 周家村
-zhang[pou, pei][heng] 章培恒
-sun[hong, gong][lei] 孙红雷
 zhao[piao, pu, po][lao] 赵朴老
-shen[jie, jia][ying] 沈家营
 zhu'ce[de, di] 注册地
 qin'ding[cang, zang] 钦定藏
 tang[bo, fan] 唐蕃
 jia[bo, bai] 嘉柏
-yi[wan, mo][nuo][wa] 伊万诺娃
-[xiang, heng][de][li] 亨德利
-[huo, hu, he][mian] 和面
+[xiang, heng][de'li] 亨德利
 [dun, bu][shang][kong'tan] 不尚空谈
-longwan[ou, qu, gou] 龙湾区
 [kun, luan][lin][zhi] 卵磷脂
-chu[chao, zhao][hui] 储朝晖
-[da, ta][er][tu][si] 塔尔图斯
-xiangzhou[ou, qu, gou] 香洲区
 [heng, xing, hang][miao'wen] 行妙文
-yisidi[qi, ji][wa][ya] 伊斯蒂奇瓦亚
-[chan, dan, shan][ji][dao] 单季稻
-[e, a][er][wa][lei][si] 阿尔瓦雷斯
-yuping[bo, bai] 俞平伯
+yi'sidi[qi, ji][wa][ya] 伊斯蒂奇瓦亚
 zheng'lun[jie, jia] 政论家
-[nei, na, ne][tong][zhen] 那桐镇
-shui[bo, po][zhen] 水泊镇
-huang[quan, juan] 黄卷
-huang[nan, na] 黄南
 [yi, si][ku][wei'rong] 以苦为荣
-[hui, kuai][shou] 会首
 [hong, gong][san'jun][tuan] 红三军团
-xu[jie, jia][yin] 许家印
-hu[jie, jia][lou] 呼家楼
-su[da, dai][zhuang] 苏大庄
-yuzu[hong, gong] 喻祖红
-[bo, bai][qin] 伯禽
-long[bo, bai] 龙柏
 mai[qi, ji] 买齐
 [qi, ji][zhen] 齐朕
 [cheng, sheng][zhuan][shuai, cui] 盛转衰
-wen[qi, ji][sheng] 闻其声
 [fu, bi, fo][dian] 佛殿
 [qi, ji][wa][wa] 奇瓦瓦
 [piao, pu, po][jun][yong] 朴俊勇
 [dun, bu][lai] 不赖
-[dan, shi][dao][wan] 石岛湾
-[huo, hu, he][long][fu, shi] 和龙市
-[ding, zheng][li][ren] 丁立人
 xin[po, fan][zong] 新繁棕
-[lu, liu][qi][yi] 六七亿
 jiecheng[shuai, cui] 竭城衰
-dong[e, a][xian] 东阿县
-guozhi[jiang, qiang] 郭志强
-baoer[bo, bei] 鲍尔波
-[da, ta][la'ba][ni] 塔拉巴尼
-[se, sai][er][ji][ao, you] 塞尔吉奥
+bao'er[bo, bei] 鲍尔波
 [ou, qu, gou][zhu, shu] 区属
-zhang[yue, le][wei] 张乐伟
-[nan, na][fan] 南帆
-[feng, ping][yuan] 冯远
 [ka, qia][shi] 卡实
-[mou, mu][ping] 牟平
 fei'lai[dan, shi] 飞来石
-[se, sai][lai][si][ting] 塞莱斯廷
-tan[zhang, chang][hua] 谭长华
-xin[bo, bai][qing] 辛柏青
+[se, sai][lai'si][ting] 塞莱斯廷
 [hun, kun][wei][hui, kuai] 混委会
 dao'gou[yuan, yun] 导购员
-xiong[zhi, shi, jing] 熊氏
 [ka, qia][ju] 卡具
-jia[pa, pai] 加派
 geng[qi, ji][chang] 耿其昌
 [ka, qia][ke] 卡可
 [nan, na][tang] 南唐
-huang[jie, jia][cun] 黄家村
-li[de, dei] 利得
 songbei[sha, shan] 宋北杉
 gao[pao, bao][tuan] 高炮团
 wang[qi, ji][sai, si] 王缉思
-mu[guang, an][fei] 沐广飞
-[sai, si][nan, na][xian] 思南县
 chuan[shen, shi] 川什
-[bo, bao][yi'bo] 薄一波
-cui[bo, bai] 翠柏
 ba[ding, zheng] 巴丁
-zhenyong[hong, gong] 甄永红
-xiuying[ou, qu, gou] 秀英区
 xu[yi, si][guo] 许以国
-ding[jian, xian] 定见
 jiayi[le, lei][ma] 加依勒玛
 [hong, gong][yao, tao] 红陶
-pengwen[yue, le] 彭文乐
-[ka, qia][weng][da] 卡翁达
-jin[tang, shang] 金汤
-sitelasi[pu, bu, bao] 斯特拉斯堡
-jiao[nan, na] 胶南
-jin[bo, bei] 金波
-[gu, jia][jing][dun, dui] 贾敬敦
+peng'wen[yue, le] 彭文乐
+[ka, qia][weng'da] 卡翁达
+jia'jing[dun, dui] 贾敬敦
 [hong, gong][ying] 红鹰
 [ai, yi][zi][nv] 艾滋女
-wang[yue, le][chao] 王乐超
 bu[ka, qia] 布卡
 gong[da, dai] 工大
-[du, dou][yi] 都邑
-sikan[de, di][na][wei][ya] 斯堪的纳维亚
-chuan[nan, na] 川南
+sikan[de, di][na'wei'ya] 斯堪的纳维亚
 jia'shi[tai, si] 驾驶台
 sui[wei, yi] 岁尾
 [cheng, sheng][xin][qi] 盛信启
-[ai, yi][xi][hu] 艾溪湖
-wei[jie, jia][cun] 魏家村
-pengming[jiang, qiang] 彭明强
+[ai, yi][xi'hu] 艾溪湖
 yong'you[shuai, lv, lue] 拥有率
-[tun, zhun][he] 屯河
 gao[bo, bai][long] 高伯龙
-zhao[guang, an][jun] 赵广军
 da'kou'da'kou[de, di] 大口大口地
-[feng, ping][hui][lan] 冯慧兰
-[jie, jia][ci, si] 家祠
-lao[guang, an] 老广
 natan[zi, ci] 纳坦兹
-[chao, chuo][yue, yao] 绰约
-fangzheng[guan, lun] 房正纶
+fang'zheng[guan, lun] 房正纶
 xin[jin, jing] 心劲
-[ding, zheng][da, dai][wei] 丁大卫
+[ding, zheng][da'wei] 丁大卫
 [hong, gong][yan] 红堰
 [zhan, nian][fu] 粘附
-shuangyang[ou, qu, gou] 双阳区
-zhang[jiang, qiang] 张强
-shuang[pou, pei][shuang] 双培双
 zhi[an, chang] 纸厂
-[da, dai][sha][he] 大沙河
-lv'shunkou[ou, qu, gou] 旅顺口区
 [qian, xian][chen] 纤尘
-jinsi[dun, dui] 金斯敦
+jin'si[dun, dui] 金斯敦
 zhong[da, ta] 钟塔
-[hong, gong][sha, shan] 红杉
-[hong, gong][mian] 红棉
 qian[fu, bi] 钱复
 sang[ding, zheng][luo] 桑丁洛
 [qian, yan][yue, kuai] 铅块
-ailei[zi, ci] 埃雷兹
-dong[qi, ji][chang] 董其昌
-panlong[ou, qu, gou] 盘龙区
-[jie, xie][ya][mei] 解亚美
-wang[zhuan, chuan][tao] 王传涛
+ai'lei[zi, ci] 埃雷兹
+ma'fu[jiang, qiang] 马富强
+[jie, xie][ya'mei] 解亚美
 [wei, yi][lv] 尾闾
-[zhang, chang][zhuan, chuan] 长传
-wen[guang, an][ju] 文广局
 jiaohua[an, chang] 焦化厂
-ping[wei, xu] 平圩
-zhousu[hong, gong] 周苏红
 chu[ba, pa] 锄把
 [ye, xie][dong'qing] 叶冬青
 xi[jiang, qiang] 席强
 lian[sai, si] 廉思
-mi[fu, fei] 米芾
-bo'li[an, chang] 玻璃厂
-ai[se, sai][er] 埃塞尔
-[guang, an][han] 广汉
-muli[qi, ji] 穆里奇
-wu[shen, shi][xian] 乌什县
-zhangyun[bo, bei] 张运波
-[dan, shi][ting][jiang] 石亭江
+mu'li[qi, ji] 穆里奇
+zhang'yun[bo, bei] 张运波
 caishao[nan, na] 蔡绍南
 [zhang, chang][wen] 长文
-[da, dai][yi] 大姨
 [se, sai][xi][li] 塞西莉
 dao'ti[xi, ji] 导体系
-[da, dai][pu, bu] 大埔
 yong'ren[dun, bu][yi] 用人不疑
-[e, a][ka, qia] 阿卡
-[da, dai][bao] 大报
-mozhugong[ka, qia][xian] 墨竹工卡县
 wei[yi, si] 委以
-[e, a][lun] 阿伦
-[e, a][wei] 阿伟
-duo[sai, si] 多思
-[da, dai][xing] 大幸
 [e, a][zi, ci] 阿兹
-xi[da, ta][pan] 西塔潘
-[ke, ka][qiu][sha, suo] 喀秋莎
-[ao, you][tuo] 奥托
-[jie, jia][wei][hui, kuai] 家委会
-song[guang, an][de] 宋广德
-[da, dai][dun, dui] 大敦
-[ye, xie][zai][xing] 叶再兴
+[ye, xie][zai'xing] 叶再兴
 [lu, liu][liang] 陆梁
-[da, dai][shu] 大暑
 tong[che, ju] 童车
-sunying[bo, bei] 孙英波
+sun'ying[bo, bei] 孙英波
 lou[xiang, hang] 陋巷
 tenuo[qi, ji][di][te][lan] 特诺奇蒂特兰
-shiguang[nan, na] 施光南
-zheng[qi, ji][dou][yan] 争奇斗妍
+zheng[qi, ji][dou'yan] 争奇斗妍
 lei[pu, bao] 雷暴
 pian[shen, shi] 篇什
-[de, di][pang, bang] 地磅
 dai'li[heng, xing, hang] 代理行
-haizhou[ou, qu, gou] 海州区
 tang[ao, you] 堂奥
-zhou[dun, dui][yi] 周敦颐
 [da, ta][er] 塔尔
-lei[jiang, qiang] 雷强
-[da, ta][da, ta] 塔塔
 [zhang, chang][yi] 长衣
 dao[zhong, chong] 稻种
 [yao, tao][mou] 陶某
 [ou, qu, gou][zhao, tao][pu] 区桃浦
-yuelu[ou, qu, gou] 岳麓区
 tu[yue, shui, shuo] 图说
 [zhong, chong][ji] 种鸡
 [zhang, chang][gu] 长鼓
 qin[niao, diao] 禽鸟
-[ye, xie][er][shao][fu] 叶尔绍夫
 dang'qi[hong, gong] 党旗红
-li[zhong, chong][an] 李重庵
 duo[jie, jia] 多价
 fujiu[hui, kuai] 妇救会
 zhan'lue[ou, qu, gou] 战略区
-lingwu[fu, shi] 灵武市
-[da, dai][ma] 大马
-bei[ka, qia][luo][lai][na][zhou] 北卡罗来纳州
-[e, a][lei][xi][bo] 阿雷西博
+[e, a][lei][xi'bo] 阿雷西博
 bai[fu, shi][yi] 白市驿
-zhang'guo[jiang, qiang] 张国强
 mu[wei, xu] 穆圩
-song[ka, qia] 宋卡
 shi[jin, jing] 实劲
 [zhong, chong][guo] 种果
-han[jiang, qiang] 韩强
 pei[du, dou] 陪都
-yuci[ou, qu, gou] 榆次区
-[jian, xian][dun, bu][xian] 见不贤
-xutian[hong, gong] 徐天红
-[wan, mo][fa][zhi] 万发志
-liuquan[huo, hu, he] 刘全和
+[jian, xian][bu'xian] 见不贤
+liu'guang[da, dai] 刘光大
+liu'quan[huo, hu, he] 刘全和
 rancheng[qi, ji] 冉承其
-[bian, feng][hao] 封号
 yan[yi, si][qun] 严以群
-jianggan[ou, qu, gou] 江干区
+tang'wang[chao, zhao] 唐王朝
 [nue, nve, yao][yuan][chong] 疟原虫
 ding[gai, ge] 顶盖
 [ding, zheng][ka, qia][zu] 丁卡族
-dengli[jiang, qiang] 邓利强
 xie'yi[jie, jia] 协议价
-[gu, jia][ting][an] 贾廷安
-tan[sai, si][xin] 谭思欣
-[da, dai][cang, zang] 大藏
-[dan, shi][qian] 石阡
 jin[qian, gan][sheng] 金乾生
 [ye, xie][yi, si][tian] 叶以田
-[dan, shi][yu, gu] 石谷
 [wan, mo][zhong, chong][shan] 万重山
 [za, zha][ye][ni] 扎耶尼
-xiewei[xi, xian] 谢维铣
+xie'wei[xi, xian] 谢维铣

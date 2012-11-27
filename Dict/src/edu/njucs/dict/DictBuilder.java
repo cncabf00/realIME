@@ -22,6 +22,27 @@ public class DictBuilder {
 		try {
 			List<Word> words=reader.readRawDict("word.txt");
 			words.addAll(reader.readRawDict("characters.txt"));
+			words.addAll(reader.readRawDict("name.txt"));
+			words.addAll(reader.readRawDict("name1.txt"));
+			words.addAll(reader.readRawDict("name2.txt"));
+			words.addAll(reader.readRawDict("name3.txt"));
+			words.addAll(reader.readRawDict("name4.txt"));
+			words.addAll(reader.readRawDict("name5.txt"));
+			words.addAll(reader.readRawDict("name6.txt"));
+			words.addAll(reader.readRawDict("name7.txt"));
+			words.addAll(reader.readRawDict("name8.txt"));
+			words.addAll(reader.readRawDict("football.txt"));
+			words.addAll(reader.readRawDict("word1.txt"));
+			words.addAll(reader.readRawDict("word2.txt"));
+			words.addAll(reader.readRawDict("word3.txt"));
+			words.addAll(reader.readRawDict("word4.txt"));
+			words.addAll(reader.readRawDict("word5.txt"));
+			words.addAll(reader.readRawDict("westname.txt"));
+			words.addAll(reader.readRawDict("geography.txt"));
+			words.addAll(reader.readRawDict("placename.txt"));
+			words.addAll(reader.readRawDict("placename1.txt"));
+			words.addAll(reader.readRawDict("2.txt"));
+			words.addAll(reader.readRawDict("eco.txt"));
 			for (Word word:words)
 			{
 				if (pinyinMap.containsKey(word.name))
