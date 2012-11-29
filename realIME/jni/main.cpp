@@ -205,7 +205,7 @@ jobjectArray Java_edu_njucs_realime_manager_InputManager_cGetWord(JNIEnv *env,
 
 			jobject objWord = env->NewObject(clsWord, constructorWord, "");
 			env->SetIntField(objWord, fields.priority,
-					(int) ((*it).first * 10000));
+					(int) ((*it).first * 100));
 			env->SetObjectField(objWord, fields.text, jstr);
 			env->SetObjectArrayElement(result, k++, objWord);
 //			delete (*it);
@@ -217,6 +217,10 @@ jobjectArray Java_edu_njucs_realime_manager_InputManager_cGetWord(JNIEnv *env,
 				env->FindClass("edu/njucs/realime/manager/Word"), NULL);
 		set<Word*>::iterator it;
 		int k = 0;
+		int totalPriority=0;
+		for (it = s->begin(); it != s->end() && k < MAX_SIZE; it++) {
+			totalPriority+=(*it)->priority;
+		}
 		for (it = s->begin(); it != s->end() && k < MAX_SIZE; it++) {
 			jstring jstr = env->NewStringUTF((*it)->text.c_str());
 
@@ -225,7 +229,7 @@ jobjectArray Java_edu_njucs_realime_manager_InputManager_cGetWord(JNIEnv *env,
 					"()V");
 
 			jobject objWord = env->NewObject(clsWord, constructorWord, "");
-			env->SetIntField(objWord, fields.priority, (*it)->priority);
+			env->SetIntField(objWord, fields.priority, 100.0*((*it)->priority)/totalPriority);
 			env->SetObjectField(objWord, fields.text, jstr);
 			env->SetObjectArrayElement(result, k++, objWord);
 		}
@@ -335,9 +339,14 @@ set<pair<double, Word*> >* getWords(string code) {
 	for (int i = 0; i < size; i++) {
 		set<Word*>* tempS = &model.dict[(pInfo->transfer)[i].code];
 		set<Word*>::iterator it;
+		int totalPriority=0;
+		for (it = tempS->begin(); it != tempS->end(); it++)
+		{
+			totalPriority+=(*it)->priority;
+		}
 		for (it = tempS->begin(); it != tempS->end(); it++) {
-			double per = ((double) (*it)->priority)
-					* (pInfo->transfer)[i].frequency / pInfo->totalFreq;
+			double per = ((double) (*it)->priority)/totalPriority
+					* (pInfo->transfer)[i].frequency / pInfo->totalFreq/size;
 			wordArray->push_back(make_pair(per, *it));
 		}
 	}

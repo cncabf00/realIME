@@ -19,6 +19,7 @@ package edu.njucs.realime.keyboard;
 import java.io.FileDescriptor;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 import android.content.res.AssetFileDescriptor;
@@ -100,32 +101,40 @@ public class SoftKeyboard extends InputMethodService
     @Override public void onCreate() {
         super.onCreate();
         
-		AssetFileDescriptor afd = getResources().openRawResourceFd(
-				R.raw.output_dict);
-		if (afd != null) {
-			FileDescriptor fd = afd.getFileDescriptor();
-			int off = (int) afd.getStartOffset();
-			long len = afd.getLength();
-			InputManager.getInstance().readDict(fd, off, len);
-		}
-		
-		afd = getResources().openRawResourceFd(
-				R.raw.characters);
-		if (afd != null) {
-			FileDescriptor fd = afd.getFileDescriptor();
-			int off = (int) afd.getStartOffset();
-			long len = afd.getLength();
-			InputManager.getInstance().readDict(fd, off, len);
-		}
-		
-		afd = getResources().openRawResourceFd(
-				R.raw.output_transfer);
-		if (afd != null) {
-			FileDescriptor fd = afd.getFileDescriptor();
-			int off = (int) afd.getStartOffset();
-			long len = afd.getLength();
-			InputManager.getInstance().readTransfer(fd, off, len);
-		}
+        if (!InputManager.getInstance().isInitialzed())
+        {
+			AssetFileDescriptor afd = getResources().openRawResourceFd(
+					R.raw.output_dict);
+			if (afd != null) {
+				FileDescriptor fd = afd.getFileDescriptor();
+				int off = (int) afd.getStartOffset();
+				long len = afd.getLength();
+				InputManager.getInstance().readDict(fd, off, len);
+			}
+			
+			afd = getResources().openRawResourceFd(
+					R.raw.characters);
+			if (afd != null) {
+				FileDescriptor fd = afd.getFileDescriptor();
+				int off = (int) afd.getStartOffset();
+				long len = afd.getLength();
+				InputManager.getInstance().readDict(fd, off, len);
+			}
+			
+			afd = getResources().openRawResourceFd(
+					R.raw.output_transfer);
+			if (afd != null) {
+				FileDescriptor fd = afd.getFileDescriptor();
+				int off = (int) afd.getStartOffset();
+				long len = afd.getLength();
+				InputManager.getInstance().readTransfer(fd, off, len);
+			}
+			
+			LexiconTree lexicon=new LexiconTree();
+	        InputStream in=getResources().openRawResource(R.raw.pinyin);
+	        lexicon.build(new LexiconFileParser().parse(in));
+	        InputManager.getInstance().setLexicon(lexicon);
+        }
         
 //        Log.d("realime", InputManager.getInstance().testJni2());
         
@@ -134,10 +143,7 @@ public class SoftKeyboard extends InputMethodService
         mSentenceSeparators = getResources().getString(R.string.sentence_separators);
         mWordSeparators = getResources().getString(R.string.word_separator);
         
-        LexiconTree lexicon=new LexiconTree();
-        InputStream in=getResources().openRawResource(R.raw.pinyin);
-        lexicon.build(new LexiconFileParser().parse(in));
-        InputManager.getInstance().setLexicon(lexicon);
+        
         
 //        Log.d("realime","read from dict");
 //        TreeLangageModel languageModel=TreeLanguageModelReader.readObject(getResources().openRawResource(R.raw.dict));
@@ -679,7 +685,7 @@ public class SoftKeyboard extends InputMethodService
             		
 					@Override
 					protected Void doInBackground(Void... params) {
-						List<List<String>> allSplits=InputManager.getInstance().getAllPossibleSplit(mComposing.toString());
+						Collection<List<String>> allSplits=InputManager.getInstance().getAllPossibleSplit(mComposing.toString());
 		            	candidates=InputManager.getInstance().getAllCandidatesForMultipleInput(allSplits);
 						return null;
 					}

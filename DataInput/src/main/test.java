@@ -12,7 +12,7 @@ public class test {
 	public static void main(String[] args)
 	{
 		Parser parser=new Parser("root","5kjm1kxgz2");
-		parser.readAll("E:/peoples_daliy/2011/output");
+		parser.readAll("E:/peoples_daliy/output/");
 //		parser.updateSum();
 //		DateFormat format = new SimpleDateFormat("yyyy.MM.dd");  
 //		String str="2012.2.26";

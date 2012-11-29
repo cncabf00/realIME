@@ -3,6 +3,7 @@ package Data;
 public class Word {
 		String name="";
 		Article article;
+		String pinyin;
 		int frequency=0;
 		java.sql.Date date;
 		public String getName() {

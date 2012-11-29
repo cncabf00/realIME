@@ -6,13 +6,9 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -20,11 +16,10 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import Database.Database;
-
 public class Parser {
 	Set<String> banList=new HashSet<String>();
 	Map<String,Integer> stat=new HashMap<>();
+	Map<String,Word> characters=new HashMap<>();
 	long count=0;
 	
 	public Parser(String username,String password)
@@ -37,6 +32,18 @@ public class Parser {
 //			// TODO Auto-generated catch block
 //			e.printStackTrace();
 //		}
+		List<Word> words;
+		try {
+			words = readRawDict("characters.txt");
+			for (Word word:words)
+			{
+				characters.put(word.name, word);
+			}
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 	
 	void readBanList(String filename) throws IOException
@@ -57,6 +64,45 @@ public class Parser {
 	{
 //		db.updateSum();
 		count++;
+	}
+	
+	public List<Word> readRawDict(String filename) throws FileNotFoundException {
+		System.out.println("read file "+filename);
+		List<Word> words = new ArrayList<Word>();
+		BufferedReader br = new BufferedReader(new FileReader(
+				new File(filename)));
+		try {
+			String line = br.readLine();
+			while (line != null) {
+				try
+				{
+					if (line.charAt(0)=='\'')
+						line=line.substring(1);
+					String[] strs = line.split(" ");
+					Word word = new Word();
+					word.pinyin = strs[0];
+					word.name = strs[1];
+					word.frequency=1;
+					words.add(word);
+				}
+				catch (ArrayIndexOutOfBoundsException e)
+				{
+					System.out.println(line);
+				}
+				line = br.readLine();
+				
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		try {
+			br.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		return words;
 	}
 	
 	public void readAll(String dir)
@@ -119,6 +165,7 @@ public class Parser {
 		}
 		
 		printResult();
+		printCharacters();
 	}
 	
 	public void read(File newFile) throws IOException
@@ -224,6 +271,14 @@ public class Parser {
 					String[] w=words[i].split("/");
 					if (w.length<2 || isBanned(w[0]) || w[1].equals("w") || w[0].length()==1)
 						continue;
+					for (int j=0;j<w[0].length();j++)
+					{
+						String key=""+w[0].charAt(j);
+						if (characters.containsKey(key))
+						{
+							characters.get(key).frequency++;
+						}
+					}
 					if (!wordSet.containsKey(w[0]))
 						wordSet.put(w[0],1);
 					else
@@ -293,8 +348,44 @@ public class Parser {
 			{
 				if (e.getValue()>=5)
 				{
-					writer.append(e.getKey()+" "+e.getValue()+"\n");
+					writer.append(e.getKey()+" "+(int)(1+Math.log(e.getValue()))+"\n");
 				}
+			}
+			writer.flush();
+			writer.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void printCharacters()
+	{
+		File file=new File("output_characters.txt");
+		if (file.exists())
+		{
+			file.delete();
+		}
+		try {
+			file.createNewFile();
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+		try {
+			FileWriter writer=new FileWriter(file);
+			List<Map.Entry<String, Word>> list=new ArrayList<>();
+			list.addAll(characters.entrySet());
+			Collections.sort(list, new Comparator<Map.Entry<String, Word>>() {
+
+				@Override
+				public int compare(Entry<String, Word> o1,
+						Entry<String, Word> o2) {
+					return o1.getValue().pinyin.compareTo(o2.getValue().pinyin);
+				}
+				
+			});
+			for (Map.Entry<String, Word> e:list)
+			{
+				writer.append(e.getValue().pinyin+" "+e.getKey()+","+(int)(1+Math.log(e.getValue().frequency))+"\n");
 			}
 			writer.flush();
 			writer.close();

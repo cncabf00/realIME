@@ -2,6 +2,7 @@ package edu.njucs.realime.manager;
 
 import java.io.FileDescriptor;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -11,12 +12,12 @@ import java.util.Map;
 import java.util.Set;
 
 import android.util.Log;
-
 import edu.njucs.realime.lexicon.LexiconTree;
 
 public class InputManager {
 	private static InputManager instance=new InputManager();
 	private LexiconTree lexicon;
+	boolean initialized=false;
     
     static
     {
@@ -26,6 +27,11 @@ public class InputManager {
 	private InputManager()
 	{
 		
+	}
+	
+	public boolean isInitialzed()
+	{
+		return initialized;
 	}
 	
 	public static InputManager getInstance()
@@ -49,11 +55,13 @@ public class InputManager {
     
     public int readDict(FileDescriptor fd,long off,long len)
     {
+    	initialized=true;
     	return cReadDict(fd, off, len);
     }
     
     public int readTransfer(FileDescriptor fd,long off,long len)
     {
+    	initialized=true;
     	return cReadTransfer(fd, off, len);
     }
     
@@ -122,16 +130,14 @@ public class InputManager {
 //		return result;
 //    }
     
-    public List<Candidate> getAllCandidatesForMultipleInput(List<List<String>> inputs)
+    public List<Candidate> getAllCandidatesForMultipleInput(Collection<List<String>> inputs)
     {
     	Set<Candidate> set=new HashSet<Candidate>();
     	Map<String,Boolean> parseMap=new HashMap<String, Boolean>();
-    	List<String> originInput=inputs.get(0);
+//    	List<String> originInput=inputs.get(0);
     	Log.d("realime", "start parsing");
-    	for (int k=0;k<inputs.size();k++)
+    	for (List<String> input:inputs)
     	{
-    		Log.d("realime", "input "+k);
-    		List<String> input=inputs.get(k);
     		for (int i=input.size();i>0;i--)
     		{
     			String str="";
@@ -149,12 +155,13 @@ public class InputManager {
     			{
     				parseMap.put(str, true);
     			}
+    			
 
     			PinyinResult result=this.parse(input.subList(0, i));
     			for (int j=0;j<result.wordCandidates.size();j++)
     			{
     				List<String> restInput=new ArrayList<String>();
-    				restInput=originInput.subList(originInput.size()-result.restInput.size()-(input.size()-i), originInput.size());
+    				restInput=input.subList(i, input.size());
 //    				restInput.addAll(result.restInput);
 //    				restInput.addAll(input.subList(i, input.size()));
     				Candidate candidate=new Candidate(result.wordCandidates.get(j), restInput);
@@ -224,12 +231,8 @@ public class InputManager {
 		}
 		return code;
 	}
-	public List<List<String>> getAllPossibleSplit(String input,int maxFill)
-	{
-		return lexicon.getAllPossibleSplit(input, maxFill);
-	}
 	
-	public List<List<String>> getAllPossibleSplit(String input)
+	public Collection<List<String>> getAllPossibleSplit(String input)
 	{
 		return lexicon.getAllPossibleSplit(input);
 	}

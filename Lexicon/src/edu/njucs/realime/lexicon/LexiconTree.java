@@ -2,14 +2,16 @@ package edu.njucs.realime.lexicon;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import edu.njucs.model.HashTree;
 import edu.njucs.model.HashTreeNode;
 
 public class LexiconTree {
 	HashTree<LexiconInfo> lexiconTree;
-	public static final int DEFAULT_MAX_FILL=2;
+	public static final int DEFAULT_MAX_FILL=0;
 	
 	
 	public void build(List<String> pinyins)
@@ -128,52 +130,91 @@ public class LexiconTree {
 		return results;
 	}
 	
-	public List<List<String>> getAllPossibleSplit(String input)
+	public List<String> splitReverse(String input)
 	{
-		return getAllPossibleSplit(input, DEFAULT_MAX_FILL);
+		List<String> results=new ArrayList<String>();
+		int end=input.length();
+		for (int i=input.length()-1;i>=0;i--)
+		{
+			String sub=input.substring(i,end);
+			if (i==0)
+			{
+				results.add(0, input.substring(i,end));
+			}
+			else if (!isSingleSplit(sub))
+			{
+				results.add(0, input.substring(i+1,end));
+				end=i+1;
+			}
+			
+		}
+		return results;
 	}
 	
-	public List<List<String>> getAllPossibleSplit(String input,int maxFill)
+	public boolean isSingleSplit(String input)
 	{
-		int fill=0;
-		List<List<String>> allSplits=new ArrayList<List<String>>();
-		List<String> originSplit=split(input);
-		allSplits.add(originSplit);
-		for (int i=1;i<originSplit.size() && fill<=maxFill;i++)
+		HashTreeNode<LexiconInfo> node=lexiconTree.getRoot();
+		for (int i=0;i<input.length();i++)
 		{
-			String str=originSplit.get(i);
-			HashTreeNode<LexiconInfo> n=lexiconTree.getRoot();
-			boolean isFinal=false;
-			for (int j=0;j<str.length();j++)
+			char c=input.charAt(i);
+			if (c=='\'')
 			{
-				n=n.childWithKey(str.charAt(j));
-				if (n.getNodeInfo().isFinal)
-				{
-					isFinal=true;
-					break;
-				}
+				return false;
 			}
-			if (isFinal)
-				continue;
-			if (str.length()==1 || (str.length()==2 && str.charAt(1)=='h'))
+			HashTreeNode<LexiconInfo> child=node.childWithKey(c);
+			if (child==null)
 			{
-				//fill
-				fill++;
-				HashTreeNode<LexiconInfo> node=lexiconTree.getRoot();
-				for (int j=0;j<str.length();j++)
-				{
-					node=node.childWithKey(str.charAt(j));
-				}
-				List<HashTreeNode<LexiconInfo>> leafs=getAllFinal(node);
-				for (int j=0;j<leafs.size();j++)
-				{
-					List<String> list=new ArrayList<String>();
-					list.addAll(originSplit);
-					list.set(i, leafs.get(j).getNodeInfo().charPath);
-					allSplits.add(list);
-				}
+				return false;
+			}
+			else
+			{
+				node=child;
 			}
 		}
+		return true;
+	}
+	
+	
+	public Collection<List<String>> getAllPossibleSplit(String input)
+	{
+		Set<List<String>> allSplits=new HashSet<List<String>>();
+		allSplits.add(split(input));
+		allSplits.add(splitReverse(input));
+//		for (int i=1;i<originSplit.size() && fill<=maxFill;i++)
+//		{
+//			String str=originSplit.get(i);
+//			HashTreeNode<LexiconInfo> n=lexiconTree.getRoot();
+//			boolean isFinal=false;
+//			for (int j=0;j<str.length();j++)
+//			{
+//				n=n.childWithKey(str.charAt(j));
+//				if (n.getNodeInfo().isFinal)
+//				{
+//					isFinal=true;
+//					break;
+//				}
+//			}
+//			if (isFinal)
+//				continue;
+////			if (str.length()==1 || (str.length()==2 && str.charAt(1)=='h'))
+////			{
+////				//fill
+////				fill++;
+////				HashTreeNode<LexiconInfo> node=lexiconTree.getRoot();
+////				for (int j=0;j<str.length();j++)
+////				{
+////					node=node.childWithKey(str.charAt(j));
+////				}
+////				List<HashTreeNode<LexiconInfo>> leafs=getAllFinal(node);
+////				for (int j=0;j<leafs.size();j++)
+////				{
+////					List<String> list=new ArrayList<String>();
+////					list.addAll(originSplit);
+////					list.set(i, leafs.get(j).getNodeInfo().charPath);
+////					allSplits.add(list);
+////				}
+////			}
+//		}
 		
 		return allSplits;
 	}
@@ -199,4 +240,5 @@ public class LexiconTree {
 		
 		return leafs;
 	}
+	
 }

@@ -23,21 +23,21 @@ zhu'chan'qu 主产区
 che'zu 车组
 xuan'chuan'bu'zhang 宣传部长
 bu'jie 不竭
-mao'yi'qu, gou 贸易区
-[she'nong 涉农
+mao'yi'qu 贸易区
+she'nong 涉农
 liang'jia 粮价
 zong'zhi 综治
 wu'xu 无需
 yuan'zang 援藏
-[zhong'gong 重工
+zhong'gong 重工
 zong'zhi'wei 综治委
 ge'qu 各区
 chu'li'chang 处理厂
-[cang'pin 藏品
+cang'pin 藏品
 zhai'ji'di 宅基地
 sheng'li 省里
 yu'zhong 育种
-[tai'zhang 台账
+tai'zhang 台账
 yao'jia 药价
 zuo'luo 坐落
 zi'xing 自省
@@ -45,27 +45,27 @@ zuo'zhe'xi 作者系
 shi'zhi 市直
 yi'zhi 以至
 wu'gong'hai 无公害
-[jin'er 劲儿
+jin'er 劲儿
 qu'zhang 区长
-[zhong'zheng 重症
-ze'ren'ren'yuan, yun 责任人员
+zhong'zheng 重症
+ze'ren'ren'yuan 责任人员
 shu'shi'wan 数十万
 han'qu 旱区
-[hui'zhi 会址
+hui'zhi 会址
 ji'zhong'du 集中度
-qi’cheng 脐橙
-[yi'qi 以期
-[chu'qin 畜禽
+qi'cheng 脐橙
+yi'qi 以期
+chu'qin 畜禽
 shu'zhong 树种
-[jie'min'you 解民忧
+jie'min'you 解民忧
 yi'yi'guan'zhi 一以贯之
-[lu'shang 陆上
+lu'shang 陆上
 shui'jia 水价
 zhong'xiao'xue'xiao 中小学校
 yi'shu 一数
-[zhong'te'da 重特大
+zhong'te'da 重特大
 xin'xi'yuan 信息员
-[zhong'shu 种树
+zhong'shu 种树
 zi'ji 自给
 si'chuan'wen 四川汶
 ta'jia 她家
@@ -74,11 +74,11 @@ shi'mo'hua 石漠化
 yi'cun'du 依存度
 man'yi'lv 满意率
 ju'zhu'di 居住地
-[zhong'yang 种养
+zhong'yang 种养
 xiang'mu'qu 项目区
 guo'yi'hui 国议会
 de'yue'ke'wei'qi 德约科维奇
-[qiao'pai 壳牌
+qiao'pai 壳牌
 ji'jia 计价
 shi'zhen 市镇
 lian'wei'hui 联委会
@@ -90,7 +90,7 @@ jiang'hao 降耗
 jiang'xue 降雪
 ji'xu 亟须
 mu'huan'cao 牧还草
-'shu'yi 数亿
+shu'yi 数亿
 ying'qu 营区
 tong'tai 同台
 wu'yun'qi 乌云其
@@ -105,7 +105,7 @@ quan'wei'hui 全委会
 ka'er'zha'yi 卡尔扎伊
 ken'tan'hui 恳谈会
 luo'fu'he 罗富和
-[ding'wan 丁湾
+ding'wan 丁湾
 guo'he 国合
 nei'ta'ni'ya'hu 内塔尼亚胡
 chu'li'lv 处理率
@@ -182,7 +182,7 @@ zhong'hua'gong 重化工
 da'zhan 大展
 qiong'qin 穷亲
 jia'kang 贾康
-ya'nu'kewei'qi 亚努科维奇
+ya'nu'ke'wei'qi 亚努科维奇
 jiao'di 浇地
 zhi'dao'jia 指导价
 xi'bo'hui 西博会
@@ -251,7 +251,7 @@ ju'ban'di 举办地
 ka'tu'mu 喀土穆
 jian'mian'hui 见面会
 fa'sheng'di 发生地
-lu'[yu 陆域
+lu'yu 陆域
 lao'fu'qin 老父亲
 zhi'xiao 治校
 shui'jiao'di 水浇地
@@ -262,7 +262,7 @@ tao'zhong 套种
 ju'ju'di 聚居地
 ye'ru'ling 叶如陵
 yuancheng'jia 袁诚家
-[ding'lai'fu 丁来富
+ding'lai'fu 丁来富
 zhi'ge 制革
 liu'xun 六旬
 chong'zai 重载
@@ -458,7 +458,7 @@ tiao'wei'hui 调委会
 luo'zi 落子
 yi'chan'di 遗产地
 lou'jia 楼价
-lu'ke][wen 陆克文
+lu'ke'wen 陆克文
 xiao'zhi'yi'li 晓之以理
 ye'bo'lin 叶柏林
 sheng'mou 盛某
@@ -472,12 +472,12 @@ wang'bo'xiang 王伯祥
 chang'si 常思
 gui'hua'qu 规划区
 shi'qiu'jie 石秋杰
-shibo'kui 石柏魁
+shi'bo'kui 石柏魁
 quan'shu 权数
 sheng'cun'lv 生存率
 zha'sang 扎桑
-pai'xi, hu 排戏
-qiang'zhong, chong 抢种
+pai'xi 排戏
+qiang'zhong 抢种
 jia'ru'han 贾茹涵
 ye'jia'ying 叶嘉莹
 xia'zhang'quan 厦漳泉
@@ -815,7 +815,7 @@ zhong'shui 重水
 sen'gu'pu'ta 森古普塔
 na'zi 纳兹
 rou'he 糅合
-loudong'zhang 楼栋长
+lou'dong'zhang 楼栋长
 ou'wei'hui 欧委会
 qiang'gui'xin 强桂新
 qian'qi'chen 钱其琛
@@ -840,7 +840,7 @@ shang'qi 上期
 cheng'yuan 乘员
 yun'shan 云杉
 lin'yu'shang 林玉裳
-dong'[zhai 侗寨
+dong'zhai 侗寨
 bao'ka 保卡
 ding'yi 丁裔
 bei'ke'le'er 贝克勒尔
@@ -1145,7 +1145,7 @@ hong'fu'shi 红富士
 pei'shi'you 裴世友
 kai'shi 开市
 liu'ji 陆基
-qingji'hui, kuai 青基会
+qing'ji'hui 青基会
 liu'sheng 陆生
 yi'che'che 一车车
 zhi'chi'wen 支持汶
@@ -1164,7 +1164,7 @@ wang'ta 望塔
 mu'han'mo'di'zha'de 穆罕默迪扎德
 ji'tai 机台
 za'jia 杂家
-'shi'jia 识假
+shi'jia 识假
 jie'niu 解牛
 wei'xin'pai 维新派
 liu'ding'yi 陆定一
@@ -1209,7 +1209,7 @@ yue'li 乐理
 ai'lue 艾略
 wo'shan 涡扇
 mi'ya'si'ni'ke'wei'qi 米亚斯尼科维奇
-zi'xun'tai, si 咨询台
+zi'xun'tai 咨询台
 di'dui'kong 地对空
 fo'ta 佛塔
 misai'li'ya 米塞里亚
@@ -1220,7 +1220,7 @@ cang'liang 藏粮
 shi'fan'xiao 示范校
 liu'ren'ze 陆仁泽
 cao'zong'yuan 操纵员
-bai'zhong'[en 白重恩
+bai'zhong'en 白重恩
 jia'ren'he 贾仁和
 zhang'hong'zhao 张鸿朝
 lin'zhong 林种
@@ -1436,7 +1436,7 @@ ka'er'dan'dun 卡尔丹顿
 jian'fu 减幅
 qi'xie'chang 器械厂
 lv'fei 绿肥
-liang'du, duo 量度
+liang'du 量度
 hu'hua'nan 胡华南
 zhi'jian'yuan 质检员
 pu'shi'pa'na'tan 普什帕纳坦
@@ -1491,7 +1491,7 @@ xiao'hong 晓红
 fei'guang'zheng 费广正
 li'pai 李派
 su'she'qu 宿舍区
-du'du, dou 读读
+du'du 读读
 yin'tong'ka 银通卡
 ri'si 日思
 jin'nan 晋南
@@ -1578,7 +1578,7 @@ hong'shui'lian 红水莲
 diao'su'xi 雕塑系
 kuang'yu'qi 匡宇奇
 gu'zhuang'xi 古装戏
-liu'po, pi 柳陂
+liu'po 柳陂
 ba'yin'gao'le'ga'zha 巴音高勒嘎查
 mu'bo'ke 姆波科
 hua'xue'chang 化学厂
@@ -1802,7 +1802,7 @@ uo'guo 若果
 huo'er'mu'zi 霍尔木兹
 shu'jiu'han'dong 数九寒冬
 hua'jing 花箐
-bo''shu 伯数
+bo'shu 伯数
 bu'an 不谙
 luo'xian'shi 罗先市
 zeng'bi'qiang 曾必强
@@ -1832,7 +1832,7 @@ ding'mao'zhong 丁茂中
 song'shi 松石
 wu'yu'song 吴羽松
 bi'shi'kai'ke 比什凯克
-'pei'mou 裴某
+pei'mou 裴某
 lai'hong'qing 来红庆
 dong'gu'jia 东孤家
 ai'wan'xiu 艾婉秀

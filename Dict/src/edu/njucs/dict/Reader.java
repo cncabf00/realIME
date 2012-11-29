@@ -20,10 +20,22 @@ public class Reader {
 			while (line != null) {
 				try
 				{
+					if (line.charAt(0)=='\'')
+						line=line.substring(1);
 					String[] strs = line.split(" ");
 					Word word = new Word();
 					word.pinyin = strs[0];
-					word.name = strs[1];
+					if (strs[1].contains(","))
+					{
+						String[] s=strs[1].split(",");
+						word.name=s[0];
+						word.freqency=Integer.parseInt(s[1]);
+					}
+					else
+					{
+						word.name = strs[1];
+					}
+					
 					words.add(word);
 				}
 				catch (ArrayIndexOutOfBoundsException e)
