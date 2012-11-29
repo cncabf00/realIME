@@ -694,13 +694,17 @@ public class SoftKeyboard extends InputMethodService
 					protected void onPostExecute(Void result)
 					{
 						setSuggestions(candidates, true, true);
-						String str=candidates.get(0).getInput();
-			            String selectedStr="";
-			        	for (int i=0;i<selectedText.size();i++)
-			        	{
-			        		selectedStr+=selectedText.get(i).text;
-			        	}
-			            getCurrentInputConnection().setComposingText(selectedStr+str, 1);
+						String str="";
+						if (candidates.size()>0)
+						{
+							str=candidates.get(0).getInput();
+							String selectedStr="";
+				        	for (int i=0;i<selectedText.size();i++)
+				        	{
+				        		selectedStr+=selectedText.get(i).text;
+				        	}
+				            getCurrentInputConnection().setComposingText(selectedStr+str, 1);
+						}
 						lastTask=null;
 					}
             		

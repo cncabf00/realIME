@@ -205,7 +205,7 @@ jobjectArray Java_edu_njucs_realime_manager_InputManager_cGetWord(JNIEnv *env,
 
 			jobject objWord = env->NewObject(clsWord, constructorWord, "");
 			env->SetIntField(objWord, fields.priority,
-					(int) ((*it).first * 100));
+					(int) ((*it).first * 100000));
 			env->SetObjectField(objWord, fields.text, jstr);
 			env->SetObjectArrayElement(result, k++, objWord);
 //			delete (*it);
@@ -229,7 +229,7 @@ jobjectArray Java_edu_njucs_realime_manager_InputManager_cGetWord(JNIEnv *env,
 					"()V");
 
 			jobject objWord = env->NewObject(clsWord, constructorWord, "");
-			env->SetIntField(objWord, fields.priority, 100.0*((*it)->priority)/totalPriority);
+			env->SetIntField(objWord, fields.priority, 100000.0*((*it)->priority)/totalPriority);
 			env->SetObjectField(objWord, fields.text, jstr);
 			env->SetObjectArrayElement(result, k++, objWord);
 		}
@@ -347,6 +347,7 @@ set<pair<double, Word*> >* getWords(string code) {
 		for (it = tempS->begin(); it != tempS->end(); it++) {
 			double per = ((double) (*it)->priority)/totalPriority
 					* (pInfo->transfer)[i].frequency / pInfo->totalFreq/size;
+//			__android_log_print(ANDROID_LOG_INFO, "realime", "percent = %d/%d*%d/%d/%d = %f",(*it)->priority,totalPriority,(pInfo->transfer)[i].frequency,pInfo->totalFreq,size,per);
 			wordArray->push_back(make_pair(per, *it));
 		}
 	}

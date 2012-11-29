@@ -139,6 +139,15 @@ public class InputManager {
     	Log.d("realime", "start parsing");
     	for (List<String> input:inputs)
     	{
+    		String inputStr="";
+			for (int j=0;j<input.size();j++)
+			{
+				inputStr+=input.get(j);
+				if (j!=input.size()-1)
+				{
+					inputStr+='\'';
+				}
+			}
     		for (int i=input.size();i>0;i--)
     		{
     			String str="";
@@ -165,7 +174,7 @@ public class InputManager {
     				restInput=input.subList(i, input.size());
 //    				restInput.addAll(result.restInput);
 //    				restInput.addAll(input.subList(i, input.size()));
-    				Candidate candidate=new Candidate(result.wordCandidates.get(j), result.input,restInput);
+    				Candidate candidate=new Candidate(result.wordCandidates.get(j), inputStr,restInput);
     				set.add(candidate);
     			}
     		}

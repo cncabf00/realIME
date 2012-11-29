@@ -25,6 +25,8 @@ public class SplitterTest {
 			
 			lexiconTree.build(list);
 			
+			lexiconTree.split("poi");
+			
 			List<String> results=lexiconTree.split("mingtian");
 			assertEquals(2, results.size());
 			assertEquals("ming", results.get(0));
