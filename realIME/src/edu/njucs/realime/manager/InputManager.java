@@ -43,16 +43,21 @@ public class InputManager {
 	}
 	
 	 /** Native methods, implemented in jni folder */
-    public static native int cReadDict(FileDescriptor fd, long off, long 
-    		len); 
-    public static native Word[] cGetWord(long id);
+    public static native int cReadDict(FileDescriptor fd, long off, long len); 
+    public static native int cReadTransfer(FileDescriptor fd, long off, long len);
+    public static native Word[] cGetWord(String id);
     
     public int readDict(FileDescriptor fd,long off,long len)
     {
     	return cReadDict(fd, off, len);
     }
     
-    public Word[] getWord(long id)
+    public int readTransfer(FileDescriptor fd,long off,long len)
+    {
+    	return cReadTransfer(fd, off, len);
+    }
+    
+    public Word[] getWord(String id)
     {
     	return cGetWord(id);
     }
@@ -61,23 +66,61 @@ public class InputManager {
 		PinyinResult result=new PinyinResult();
 		String str="";
 		for (int i=0;i<input.size();i++)
+		{
 			str+=input.get(i);
-		Word[] strs=InputManager.getInstance().getWord(trans(str));
+			if (i!=input.size()-1)
+			{
+				str+='\'';
+			}
+		}
+		Word[] strs=InputManager.getInstance().getWord(str);
+//		if (strs.length==0)
+//		{
+//			strs=InputManager.getInstance().getWord(getSpecialAbbreviation(str));
+//		}
 		for (int i=0;i<strs.length;i++)
 			result.wordCandidates.add(strs[i]);
 
 		return result;
 	}
     
-    public PinyinResult parse(int code)
+    public String getSpecialAbbreviation(String pinyin)
     {
-    	PinyinResult result=new PinyinResult();
-    	Word[] strs=InputManager.getInstance().getWord(code);
-		for (int i=0;i<strs.length;i++)
-			result.wordCandidates.add(strs[i]);
-
-		return result;
+    	return "'"+getAbbreviation(pinyin);
     }
+    
+    public String getAbbreviation(String pinyin)
+	{
+		String abbr="";
+		String[] parts=pinyin.split("'");
+		for (int i=0;i<parts.length;i++)
+		{
+			if (parts[i].length()==0)
+			{
+				System.out.println(pinyin);
+			}
+			abbr+=parts[i].charAt(0);
+			if (parts[i].length()>1 && parts[i].charAt(1)=='h')
+			{
+				abbr+=parts[i].charAt(1);
+			}
+			if (i!=parts.length-1)
+			{
+				abbr+="'";
+			}
+		}
+		return abbr;
+	}
+    
+//    public PinyinResult parse(long code)
+//    {
+//    	PinyinResult result=new PinyinResult();
+//    	Word[] strs=InputManager.getInstance().getWord(code);
+//		for (int i=0;i<strs.length;i++)
+//			result.wordCandidates.add(strs[i]);
+//
+//		return result;
+//    }
     
     public List<Candidate> getAllCandidatesForMultipleInput(List<List<String>> inputs)
     {
@@ -95,6 +138,10 @@ public class InputManager {
     			for (int j=0;j<i;j++)
     			{
     				str+=input.get(j);
+    				if (j!=i-1)
+    				{
+    					str+='\'';
+    				}
     			}
     			if (parseMap.containsKey(str))
     				continue;
@@ -103,7 +150,7 @@ public class InputManager {
     				parseMap.put(str, true);
     			}
 
-    			PinyinResult result=this.parse(trans(input,0, i));
+    			PinyinResult result=this.parse(input.subList(0, i));
     			for (int j=0;j<result.wordCandidates.size();j++)
     			{
     				List<String> restInput=new ArrayList<String>();
@@ -138,29 +185,41 @@ public class InputManager {
 					candidates.add(candidate);
 			}
 		}
-		Collections.sort(candidates,new CandidateComparatorByPriority());
+//		Collections.sort(candidates,new CandidateComparatorByPriority());
 		return candidates;
 	}	
 	
-	public int trans(String str)
+	public long trans(String str)
 	{
-		int code=0;
+		long code=0;
 		for (int j=0;j<str.length();j++)
 		{
-			code=code*26+(str.charAt(j)-'a' + 1);
+			if (str.charAt(j)!='\'')
+			{
+				code=code*27l+(str.charAt(j)-'a' + 1);
+			}
+			else
+			{
+				code=code*27l+27l;
+			}
+			
 		}
 		return code;
 	}
 	
-	public int trans(List<String> list,int start,int end)
+	public long trans(List<String> list,int start,int end)
 	{
-		int code=0;
+		long code=0;
 		for (int i=start;i<end;i++)
 		{
 			String str=list.get(i);
 			for (int j=0;j<str.length();j++)
 			{
-				code=code*26+(str.charAt(j)-'a' + 1);
+				code=code*27l+(str.charAt(j)-'a' + 1);
+			}
+			if (i!=end-1)
+			{
+				code=code*27l+27l;
 			}
 		}
 		return code;

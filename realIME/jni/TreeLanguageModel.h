@@ -13,6 +13,6 @@ public:
 	~TreeLanguageModel();
 
 	/* data */
-	map<long,set<Word*> > dict;
+	map<string,set<Word*> > dict;
 };
 

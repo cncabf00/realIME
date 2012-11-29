@@ -101,7 +101,7 @@ public class SoftKeyboard extends InputMethodService
         super.onCreate();
         
 		AssetFileDescriptor afd = getResources().openRawResourceFd(
-				R.raw.word_new_all);
+				R.raw.output_dict);
 		if (afd != null) {
 			FileDescriptor fd = afd.getFileDescriptor();
 			int off = (int) afd.getStartOffset();
@@ -116,6 +116,15 @@ public class SoftKeyboard extends InputMethodService
 			int off = (int) afd.getStartOffset();
 			long len = afd.getLength();
 			InputManager.getInstance().readDict(fd, off, len);
+		}
+		
+		afd = getResources().openRawResourceFd(
+				R.raw.output_transfer);
+		if (afd != null) {
+			FileDescriptor fd = afd.getFileDescriptor();
+			int off = (int) afd.getStartOffset();
+			long len = afd.getLength();
+			InputManager.getInstance().readTransfer(fd, off, len);
 		}
         
 //        Log.d("realime", InputManager.getInstance().testJni2());
@@ -654,6 +663,9 @@ public class SoftKeyboard extends InputMethodService
 //        if (!mCompletionOn) {
     	
             if (mComposing.length() > 0) {
+//            	List<List<String>> allSplits=InputManager.getInstance().getAllPossibleSplit(mComposing.toString());
+//            	candidates=InputManager.getInstance().getAllCandidatesForMultipleInput(allSplits);
+//            	setSuggestions(candidates, true, true);
             	AsyncTask<Void, Void, Void> task=new AsyncTask<Void, Void, Void>()
             	{
 

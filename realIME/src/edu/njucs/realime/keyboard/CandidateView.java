@@ -46,6 +46,9 @@ public class CandidateView extends View {
 
     private static final int MAX_SUGGESTIONS = 128;
     private static final int SCROLL_PIXELS = 20;
+    private static final int SEPERATOR_WIDTH = 4;
+    
+    private static final int SEPERATOR_PADDING = 6;
     
     private List<Integer> mWordWidth = new ArrayList<Integer>();
     private List<Integer> mWordX = new ArrayList<Integer>();
@@ -207,8 +210,9 @@ public class CandidateView extends View {
                 }
                 canvas.drawText(suggestion, x + X_GAP, y, paint);
                 paint.setColor(mColorOther); 
-                canvas.drawLine(x + wordWidth + 0.5f, bgPadding.top, 
-                        x + wordWidth + 0.5f, height + 1, paint);
+                canvas.drawRect(x + wordWidth + 0.5f, bgPadding.top+SEPERATOR_PADDING,  x + wordWidth + 0.5f + SEPERATOR_WIDTH, height + 1-SEPERATOR_PADDING, paint);
+//                canvas.drawLine(x + wordWidth + 0.5f, bgPadding.top, 
+//                        x + wordWidth + 0.5f, height + 1, paint);
                 paint.setFakeBoldText(false);
             }
             x += wordWidth;
