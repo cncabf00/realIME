@@ -230,7 +230,7 @@ public class DictBuilder {
 		{
 			max*=2;
 		}
-		for (int flag=0;flag<max;flag++)
+		for (int flag=1;flag<max;flag++)
 		{
 			int p=1;
 			String abbr="";
