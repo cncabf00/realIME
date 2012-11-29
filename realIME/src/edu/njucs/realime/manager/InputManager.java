@@ -81,6 +81,7 @@ public class InputManager {
 				str+='\'';
 			}
 		}
+		result.input=str;
 		Word[] strs=InputManager.getInstance().getWord(str);
 //		if (strs.length==0)
 //		{
@@ -164,7 +165,7 @@ public class InputManager {
     				restInput=input.subList(i, input.size());
 //    				restInput.addAll(result.restInput);
 //    				restInput.addAll(input.subList(i, input.size()));
-    				Candidate candidate=new Candidate(result.wordCandidates.get(j), restInput);
+    				Candidate candidate=new Candidate(result.wordCandidates.get(j), result.input,restInput);
     				set.add(candidate);
     			}
     		}
@@ -187,7 +188,7 @@ public class InputManager {
 				List<String> restInput=new ArrayList<String>();
 				restInput.addAll(result.restInput);
 				restInput.addAll(input.subList(i, input.size()));
-				Candidate candidate=new Candidate(result.wordCandidates.get(j), restInput);
+				Candidate candidate=new Candidate(result.wordCandidates.get(j),result.input, restInput);
 				if (!candidates.contains(candidate))
 					candidates.add(candidate);
 			}

@@ -4,11 +4,13 @@ import java.util.List;
 
 public class Candidate{
 	Word word;
+	String input;
 	List<String> restInput;
 	
-	public Candidate(Word word, List<String> restInput) {
+	public Candidate(Word word, String input, List<String> restInput) {
 		super();
 		this.word = word;
+		this.input=input;
 		this.restInput = restInput;
 	}
 
@@ -18,6 +20,11 @@ public class Candidate{
 
 	public List<String> getRestInput() {
 		return restInput;
+	}
+	
+	public String getInput()
+	{
+		return input;
 	}
 
 	@Override

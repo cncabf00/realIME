@@ -54,6 +54,8 @@ public class SplitterTest {
 			
 			assertEquals(lexiconTree.isSingleSplit("xian"), true);
 			
+			
+			lexiconTree.getAllPossibleSplit("zhzh");
 //			List<List<String>> allSplits=lexiconTree.getAllPossibleSplit("wozhe", 2);
 //			for (int i=0;i<allSplits.size();i++)
 //			{

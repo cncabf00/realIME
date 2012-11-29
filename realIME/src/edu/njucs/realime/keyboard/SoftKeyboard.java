@@ -380,7 +380,7 @@ public class SoftKeyboard extends InputMethodService
             for (int i=0; i<(completions != null ? completions.length : 0); i++) {
                 CompletionInfo ci = completions[i];
                 if (ci != null) 
-                	stringList.add(new Candidate(new Word(ci.getText().toString(),1), new ArrayList<String>()));
+                	stringList.add(new Candidate(new Word(ci.getText().toString(),1),"", new ArrayList<String>()));
             }
             setSuggestions(stringList, true, true);
         }
@@ -694,6 +694,13 @@ public class SoftKeyboard extends InputMethodService
 					protected void onPostExecute(Void result)
 					{
 						setSuggestions(candidates, true, true);
+						String str=candidates.get(0).getInput();
+			            String selectedStr="";
+			        	for (int i=0;i<selectedText.size();i++)
+			        	{
+			        		selectedStr+=selectedText.get(i).text;
+			        	}
+			            getCurrentInputConnection().setComposingText(selectedStr+str, 1);
 						lastTask=null;
 					}
             		

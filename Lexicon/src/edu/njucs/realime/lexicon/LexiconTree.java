@@ -147,7 +147,14 @@ public class LexiconTree {
 			else if (!isSingleSplit(sub))
 			{
 				results.add(0, input.substring(i+1,end));
-				end=i+1;
+				if (input.charAt(i)!='\'')
+				{
+					end=i+1;
+				}
+				else
+				{
+					end=i;
+				}
 			}
 			
 		}
@@ -183,6 +190,36 @@ public class LexiconTree {
 		Set<List<String>> allSplits=new HashSet<List<String>>();
 		allSplits.add(split(input));
 		allSplits.add(splitReverse(input));
+		Set<List<String>> result=new HashSet<List<String>>();
+		for (List<String> split:allSplits)
+		{
+			List<Integer> ext=new ArrayList<Integer>();
+			for (int i=0;i<split.size();i++)
+			{
+				if (split.get(i).equals("zh") || split.get(i).equals("ch") || split.get(i).equals("sh"))
+				{
+					ext.add(i);
+				}
+			}
+			int max=1<<ext.size();
+			for (int flag=0;flag<max;flag++)
+			{
+				List<String> list=new ArrayList<String>(split);
+				int p=1;
+				for (int j=ext.size()-1;j>=0;j--)
+				{
+					if ((flag&p)!=0)
+					{
+						int pos=ext.get(j);
+						String str=list.remove(pos);
+						list.add(pos,""+str.charAt(1));
+						list.add(pos,""+str.charAt(0));
+					}
+					p=p<<1;
+				}
+				result.add(list);
+			}
+		}
 //		for (int i=1;i<originSplit.size() && fill<=maxFill;i++)
 //		{
 //			String str=originSplit.get(i);
@@ -219,7 +256,7 @@ public class LexiconTree {
 ////			}
 //		}
 		
-		return allSplits;
+		return result;
 	}
 	
 	public List<HashTreeNode<LexiconInfo>> getAllFinal(HashTreeNode<LexiconInfo> n)
