@@ -346,7 +346,7 @@ set<pair<double, Word*> >* getWords(string code) {
 		}
 		for (it = tempS->begin(); it != tempS->end(); it++) {
 			double per = ((double) (*it)->priority)/totalPriority
-					* (pInfo->transfer)[i].frequency / pInfo->totalFreq/size;
+					* (pInfo->transfer)[i].frequency / pInfo->totalFreq;
 //			__android_log_print(ANDROID_LOG_INFO, "realime", "percent = %d/%d*%d/%d/%d = %f",(*it)->priority,totalPriority,(pInfo->transfer)[i].frequency,pInfo->totalFreq,size,per);
 			wordArray->push_back(make_pair(per, *it));
 		}

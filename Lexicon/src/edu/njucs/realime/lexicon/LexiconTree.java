@@ -137,6 +137,7 @@ public class LexiconTree {
 	{
 		List<String> results=new ArrayList<String>();
 		int end=input.length();
+		boolean first=true;
 		for (int i=input.length()-1;i>=0;i--)
 		{
 			String sub=input.substring(i,end);
@@ -144,8 +145,16 @@ public class LexiconTree {
 			{
 				results.add(0, input.substring(i,end));
 			}
+			else if(first)
+			{
+				if (isSingleSplit(sub))
+				{
+					first=false;
+				}
+			}
 			else if (!isSingleSplit(sub))
 			{
+				first=true;
 				results.add(0, input.substring(i+1,end));
 				if (input.charAt(i)!='\'')
 				{
@@ -196,26 +205,23 @@ public class LexiconTree {
 			List<Integer> ext=new ArrayList<Integer>();
 			for (int i=0;i<split.size();i++)
 			{
-				if (split.get(i).equals("zh") || split.get(i).equals("ch") || split.get(i).equals("sh"))
+				if (split.size()==2 && (split.get(i).equals("zh") || split.get(i).equals("ch") || split.get(i).equals("sh")))
 				{
 					ext.add(i);
 				}
 			}
-			int max=1<<ext.size();
-			for (int flag=0;flag<max;flag++)
-			{
-				List<String> list=new ArrayList<String>(split);
-				int p=1;
-				for (int j=ext.size()-1;j>=0;j--)
-				{
-					if ((flag&p)!=0)
-					{
-						int pos=ext.get(j);
-						String str=list.remove(pos);
-						list.add(pos,""+str.charAt(1));
-						list.add(pos,""+str.charAt(0));
+			int max = 1 << ext.size();
+			for (int flag = 0; flag < max; flag++) {
+				List<String> list = new ArrayList<String>(split);
+				int p = 1;
+				for (int j = ext.size() - 1; j >= 0; j--) {
+					if ((flag & p) != 0) {
+						int pos = ext.get(j);
+						String str = list.remove(pos);
+						list.add(pos, "" + str.charAt(1));
+						list.add(pos, "" + str.charAt(0));
 					}
-					p=p<<1;
+					p = p << 1;
 				}
 				result.add(list);
 			}
