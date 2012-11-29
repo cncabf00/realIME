@@ -11,7 +11,6 @@ import edu.njucs.model.HashTreeNode;
 
 public class LexiconTree {
 	HashTree<LexiconInfo> lexiconTree;
-	public static final int DEFAULT_MAX_FILL=0;
 	
 	
 	public void build(List<String> pinyins)
@@ -19,6 +18,10 @@ public class LexiconTree {
 		HashTreeNode<LexiconInfo> root=new HashTreeNode<LexiconInfo>();
 		root.setNodeInfo(new LexiconInfo('\'', ""));
 		lexiconTree=new HashTree<LexiconInfo>(root);
+		for (char c='a';c<='z';c++)
+		{
+			insertToTree(""+c);
+		}
 //		HashTreeNode<LexiconInfo> currentNode=root;
 		for (String pinyin:pinyins)
 		{

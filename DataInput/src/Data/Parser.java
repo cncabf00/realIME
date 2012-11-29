@@ -37,7 +37,14 @@ public class Parser {
 			words = readRawDict("characters.txt");
 			for (Word word:words)
 			{
-				characters.put(word.name, word);
+				if (characters.containsKey(word.name))
+				{
+					characters.get(word.name).pinyins.addAll(word.pinyins);
+				}
+				else
+				{
+					characters.put(word.name, word);
+				}
 			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -80,7 +87,7 @@ public class Parser {
 						line=line.substring(1);
 					String[] strs = line.split(" ");
 					Word word = new Word();
-					word.pinyin = strs[0];
+					word.pinyins.add(strs[0]);
 					word.name = strs[1];
 					word.frequency=1;
 					words.add(word);
@@ -348,7 +355,7 @@ public class Parser {
 			{
 				if (e.getValue()>=5)
 				{
-					writer.append(e.getKey()+" "+(int)(1+Math.log(e.getValue()))+"\n");
+					writer.append(e.getKey()+" "+(int)(Math.log(e.getValue()+1))+"\n");
 				}
 			}
 			writer.flush();
@@ -372,20 +379,31 @@ public class Parser {
 		}
 		try {
 			FileWriter writer=new FileWriter(file);
-			List<Map.Entry<String, Word>> list=new ArrayList<>();
-			list.addAll(characters.entrySet());
-			Collections.sort(list, new Comparator<Map.Entry<String, Word>>() {
+			List<Word> list=new ArrayList<>();
+			for (Map.Entry<String, Word> e:characters.entrySet()) 
+			{
+				for (int i=0;i<e.getValue().pinyins.size();i++)
+				{
+					Word word=new Word();
+					word.name=e.getKey();
+					word.frequency=e.getValue().frequency;
+					word.pinyins.add(e.getValue().pinyins.get(i));
+					list.add(word);
+				}
+				
+			}
+			Collections.sort(list, new Comparator<Word>() {
 
 				@Override
-				public int compare(Entry<String, Word> o1,
-						Entry<String, Word> o2) {
-					return o1.getValue().pinyin.compareTo(o2.getValue().pinyin);
+				public int compare(Word o1,
+						Word o2) {
+					return o1.pinyins.get(0).compareTo(o2.pinyins.get(0));
 				}
 				
 			});
-			for (Map.Entry<String, Word> e:list)
+			for (Word e:list)
 			{
-				writer.append(e.getValue().pinyin+" "+e.getKey()+","+(int)(1+Math.log(e.getValue().frequency))+"\n");
+				writer.append(e.pinyins.get(0)+" "+e.name+","+(int)(Math.log(e.frequency)+1)+"\n");
 			}
 			writer.flush();
 			writer.close();

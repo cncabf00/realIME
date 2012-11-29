@@ -1,9 +1,12 @@
 package Data;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Word {
 		String name="";
 		Article article;
-		String pinyin;
+		List<String> pinyins=new ArrayList<>();
 		int frequency=0;
 		java.sql.Date date;
 		public String getName() {
@@ -19,5 +22,7 @@ public class Word {
 		{
 			return date;
 		}
+		
+		
 		
 }
